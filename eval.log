@@ -1,0 +1,41 @@
+Sun Feb 11 20:43:31 CET 2018
+perl -I perllib/lib/perl5 -I tools tools/evaluate_treebank.pl --verbose UD_Hindi-PUD
+Running the following version of tools/evaluate_treebank.pl:
+commit c1cb17aec6a5505b56b885f578dc6b1093bb4b30
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun Feb 11 20:27:50 2018 +0100
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+Evaluating the following revision of UD_Hindi-PUD:
+commit 683e391a46db2671d94d5890c2335fce49e62ba9
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sat Nov 11 13:59:38 2017 +0100
+Size: counted 23829 of 23829 words (nodes).
+Size: min(0, log((N/1000)**2)) = 6.34180665263821.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Did not find more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: '_' is the most frequent lemma.
+Universal POS tags: 16 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 0.8.
+Features: 15851 out of 23829 total words have one or more features.
+Features: source of annotation (from README) factor is 0.8.
+Universal relations: 29 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 0.8.
+Udapi: found 3739 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 23829 words.
+Genres: found 2 out of 14 known.
+(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
+(weight=0.0769230769230769) * (score{genres}=0.142857142857143) = 0.010989010989011
+(weight=0.0769230769230769) * (score{lemmas}=0.01) = 0.000769230769230769
+(weight=0.256410256410256) * (score{size}=0.459035272423018) = 0.117701351903338
+(weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
+(weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
+(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
+(weight=0.0769230769230769) * (score{udeprels}=0.627027027027027) = 0.0482328482328482
+(TOTAL score=0.317662275981909) * (availability=1) * (validity=1) = 0.317662275981909
+STARS = 1.5
+UD_Hindi-PUD	0.317662275981909	1.5
+Switched to branch 'dev'
+Your branch is up-to-date with 'origin/dev'.
