@@ -3647,18 +3647,18 @@
 # text = लेकिन एक विधायी ढांचे के बिना, और मूड बदलने के आम उपाय के रूप में पॉट के मूलभूत उद्गम के साथ, कंपनियों को अनुमान लगाने के लिए छोड़ दिया जाता है।
 # english_text = But without a legislative framework, and with the grassroots origins of pot as a mood-altering folk remedy, companies are left guessing.
 1	लेकिन	_	CCONJ	CC	_	30	cc	_	Translit=lekina
-2	एक	_	DET	DT	Definite=Ind|Number=Sing	13	det	_	ToDo=ex-adp-child|Translit=eka
-3	विधायी	_	ADJ	JJ	_	13	amod	_	ToDo=ex-adp-child|Translit=vidhāyī
-4	ढांचे	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	case	_	Translit=ḍhāṁce
-5	के	_	ADP	IN	_	6	case	_	Translit=ke
-6	बिना	_	ADP	IN	_	13	nmod:poss	_	SpaceAfter=No|ToDo=ex-adp-child|Translit=binā
-7	,	_	PUNCT	,	_	6	punct	_	Translit=,
-8	और	_	CCONJ	CC	_	13	cc	_	ToDo=ex-adp-child|Translit=aura
+2	एक	_	DET	DT	Definite=Ind|Number=Sing	4	det	_	Translit=eka
+3	विधायी	_	ADJ	JJ	_	4	amod	_	Translit=vidhāyī
+4	ढांचे	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obl	_	Translit=ḍhāṁce
+5	के	_	ADP	IN	_	4	case	_	Translit=ke
+6	बिना	_	ADP	IN	_	5	fixed	_	SpaceAfter=No|Translit=binā
+7	,	_	PUNCT	,	_	13	punct	_	Translit=,
+8	और	_	CCONJ	CC	_	13	cc	_	Translit=aura
 9	मूड	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	obj	_	Translit=mūḍa
-10	बदलने	_	VERB	VINF	VerbForm=Inf	11	conj	_	Bug=conj-rightheaded|Translit=badalane
-11	के	_	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	8	case	_	Translit=ke
+10	बदलने	_	VERB	VINF	VerbForm=Inf	13	nmod	_	Translit=badalane
+11	के	_	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	10	case	_	Translit=ke
 12	आम	_	ADJ	JJ	_	13	amod	_	Translit=āma
-13	उपाय	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obl	_	Translit=upāya
+13	उपाय	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	conj	_	Translit=upāya
 14	के	_	ADP	IN	_	13	case	_	Translit=ke
 15	रूप	_	ADP	IN	_	14	fixed	_	Translit=rūpa
 16	में	_	ADP	IN	_	14	fixed	_	Translit=meṁ
