@@ -4067,7 +4067,7 @@
 7	के	_	ADP	IN	Case=Gen|Gender=Masc|Number=Plur	6	case	_	Translit=ke
 8	हिस्सेदारों	_	NOUN	NN	Animacy=Anim|Case=Acc|Number=Plur	14	obj	_	Translit=hissedāroṁ
 9	और	_	CCONJ	CC	_	12	cc	_	Translit=aura
-10	जनता	_	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	12	conj	_	Bug=conj-rightheaded|Translit=janatā
+10	जनता	_	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	12	nmod:poss	_	Translit=janatā
 11	की	_	ADP	IN	Case=Gen|Gender=Fem	10	case	_	Translit=kī
 12	प्रतिक्रियाओं	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	conj	_	Translit=pratikriyāoṁ
 13	को	_	ADP	IN	Case=Acc	8	case	_	Translit=ko
