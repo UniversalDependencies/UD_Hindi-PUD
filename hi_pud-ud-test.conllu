@@ -27447,8 +27447,8 @@
 5	समानांतर	_	ADJ	JJ	_	6	amod	_	Translit=samānāṁtara
 6	चैपल	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	obj	_	Translit=caipala
 7	और	_	CCONJ	CC	_	6	cc	_	ToDo=cc-without-conj|Translit=aura
-8	सहारों	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	conj	_	Bug=conj-rightheaded|Translit=sahāroṁ
-9	के	_	ADP	IN	_	14	case	_	Translit=ke
+8	सहारों	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	conj	_	Translit=sahāroṁ
+9	के	_	ADP	IN	_	6	case	_	Translit=ke
 10	बीच	_	ADP	IN	_	9	fixed	_	Translit=bīca
 11	में	_	ADP	IN	Case=Loc	9	fixed	_	Translit=meṁ
 12	कई	_	DET	QF	_	14	det	_	Translit=kaī
