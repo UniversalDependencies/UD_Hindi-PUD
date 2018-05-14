@@ -5847,7 +5847,7 @@
 8	को	_	ADP	IN	Case=Acc	7	case	_	Translit=ko
 9	अपर्याप्त	_	ADJ	JJ	_	10	amod	_	Translit=aparyāpta
 10	सुरक्षा	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	obj	_	Translit=surakṣā
-11	उपलब्ध	_	ADJ	JJ	_	12	conj	_	Bug=conj-rightheaded|Translit=upalabdha
+11	उपलब्ध	_	ADJ	JJ	_	12	xcomp	_	Translit=upalabdha
 12	कराता	_	VERB	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	2	acl	_	Translit=karātā
 13	है	_	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Pres	12	aux	_	Translit=hai
 14	जिनकी	_	PRON	REL	Case=Nom|Gender=Fem|Number=Plur|Number[psor]=Plur|PronType=Prs	15	nmod:poss	_	Translit=jinakī
