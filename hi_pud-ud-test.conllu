@@ -22696,7 +22696,7 @@
 8	संघीय	_	ADJ	JJ	_	11	amod	_	Translit=saṁghīya
 9	और	_	CCONJ	CC	_	10	cc	_	Translit=aura
 10	राज्य	_	NOUN	NN	Animacy=Inan|Gender=Masc|Number=Sing	8	conj	_	Translit=rājya
-11	सरकारों	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	26	conj	_	Bug=conj-rightheaded|Translit=sarakāroṁ
+11	सरकारों	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	26	nsubj	_	Translit=sarakāroṁ
 12	ने	_	ADP	IN	Case=Erg	11	case	_	Translit=ne
 13	राष्ट्रीय	_	ADJ	JJ	_	15	amod	_	Translit=rāṣṭrīya
 14	प्राकृतिक	_	ADJ	JJ	_	15	amod	_	Translit=prākr̥tika
@@ -24560,8 +24560,8 @@
 17	उम्मीद	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	conj	_	Translit=ummīda
 18	की	_	ADP	IN	Case=Gen|Gender=Fem	15	case	_	Translit=kī
 19	नयी	_	ADJ	JJ	Gender=Fem	20	amod	_	Translit=nayī
-20	पीढ़ी	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	conj	_	Bug=conj-rightheaded|Translit=pīṛhī
-21	के	_	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	14	case	_	Translit=ke
+20	पीढ़ी	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	nmod	_	Translit=pīṛhī
+21	के	_	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	20	case	_	Translit=ke
 22	लोग	_	NOUN	NN	Animacy=Anim|Case=Nom|Number=Plur	10	conj	_	Translit=loga
 23	हैं	_	AUX	VBI	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	22	cop	_	SpaceAfter=No|Translit=haiṁ
 24	।	_	PUNCT	.	_	10	punct	_	Translit=.
@@ -26574,28 +26574,28 @@
 2	में	_	ADP	IN	Case=Loc	1	case	_	SpaceAfter=No|Translit=meṁ
 3	,	_	PUNCT	,	_	1	punct	_	Translit=,
 4	जॉर्जेज	_	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	Translit=jôrjeja
-5	और	_	CCONJ	CC	_	4	cc	_	ToDo=cc-without-conj|Translit=aura
+5	और	_	CCONJ	CC	_	7	cc	_	ToDo=cc-without-conj|Translit=aura
 6	उसकी	_	PRON	PRP$	Animacy=Anim|Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	7	nmod:poss	_	Translit=usakī
-7	पत्नी	_	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	4	compound	_	Translit=patnī
+7	पत्नी	_	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	4	conj	_	Translit=patnī
 8	18	_	NUM	CD	NumType=Card	9	nummod	_	Translit=18
 9	साल	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	nmod:poss	_	Translit=sāla
 10	की	_	ADP	IN	Case=Gen|Gender=Fem	9	case	_	Translit=kī
 11	उस	_	DET	DT	Definite=Def|Number=Sing	12	det	_	Translit=usa
 12	लड़की	_	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	13	compound	_	Translit=laṛakī
-13	रोजेन	_	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	14	conj	_	Bug=conj-rightheaded|Translit=rojena
-14	के	_	ADP	IN	_	4	case	_	Translit=ke
+13	रोजेन	_	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	17	obl	_	Translit=rojena
+14	के	_	ADP	IN	_	13	case	_	Translit=ke
 15	साथ	_	ADP	IN	_	14	fixed	_	Translit=sātha
-16	स्विट्जरलैंड	_	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	case	_	Translit=sviṭjaralaiṁḍa
+16	स्विट्जरलैंड	_	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	obl	_	Translit=sviṭjaralaiṁḍa
 17	लौट	_	VERB	VB	_	0	root	_	Translit=lauṭa
 18	गए	_	AUX	VXH	Aspect=Perf|Mood=Ind|Number=Plur|Person=3	17	aux	_	Translit=gae
-19	जो	_	PRON	REL	Case=Nom|Gender[psor]=Fem|Number[psor]=Sing|PronType=Prs	26	nsubj	_	ToDo=जो|Translit=jo
+19	जो	_	PRON	REL	Case=Nom|Gender[psor]=Fem|Number[psor]=Sing|PronType=Rel	26	nsubj	_	Translit=jo
 20	जर्माइने	_	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	23	nmod:poss	_	Translit=jarmāine
 21	के	_	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	20	case	_	Translit=ke
 22	एक	_	DET	DT	Definite=Ind|Number=Sing	23	det	_	Translit=eka
 23	दोस्त	_	NOUN	NN	Animacy=Anim|Case=Acc|Number=Sing	25	nmod:poss	_	Translit=dosta
 24	की	_	ADP	IN	Case=Gen|Gender=Fem	23	case	_	Translit=kī
-25	बेटी	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	26	obj	_	Translit=beṭī
-26	थी	_	VERB	VBI	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Past	13	acl:relcl	_	SpaceAfter=No|Translit=thī
+25	बेटी	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	acl:relcl	_	Translit=beṭī
+26	थी	_	VERB	VBI	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Past	25	cop	_	SpaceAfter=No|Translit=thī
 27	।	_	PUNCT	.	_	17	punct	_	Translit=.
 
 # sent_id = w03010100
