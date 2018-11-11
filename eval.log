@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Hindi-PUD:
-commit 52334c8e51bdbab30de5df6c02ae105839846a22
-Merge: 8b9a469 32b3f1f
+commit 2592e08863e4adea7479d1416f5a0479f3d3d0e2
+Merge: a42dd57 e30959a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 23829 of 23829 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.34180665263821.
