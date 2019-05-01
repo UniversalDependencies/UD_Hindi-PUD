@@ -36,6 +36,10 @@ employ ten-fold cross-validation.
 
 # Changelog
 
+* 2019-05-15 v2.4
+  * Normalized Unicode.
+  * Fixed punctuation.
+  * Fixed some other errors found by the new validator.
 * 2018-07-01 v2.2
   * Fixed right-headed relations.
 * 2017-11-15 v2.1
