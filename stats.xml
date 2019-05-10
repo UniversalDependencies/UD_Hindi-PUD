@@ -6,6 +6,9 @@
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
     <total><sentences>1000</sentences><tokens>23829</tokens><words>23829</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>1000</sentences><tokens>23829</tokens><words>23829</words><fused>0</fused></test>
   </size>
   <lemmas unique="0" /><!--  -->
   <forms unique="5151" /><!-- के, ।, में, ,, है, की, और, से, को, का, ने, एक, कि, पर, हैं -->
@@ -75,7 +78,7 @@
     <dep name="acl">339</dep>
     <dep name="acl:relcl">215</dep>
     <dep name="advcl">198</dep>
-    <dep name="advmod">591</dep>
+    <dep name="advmod">378</dep>
     <dep name="amod">1404</dep>
     <dep name="appos">111</dep>
     <dep name="aux">1205</dep>
@@ -103,7 +106,7 @@
     <dep name="nsubj:pass">167</dep>
     <dep name="nummod">281</dep>
     <dep name="obj">1457</dep>
-    <dep name="obl">1429</dep>
+    <dep name="obl">1642</dep>
     <dep name="obl:agent">43</dep>
     <dep name="obl:tmod">313</dep>
     <dep name="parataxis">93</dep>
