@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Hindi-PUD:
-commit a6d970e7ed6ed00b5e6a7f224718ad7e573f1622
-Merge: e6ed2d3 6b5bb2b
+commit fb1dc7195dd82afe871364e889c64b2825c4b0ae
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri May 10 21:20:07 2019 +0200
 Size: counted 23829 of 23829 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.34180665263821.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -23,8 +23,20 @@ Udapi: found 3657 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 23829 words.
 Genres: found 2 out of 17 known.
 validate.py --lang hi --max-err=10 UD_Hindi-PUD/hi_pud-ud-test.conllu
-*** PASSED ***
-Validity: 1
+[Line 702 Sent n01011017 Node 13]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'ADJ'
+[Line 871 Sent n01015036 Node 33]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 2023 Sent n01029011 Node 7]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 2813 Sent n01038021 Node 15]: [L3 Syntax rel-upos-case] 'case' should not be 'ADJ'
+[Line 3192 Sent n01043005 Node 37]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 3816 Sent n01051004 Node 24]: [L3 Syntax rel-upos-case] 'case' should not be 'ADJ'
+[Line 4691 Sent n01063051 Node 15]: [L3 Syntax rel-upos-cc] 'cc' should not be 'DET'
+[Line 5357 Sent n01074015 Node 15]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'NOUN'
+[Line 6224 Sent n01087023 Node 10]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET'
+...suppressing further errors regarding Syntax
+Syntax errors: 42
+*** FAILED *** with 42 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=0.01) = 0.000769230769230769
@@ -33,6 +45,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.627027027027027) = 0.0482328482328482
-(TOTAL score=0.315723038748554) * (availability=1) * (validity=1) = 0.315723038748554
-STARS = 1.5
-UD_Hindi-PUD	0.315723038748554	1.5
+(TOTAL score=0.315723038748554) * (availability=1) * (validity=0.01) = 0.00315723038748554
+STARS = 0
+UD_Hindi-PUD	0.00315723038748554	0
