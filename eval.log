@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Hindi-PUD:
-commit 0b6d0390d5f6c74bef7eca67b02bc56db6ad4d49
+commit 9a0349ef5fea25279287ca10f51a4580f1501dd8
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 12 17:16:48 2019 +0100
+Date:   Sun May 10 18:13:01 2020 +0200
 Size: counted 23829 of 23829 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.34180665263821.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -33,8 +33,8 @@ validate.py --lang hi --max-err=10 UD_Hindi-PUD/hi_pud-ud-test.conllu
 [Line 5357 Sent n01074015 Node 15]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'NOUN'
 [Line 6224 Sent n01087023 Node 10]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET'
 ...suppressing further errors regarding Syntax
-Syntax errors: 42
-*** FAILED *** with 42 errors
+Syntax errors: 41
+*** FAILED *** with 41 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
