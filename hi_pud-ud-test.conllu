@@ -2810,7 +2810,7 @@
 12	उत्सर्जन	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	obj	_	Translit=utsarjana
 13	करने	_	VERB	VINF	VerbForm=Inf	17	acl	_	Translit=karane
 14	वाले	_	ADP	SFV	Gender=Masc|Number=Sing	13	case	_	Translit=vāle
-15	ऩये	_	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	17	case	_	Translit=naye
+15	ऩये	_	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	17	amod	_	Translit=naye
 16	बड़े	_	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	17	amod	_	Translit=baṛe
 17	देश	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nmod	_	Translit=deśa
 18	जैसेकि	_	ADP	IN	_	17	case	_	Translit=jaiseki
@@ -3813,7 +3813,7 @@
 21	गया	_	AUX	VXH	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	20	aux:pass	_	Translit=gayā
 22	कि	_	SCONJ	IN	_	28	mark	_	Translit=ki
 23	उसके	_	PRON	PRP$	Animacy=Anim|Case=Acc|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	25	nmod:poss	_	Translit=usake
-24	अजन्मे	_	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	25	case	_	Translit=ajanme
+24	अजन्मे	_	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	25	amod	_	Translit=ajanme
 25	बच्चे	_	NOUN	NN	Animacy=Anim|Case=Acc|Number=Sing	27	nmod:poss	_	Translit=bacce
 26	की	_	ADP	IN	Case=Gen|Gender=Fem	25	case	_	Translit=kī
 27	हालत	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	28	obj	_	Translit=hālata
@@ -7548,12 +7548,12 @@
 # sent_id = n01107008
 # text = श्री विंटरकॉर्न और ब्रांड प्रमुख हर्बर्ट डिएस, जो अभी भी कार मेकर में हैं, पर केन्द्रित करने हुए जांच जून में शुरू हुई।
 # text_en = The probe began in June, focusing on Mr Winterkorn and brand chief Herbert Diess, who remains at the car maker.
-1	श्री	_	PART	HON	_	6	discourse	_	Proper=True|ToDo=ex-adp-child|Translit=śrī
-2	विंटरकॉर्न	_	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	case	_	Translit=viṁṭarakôrna
-3	और	_	CCONJ	CC	_	6	cc	_	ToDo=ex-adp-child|Translit=aura
+1	श्री	_	PART	HON	_	19	obl	_	Proper=True|ToDo=ex-adp-child|Translit=śrī
+2	विंटरकॉर्न	_	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	flat	_	Translit=viṁṭarakôrna
+3	और	_	CCONJ	CC	_	5	cc	_	ToDo=ex-adp-child|Translit=aura
 4	ब्रांड	_	NOUN	NN	Animacy=Inan|Gender=Masc|Number=Sing	5	compound	_	Translit=brāṁḍa
-5	प्रमुख	_	NOUN	NN	Animacy=Anim|Case=Nom|Number=Sing	6	compound	_	Translit=pramukha
-6	हर्बर्ट	_	PROPN	NNP	Animacy=Anim|Gender=Masc|Number=Sing	19	obl	_	Translit=harbarṭa
+5	प्रमुख	_	NOUN	NN	Animacy=Anim|Case=Nom|Number=Sing	1	conj	_	Translit=pramukha
+6	हर्बर्ट	_	PROPN	NNP	Animacy=Anim|Gender=Masc|Number=Sing	5	flat	_	Translit=harbarṭa
 7	डिएस	_	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	flat:name	_	SpaceAfter=No|Translit=ḍiesa
 8	,	_	PUNCT	,	_	15	punct	_	Translit=,
 9	जो	_	PRON	REL	Case=Nom|Gender[psor]=Masc|Number[psor]=Sing|PronType=Prs	15	nsubj	_	ToDo=जो|Translit=jo
@@ -13055,7 +13055,7 @@
 10	की	_	ADP	IN	Case=Gen|Gender=Fem	9	case	_	Translit=kī
 11	अवधि	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	Translit=avadhi
 12	को	_	ADP	IN	Case=Acc	11	case	_	Translit=ko
-13	जोशपूर्ण	_	ADJ	JJ	_	25	acl	_	Translit=jośapūrṇa
+13	जोशपूर्ण	_	ADJ	JJ	_	25	advcl	_	Translit=jośapūrṇa
 14	बनाते	_	AUX	VBI	Gender=Masc|Number=Sing|Person=3	13	cop	_	Translit=banāte
 15	हुए	_	AUX	VXH	Gender=Masc|Number=Sing|Person=3	13	aux:pass	_	Translit=hue
 16	1492	_	NUM	CD	NumType=Card	25	obl:tmod	_	Translit=1492
@@ -13064,9 +13064,9 @@
 19	महासागर	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obj	_	Translit=mahāsāgara
 20	को	_	ADP	IN	Case=Acc	19	case	_	Translit=ko
 21	पार	_	NOUN	NN	Gender=Masc|Number=Sing	22	compound:lvc	_	Translit=pāra
-22	करते	_	VERB	VBI	Gender=Masc|Number=Sing|Person=3	25	acl	_	Translit=karate
+22	करते	_	VERB	VBI	Gender=Masc|Number=Sing|Person=3	25	advcl	_	Translit=karate
 23	हुए	_	AUX	VXH	Gender=Masc|Number=Sing|Person=3	22	aux	_	Translit=hue
-24	वेस्टइंडीज	_	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	case	_	Translit=vesṭaiṁḍīja
+24	वेस्टइंडीज	_	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	obj	_	Translit=vesṭaiṁḍīja
 25	पहुंचा	_	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Translit=pahuṁcā
 26	।	_	PUNCT	.	_	25	punct	_	Translit=.
 
@@ -14218,7 +14218,7 @@
 9	में	_	ADP	IN	Case=Acc	8	case	_	Translit=meṁ
 10	असमर्थ	_	ADJ	JJ	_	11	amod	_	Translit=asamartha
 11	रैमसेस	_	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	Translit=raimasesa
-12	मिस्र	_	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	case	_	Translit=misra
+12	मिस्र	_	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	obj	_	Translit=misra
 13	लौट	_	VERB	VB	_	0	root	_	Translit=lauṭa
 14	गया	_	AUX	VXH	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	13	aux	_	SpaceAfter=No|Translit=gayā
 15	।	_	PUNCT	.	_	13	punct	_	Translit=.
@@ -14836,7 +14836,7 @@
 14	कई	_	DET	QF	_	15	det	_	Translit=kaī
 15	बार	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	obl:tmod	_	Translit=bāra
 16	उससे	_	PRON	PRP	Animacy=Anim|Case=Acc|Number=Sing|Person=3	21	iobj	_	Translit=usase
-17	रोम	_	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	case	_	Translit=roma
+17	रोम	_	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	obj	_	Translit=roma
 18	लौटने	_	VERB	VINF	VerbForm=Inf	20	xcomp	_	Translit=lauṭane
 19	का	_	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	18	case	_	Translit=kā
 20	आग्रह	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	obj	_	Translit=āgraha
@@ -15901,7 +15901,7 @@
 # sent_id = w01073067
 # text = लाहौर लौटने पर, नवम्बर 1886 से जून 1887 के बीच गजेट में कुछ एक 39 कहानियां प्रकाशित हुईं।
 # text_en = Back in Lahore, some thirty-nine stories appeared in the Gazette between November 1886 and June 1887.
-1	लाहौर	_	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	case	_	Translit=lāhaura
+1	लाहौर	_	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	obj	_	Translit=lāhaura
 2	लौटने	_	VERB	VINF	VerbForm=Inf	19	advcl	_	Translit=lauṭane
 3	पर	_	ADP	IN	Case=Acc	2	case	_	SpaceAfter=No|Translit=para
 4	,	_	PUNCT	,	_	2	punct	_	Translit=,
@@ -16373,7 +16373,7 @@
 17	यहूदी	_	NOUN	NN	Animacy=Anim|Case=Nom|Number=Plur	21	nsubj	_	Translit=yahūdī
 18	स्पेन	_	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	obj	_	Translit=spena
 19	छोड़कर	_	VERB	VB	_	21	acl	_	Translit=choṛakara
-20	पुर्तगाल	_	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	case	_	Translit=purtagāla
+20	पुर्तगाल	_	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	obj	_	Translit=purtagāla
 21	चले	_	VERB	VBI	Number=Plur|Person=3	10	parataxis	_	Translit=cale
 22	गए	_	AUX	VXH	Number=Plur|Person=3	21	aux	_	Translit=gae
 23	लेकिन	_	CCONJ	CC	_	29	cc	_	Translit=lekina
@@ -16993,15 +16993,15 @@
 2	और	_	CCONJ	CC	_	3	cc	_	Translit=aura
 3	प्लान्टेन	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No|Translit=plānṭena
 4	,	_	PUNCT	,	_	10	punct	_	Translit=,
-5	जो	_	PRON	REL	Case=Nom|Gender[psor]=Masc|Number[psor]=Plur|PronType=Prs	10	nsubj	_	ToDo=जो|Translit=jo
+5	जो	_	PRON	REL	Case=Nom|Gender[psor]=Masc|Number[psor]=Plur|PronType=Rel	10	nsubj	_	Translit=jo
 6	पहले	_	NOUN	NST	_	10	obl:tmod	_	Translit=pahale
-7	दक्षिण	_	NOUN	NN	Animacy=Inan|Gender=Masc|Number=Sing	10	compound	_	Bug=case-child|Translit=dakṣiṇa
-8	पूर्व	_	ADJ	JJ	_	10	amod	_	Bug=case-child|Proper=True|Translit=pūrva
-9	एशिया	_	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	case	_	Translit=eśiyā
+7	दक्षिण	_	NOUN	NN	Animacy=Inan|Gender=Masc|Number=Sing	8	compound	_	Translit=dakṣiṇa
+8	पूर्व	_	ADJ	JJ	_	9	amod	_	Proper=True|Translit=pūrva
+9	एशिया	_	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	Translit=eśiyā
 10	होते	_	VERB	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Person=3	1	acl:relcl	_	Translit=hote
 11	थे	_	AUX	VXH	Gender=Masc|Number=Plur|Person=3|Tense=Pres	10	aux	_	SpaceAfter=No|Translit=the
-12	,	_	PUNCT	,	_	13	punct	_	Translit=,
-13	संभवतः	_	ADV	RB	_	10	advmod	_	Translit=saṁbhavataḥ
+12	,	_	PUNCT	,	_	15	punct	_	Translit=,
+13	संभवतः	_	ADV	RB	_	15	advmod	_	Translit=saṁbhavataḥ
 14	ज्यादातर	_	DET	QF	_	15	det	_	Translit=jyādātara
 15	पापुआ	_	PROPN	NNP	Animacy=Inan|Gender=Masc|Number=Sing	10	obl	_	Translit=pāpuā
 16	न्यू	_	ADJ	JJ	_	15	amod	_	Proper=True|Translit=nyū
@@ -18771,7 +18771,7 @@
 # text_en = He then returned to Kirriemuir.
 1	फिर	_	ADP	IN	_	4	dep	_	Translit=phira
 2	वह	_	PRON	PRP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	Translit=vaha
-3	किरीमुइर	_	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	case	_	Translit=kirīmuira
+3	किरीमुइर	_	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	obj	_	Translit=kirīmuira
 4	लौट	_	VERB	VB	_	0	root	_	Translit=lauṭa
 5	गया	_	AUX	VXH	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	4	aux	_	SpaceAfter=No|Translit=gayā
 6	।	_	PUNCT	.	_	4	punct	_	Translit=.
@@ -19157,9 +19157,9 @@
 11	के	_	ADP	IN	_	9	case	_	Translit=ke
 12	बाद	_	ADP	IN	_	11	fixed	_	Translit=bāda
 13	,	_	PUNCT	,	_	9	punct	_	Translit=,
-14	थ़ॉट	_	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	case	_	Translit=tha़ॉṭa
-15	या	_	CCONJ	CC	_	17	cc	_	ToDo=ex-adp-child|Translit=yā
-16	न्यू	_	ADJ	JJ	_	17	amod	_	Proper=True|Translit=nyū
+14	थ़ॉट	_	X	NNP	Animacy=Inan|Case=Acc|Foreign=Yes|Gender=Masc|Number=Sing	22	nsubj	_	Translit=tha़ॉṭa
+15	या	_	X	CC	Foreign=Yes	14	flat	_	Translit=yā
+16	न्यू	_	X	JJ	Foreign=Yes	14	flat	_	Proper=True|Translit=nyū
 17	ब्रिटेन	_	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obl	_	Translit=briṭena
 18	में	_	ADP	IN	Case=Loc	17	case	_	Translit=meṁ
 19	31	_	NUM	CD	NumType=Card	20	nummod	_	Translit=31
@@ -21017,9 +21017,9 @@
 15	को	_	ADP	IN	Case=Acc	14	case	_	Translit=ko
 16	1991	_	NUM	CD	NumType=Card	21	obl:tmod	_	Translit=1991
 17	में	_	ADP	IN	Case=Loc	16	case	_	Translit=meṁ
-18	नैशविले	_	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	case	_	SpaceAfter=No|Translit=naiśavile
+18	नैशविले	_	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No|Translit=naiśavile
 19	,	_	PUNCT	,	_	20	punct	_	Translit=,
-20	टेनेसी	_	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	appos	_	Bug=case-child|Translit=ṭenesī
+20	टेनेसी	_	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	appos	_	Translit=ṭenesī
 21	भेज	_	VERB	VB	_	0	root	_	Translit=bheja
 22	दिया	_	AUX	VXH	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	21	aux	_	SpaceAfter=No|Translit=diyā
 23	।	_	PUNCT	.	_	21	punct	_	Translit=.
@@ -27782,12 +27782,12 @@
 5	बर्गोयने	_	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	flat:name	_	Translit=bargoyane
 6	ने	_	ADP	IN	Case=Erg	4	case	_	Translit=ne
 7	किया	_	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	Translit=kiyā
-8	जिसका	_	PRON	REL	Case=Nom|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|PronType=Prs	9	nmod:poss	_	Translit=jisakā
-9	इरादा	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	obj	_	Translit=irādā
-10	अल्बानी	_	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	case	_	Translit=albānī
-11	पहुंचने	_	VERB	VINF	VerbForm=Inf	9	xcomp	_	Translit=pahuṁcane
+8	जिसका	_	PRON	REL	Case=Nom|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|PronType=Rel	4	acl:relcl	_	Translit=jisakā
+9	इरादा	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	Translit=irādā
+10	अल्बानी	_	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	obj	_	Translit=albānī
+11	पहुंचने	_	VERB	VINF	VerbForm=Inf	9	acl	_	Translit=pahuṁcane
 12	का	_	ADP	IN	Case=Gen|Gender=Masc	11	case	_	Translit=kā
-13	था	_	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	4	acl:relcl	_	SpaceAfter=No|Translit=thā
+13	था	_	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	8	cop	_	SpaceAfter=No|Translit=thā
 14	।	_	PUNCT	.	_	7	punct	_	Translit=.
 
 # sent_id = w05005087
