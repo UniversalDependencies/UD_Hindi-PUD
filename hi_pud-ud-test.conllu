@@ -7200,7 +7200,7 @@
 22	पदभार	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	obj	_	Translit=padabhāra
 23	नहीं	_	PART	NEG	Polarity=Neg	24	advmod	_	Translit=nahīṁ
 24	संभालना	_	VERB	VINF	Gender=Masc|Number=Sing|Person=3|VerbForm=Inf	16	acl	_	Translit=saṁbhālanā
-25	चाहिए	_	VERB	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres	24	aux	_	SpaceAfter=No|Translit=cāhie
+25	चाहिए	_	AUX	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres	24	aux	_	SpaceAfter=No|Translit=cāhie
 26	।	_	PUNCT	.	_	17	punct	_	Translit=.
 
 # sent_id = n01101015
