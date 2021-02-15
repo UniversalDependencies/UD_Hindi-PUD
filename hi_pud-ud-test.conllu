@@ -687,21 +687,21 @@
 # sent_id = n01011017
 # text = मैं किसी भी तरह जेल जा रहा हूं, शायद यह इसी लायक था।
 # text_en = "I'm going to jail either way, hope it was worth it."
-1	मैं	_	PRON	PRP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=1	5	nsubj	_	Translit=maiṁ
+1	मैं	_	PRON	PRP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=1	6	nsubj	_	Translit=maiṁ
 2	किसी	_	DET	DTI	_	4	det	_	Translit=kisī
 3	भी	_	PART	EMPH	_	2	discourse	_	Translit=bhī
-4	तरह	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	obl	_	Translit=taraha
-5	जेल	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	Translit=jela
-6	जा	_	AUX	VB	_	5	aux	_	Translit=jā
-7	रहा	_	AUX	VXH	Aspect=Prog|Gender=Masc|Mood=Ind|Number=Sing|Person=3	5	aux	_	Translit=rahā
-8	हूं	_	AUX	VXH	Gender=Masc|Number=Sing|Person=1|Tense=Pres	5	aux	_	SpaceAfter=No|Translit=hūṁ
-9	,	_	PUNCT	,	_	10	punct	_	Translit=,
-10	शायद	_	ADV	RB	_	5	advmod	_	Translit=śāyada
-11	यह	_	PRON	PRP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	Bug=aux-child|Translit=yaha
-12	इसी	_	DET	DT	Definite=Def|Number=Sing	5	det	_	Bug=aux-child|Translit=isī
-13	लायक	_	ADJ	JJ	_	5	aux	_	Translit=lāyaka
-14	था	_	AUX	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	5	cop	_	SpaceAfter=No|Bug=aux-child|Translit=thā
-15	।	_	PUNCT	.	_	5	punct	_	Translit=.
+4	तरह	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	obl	_	Translit=taraha
+5	जेल	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	obj	_	Translit=jela
+6	जा	_	VERB	VB	_	0	root	_	Translit=jā
+7	रहा	_	AUX	VXH	Aspect=Prog|Gender=Masc|Mood=Ind|Number=Sing|Person=3	6	aux	_	Translit=rahā
+8	हूं	_	AUX	VXH	Gender=Masc|Number=Sing|Person=1|Tense=Pres	6	aux	_	SpaceAfter=No|Translit=hūṁ
+9	,	_	PUNCT	,	_	13	punct	_	Translit=,
+10	शायद	_	ADV	RB	_	13	advmod	_	Translit=śāyada
+11	यह	_	PRON	PRP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nsubj	_	Translit=yaha
+12	इसी	_	DET	DT	Definite=Def|Number=Sing	13	obl	_	Translit=isī
+13	लायक	_	ADJ	JJ	_	6	parataxis	_	Translit=lāyaka
+14	था	_	AUX	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	13	cop	_	SpaceAfter=No|Translit=thā
+15	।	_	PUNCT	.	_	6	punct	_	Translit=.
 
 # newdoc id = n01012
 # sent_id = n01012003
