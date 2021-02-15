@@ -868,7 +868,7 @@
 30	के	_	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	29	case	_	Translit=ke
 31	बच्चे	_	NOUN	NN	Animacy=Anim|Case=Nom|Number=Plur	34	nsubj	_	Translit=bacce
 32	तीन	_	NUM	CD	NumType=Card	33	nummod	_	Translit=tīna
-33	गुना	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	34	det	_	Bug=det-upos|Translit=gunā
+33	गुना	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	34	obl	_	Translit=gunā
 34	ज्यादा	_	ADJ	JJ	_	21	acl:relcl	_	Translit=jyādā
 35	थे	_	AUX	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past	34	cop	_	SpaceAfter=No|Translit=the
 36	।	_	PUNCT	.	_	23	punct	_	Translit=.
@@ -2020,7 +2020,7 @@
 4	दादी	_	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	Translit=dādī
 5	रूस	_	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	nmod:poss	_	Translit=rūsa
 6	के	_	ADP	IN	Case=Gen|Gender=Masc|Number=Plur	5	case	_	Translit=ke
-7	सूदूर	_	NOUN	NST	_	8	det	_	Bug=det-upos|Translit=sūdūra
+7	सूदूर	_	NOUN	NST	_	8	nmod	_	Translit=sūdūra
 8	पूर्व	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	ToDo=nmod|Translit=pūrva
 9	में	_	ADP	IN	Case=Loc	8	case	_	Translit=meṁ
 10	स्थित	_	ADJ	JJ	_	11	amod	_	Translit=sthita
@@ -3189,7 +3189,7 @@
 34	प्रत्येक	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	39	nsubj	_	Translit=pratyeka
 35	को	_	ADP	IN	Case=Acc	34	case	_	Translit=ko
 36	अनुमानतः	_	ADV	RB	_	39	advmod	_	Translit=anumānataḥ
-37	औसतन	_	ADV	RB	_	38	det	_	Bug=det-upos|Translit=ausatana
+37	औसतन	_	ADV	RB	_	38	advmod	_	Translit=ausatana
 38	$15,000	_	NUM	CD	NumType=Card	39	obj	_	OrigForm=$15000|Translit=$15,000
 39	मिलते	_	VERB	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Person=3	29	conj	_	Translit=milate
 40	हैं	_	AUX	VXH	Gender=Masc|Number=Plur|Person=3|Tense=Pres	39	aux	_	SpaceAfter=No|Translit=haiṁ
@@ -10684,7 +10684,7 @@
 # sent_id = w01005021
 # text = एकेमेनिड सैनिकों ने थ्रेस, तटवर्ती ग्रीक शहरों, और पाएओनियन्स को जीत लिया था।
 # text_en = The Achaemenid troops conquered Thrace, the coastal Greek cities, and the Paeonians.
-1	एकेमेनिड	_	ADJ	JJ	_	2	det	_	Bug=det-upos|Translit=ekemeniḍa
+1	एकेमेनिड	_	ADJ	JJ	_	2	amod	_	Translit=ekemeniḍa
 2	सैनिकों	_	NOUN	NN	Animacy=Anim|Case=Acc|Number=Plur	13	nsubj	_	Translit=sainikoṁ
 3	ने	_	ADP	IN	Case=Erg	2	case	_	Translit=ne
 4	थ्रेस	_	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No|Translit=thresa
@@ -11228,7 +11228,7 @@
 22	पर	_	ADP	IN	Case=Acc	21	case	_	Translit=para
 23	इसका	_	PRON	PRP$	Animacy=Inan|Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	24	nmod:poss	_	Translit=isakā
 24	प्रभाव	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	obj	_	Translit=prabhāva
-25	बहुत	_	ADJ	JJS	_	26	det	_	Bug=det-upos|Translit=bahuta
+25	बहुत	_	ADJ	JJS	_	26	amod	_	Translit=bahuta
 26	कम	_	ADJ	JJ	_	15	parataxis	_	Translit=kama
 27	पड़ा	_	AUX	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	26	cop	_	Translit=paṛā
 28	और	_	CCONJ	CC	_	36	cc	_	Translit=aura
@@ -11236,8 +11236,8 @@
 30	भाषा	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	36	obl	_	Translit=bhāṣā
 31	से	_	ADP	IN	Case=Acc	30	case	_	Translit=se
 32	इसने	_	PRON	PRP	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing|Person=3	36	nsubj	_	Translit=isane
-33	बहुत	_	ADJ	JJS	_	35	det	_	Bug=det-upos|Translit=bahuta
-34	कम	_	ADJ	JJ	_	35	det	_	Bug=det-upos|Translit=kama
+33	बहुत	_	ADJ	JJS	_	35	amod	_	Translit=bahuta
+34	कम	_	ADJ	JJ	_	35	amod	_	Translit=kama
 35	उधार	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	36	obj	_	Translit=udhāra
 36	लिया	_	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	26	conj	_	SpaceAfter=No|Translit=liyā
 37	।	_	PUNCT	.	_	15	punct	_	Translit=.
@@ -12692,7 +12692,7 @@
 5	है	_	VERB	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No|Translit=hai
 6	,	_	PUNCT	,	_	9	punct	_	Translit=,
 7	जिसमें	_	PRON	REL	Case=Acc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|PronType=Prs	9	obl	_	Translit=jisameṁ
-8	सबकुछ	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	det	_	Bug=det-upos|Translit=sabakucha
+8	सबकुछ	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	Translit=sabakucha
 9	है	_	VERB	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	acl:relcl	_	Translit=hai
 10	लेकिन	_	CCONJ	CC	_	12	cc	_	Translit=lekina
 11	यह	_	PRON	PDEM	Number=Sing	12	nsubj:pass	_	Translit=yaha
@@ -14102,7 +14102,7 @@
 21	और	_	CCONJ	CC	_	38	cc	_	Translit=aura
 22	1911	_	NUM	CD	NumType=Card	38	obl:tmod	_	Translit=1911
 23	में	_	ADP	IN	Case=Loc	22	case	_	Translit=meṁ
-24	क्विंग	_	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	det	_	Bug=det-upos|Translit=kviṁga
+24	क्विंग	_	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	nmod	_	Translit=kviṁga
 25	राजवंश	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	nmod:poss	_	Translit=rājavaṁśa
 26	के	_	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	25	case	_	Translit=ke
 27	पतन	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	38	obl	_	Translit=patana
@@ -18948,7 +18948,7 @@
 19	में	_	ADP	IN	Case=Loc	18	case	_	Translit=meṁ
 20	राजकुमारी	_	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	24	nmod:poss	_	Translit=rājakumārī
 21	का	_	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	20	case	_	Translit=kā
-22	पूरी	_	ADJ	JJ	Gender=Fem	23	det	_	Bug=det-upos|Translit=pūrī
+22	पूरी	_	ADJ	JJ	Gender=Fem	23	amod	_	Translit=pūrī
 23	तरह	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	28	obl	_	Translit=taraha
 24	एनीमेशन	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	obj	_	Translit=enīmeśana
 25	बनाने	_	VERB	VINF	VerbForm=Inf	27	xcomp	_	Translit=banāne
@@ -21900,7 +21900,7 @@
 4	कम	_	DET	QF	_	8	det	_	Translit=kama
 5	से	_	ADP	IN	Case=Acc	4	fixed	_	Translit=se
 6	कम	_	DET	QF	_	4	fixed	_	Translit=kama
-7	उस	_	ADP	IN	_	8	det	_	Bug=det-upos|Translit=usa
+7	उस	_	PRON	PRP$	_	8	nmod:poss	_	Translit=usa
 8	समय	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	obl:tmod	_	Translit=samaya
 9	शुरू	_	NOUN	NN	Gender=Masc|Number=Sing	10	compound:lvc	_	Translit=śurū
 10	होते	_	VERB	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Person=3	0	root	_	Translit=hote
