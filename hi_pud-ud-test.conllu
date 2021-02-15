@@ -4685,10 +4685,10 @@
 9	देते	_	VERB	VBI	Aspect=Imp|Mood=Ind|Person=3	0	root	_	Translit=dete
 10	हैं	_	AUX	VXH	Person=3|Tense=Pres	9	aux	_	SpaceAfter=No|Translit=haiṁ
 11	,	_	PUNCT	,	_	12	punct	_	Translit=,
-12	कलात्मक	_	ADJ	JJ	_	9	dep	_	Translit=kalātmaka
-13	या	_	CCONJ	CC	_	12	cc	_	ToDo=cc-without-conj|Translit=yā
-14	कोई	_	DET	DTI	_	12	det	_	Translit=koī
-15	और	_	DET	QF	_	12	cc	_	SpaceAfter=No|Bug=cc-upos|ToDo=cc-without-conj|Translit=aura
+12	कलात्मक	_	ADJ	JJ	_	4	amod	_	Translit=kalātmaka
+13	या	_	CCONJ	CC	_	14	cc	_	Translit=yā
+14	कोई	_	DET	DTI	_	12	conj	_	Translit=koī
+15	और	_	CCONJ	CC	_	14	cc	_	SpaceAfter=No|Translit=aura
 16	:	_	PUNCT	:	_	17	punct	_	Translit=:
 17	असुविधा	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	appos	_	SpaceAfter=No|Translit=asuvidhā
 18	,	_	PUNCT	,	_	19	punct	_	Translit=,
@@ -5354,7 +5354,7 @@
 12	वापस	_	ADV	RB	_	14	advmod	_	Translit=vāpasa
 13	नहीं	_	PART	NEG	Polarity=Neg	14	advmod	_	Translit=nahīṁ
 14	लौट	_	VERB	VB	_	8	parataxis	_	Translit=lauṭa
-15	सकते	_	NOUN	NN	Animacy=Anim|Case=Acc|Number=Plur	14	aux	_	Translit=sakate
+15	सकते	_	AUX	VXH	Aspect=Imp|Mood=Ind|Number=Plur|Person=3	14	aux	_	Translit=sakate
 16	और	_	CCONJ	CC	_	25	cc	_	Translit=aura
 17	हमें	_	PRON	PRP	Animacy=Anim|Case=Acc|Number=Plur|Person=1	25	nsubj	_	Translit=hameṁ
 18	उनकी	_	PRON	PRP$	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=3|PronType=Prs	19	det	_	Translit=unakī
@@ -6221,7 +6221,7 @@
 7	के	_	ADP	IN	_	6	case	_	Translit=ke
 8	बाद	_	ADP	IN	_	7	fixed	_	Translit=bāda
 9	कैटेलेनो	_	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	Translit=kaiṭeleno
-10	उस	_	DET	DT	Definite=Def|Number=Sing	14	mark	_	Translit=usa
+10	उस	_	DET	DT	Definite=Def|Number=Sing	11	det	_	Translit=usa
 11	इलाके	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obl	_	Translit=ilāke
 12	में	_	ADP	IN	Case=Loc	11	case	_	Translit=meṁ
 13	वापस	_	ADV	RB	_	14	advmod	_	Translit=vāpasa
@@ -7200,7 +7200,7 @@
 22	पदभार	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	obj	_	Translit=padabhāra
 23	नहीं	_	PART	NEG	Polarity=Neg	24	advmod	_	Translit=nahīṁ
 24	संभालना	_	VERB	VINF	Gender=Masc|Number=Sing|Person=3|VerbForm=Inf	16	acl	_	Translit=saṁbhālanā
-25	चाहिए	_	VERB	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres	24	punct	_	SpaceAfter=No|Bug=punct-upos|Translit=cāhie
+25	चाहिए	_	VERB	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres	24	aux	_	SpaceAfter=No|Translit=cāhie
 26	।	_	PUNCT	.	_	17	punct	_	Translit=.
 
 # sent_id = n01101015
@@ -9078,7 +9078,7 @@
 25	के	_	ADP	IN	_	24	case	_	Translit=ke
 26	लिए	_	ADP	IN	_	25	fixed	_	Translit=lie
 27	जहरीला	_	ADJ	JJ	_	18	conj	_	Translit=jaharīlā
-28	है	_	VERB	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres	27	cop	_	SpaceAfter=No|Translit=hai
+28	है	_	AUX	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres	27	cop	_	SpaceAfter=No|Translit=hai
 29	।	_	PUNCT	.	_	11	punct	_	Translit=.
 
 # newdoc id = n01131
@@ -9205,7 +9205,7 @@
 # sent_id = n01133014
 # text = डच छात्रों ने अभी तक अपने इलेक्ट्रिक मोटरसाइकिल को व्यावसायिक बनाने का फैसला नहीं किया है।
 # text_en = The Dutch students have yet to decide if they will be commercializing their electric motorcycle.
-1	डच	_	ADJ	JJ	_	2	nummod	_	Translit=ḍaca
+1	डच	_	ADJ	JJ	_	2	amod	_	Translit=ḍaca
 2	छात्रों	_	NOUN	NN	Animacy=Anim|Case=Acc|Number=Plur	15	nsubj	_	Translit=chātroṁ
 3	ने	_	ADP	IN	Case=Erg	2	case	_	Translit=ne
 4	अभी	_	NOUN	NST	_	15	obl:tmod	_	Translit=abhī
@@ -11220,7 +11220,7 @@
 14	में	_	ADP	IN	Case=Acc	13	case	_	Translit=meṁ
 15	था	_	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Translit=thā
 16	,	_	PUNCT	,	_	26	punct	_	Translit=,
-17	फिर	_	ADP	IN	_	26	advmod	_	Translit=phira
+17	फिर	_	ADV	RB	_	26	advmod	_	Translit=phira
 18	भी	_	PART	EMPH	_	17	discourse	_	Translit=bhī
 19	आइसलैंड	_	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	nmod:poss	_	Translit=āisalaiṁḍa
 20	की	_	ADP	IN	Case=Gen|Gender=Fem	19	case	_	Translit=kī
@@ -11706,7 +11706,7 @@
 15	मार्ग	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No|Translit=mārga
 16	,	_	PUNCT	,	_	19	punct	_	Translit=,
 17	साथ	_	ADP	IN	_	19	advmod	_	Translit=sātha
-18	ही	_	PART	EMPH	_	17	discourse	_	Translit=hī
+18	ही	_	PART	EMPH	_	17	fixed	_	Translit=hī
 19	भोजन	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	conj	_	Translit=bhojana
 20	(	_	PUNCT	(	_	22	punct	_	SpaceAfter=No|Translit=(
 21	मछली	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	obj	_	Translit=machalī
@@ -15724,7 +15724,7 @@
 26	,	_	PUNCT	,	_	40	punct	_	Translit=,
 27	जिनके	_	PRON	REL	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Plur|Number[psor]=Plur|Polite=Form|PronType=Prs	40	nmod:poss	_	Translit=jinake
 28	आकस्मिक	_	ADJ	JJ	_	40	xcomp	_	ToDo=ex-adp-child|Translit=ākasmika
-29	होने	_	VERB	VINF	VerbForm=Inf	28	cop	_	SpaceAfter=No|Translit=hone
+29	होने	_	AUX	VINF	VerbForm=Inf	28	cop	_	SpaceAfter=No|Translit=hone
 30	,	_	PUNCT	,	_	37	punct	_	Translit=,
 31	और	_	CCONJ	CC	_	37	cc	_	Translit=aura
 32	संदिग्ध	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	34	nmod:poss	_	Translit=saṁdigdha
@@ -16931,7 +16931,7 @@
 # text_en = At this time there were only around forty families living there with plenty of good farming land and grazing for cattle.
 1	उस	_	DET	DT	Definite=Def|Number=Sing	2	det	_	Translit=usa
 2	समय	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	obl:tmod	_	Translit=samaya
-3	वहां	_	ADP	IN	_	8	advmod	_	Translit=vahāṁ
+3	वहां	_	ADV	RB	_	8	advmod	_	Translit=vahāṁ
 4	केवल	_	DET	QF	_	7	det	_	Translit=kevala
 5	लगभग	_	DET	QF	_	6	det	_	Translit=lagabhaga
 6	चालीस	_	NUM	CD	NumType=Card	7	nummod	_	Translit=cālīsa
@@ -21019,7 +21019,7 @@
 17	में	_	ADP	IN	Case=Loc	16	case	_	Translit=meṁ
 18	नैशविले	_	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No|Translit=naiśavile
 19	,	_	PUNCT	,	_	20	punct	_	Translit=,
-20	टेनेसी	_	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	appos	_	Translit=ṭenesī
+20	टेनेसी	_	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	appos	_	Translit=ṭenesī
 21	भेज	_	VERB	VB	_	0	root	_	Translit=bheja
 22	दिया	_	AUX	VXH	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	21	aux	_	SpaceAfter=No|Translit=diyā
 23	।	_	PUNCT	.	_	21	punct	_	Translit=.
@@ -23300,7 +23300,7 @@
 2	यह	_	PRON	PDEM	Number=Sing	4	obj	_	Translit=yaha
 3	भी	_	PART	EMPH	_	2	discourse	_	Translit=bhī
 4	कहा	_	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	Translit=kahā
-5	कि	_	SCONJ	IN	_	4	mark	_	Bug=aux-child|Translit=ki
+5	कि	_	SCONJ	IN	_	15	mark	_	Translit=ki
 6	"	_	PUNCT	``	_	15	punct	_	SpaceAfter=No|Translit="
 7	इस	_	DET	DT	Definite=Def|Number=Sing	8	det	_	Translit=isa
 8	तरह	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	nmod:poss	_	Translit=taraha
@@ -23309,18 +23309,18 @@
 11	की	_	ADP	IN	Case=Gen|Gender=Fem	10	case	_	Translit=kī
 12	मौजूदगी	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	nmod:poss	_	Translit=maujūdagī
 13	के	_	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	12	case	_	Translit=ke
-14	परिणाम	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	obj	_	Bug=aux-child|Translit=pariṇāma
-15	ऐसे	_	DET	DT	Definite=Def|Number=Sing	4	aux	_	Translit=aise
-16	हो	_	AUX	VB	_	4	cop	_	Bug=aux-child|Translit=ho
-17	सकते	_	AUX	VXH	Aspect=Imp|Gender=Masc|Mood=Opt|Number=Plur|Person=3	4	aux	_	Bug=aux-chain,aux-child|Translit=sakate
-18	हैं	_	AUX	VXH	Gender=Masc|Number=Plur|Person=3|Tense=Pres	4	aux	_	Bug=aux-chain,aux-child|Translit=haiṁ
-19	जिन्हें	_	PRON	REL	Case=Acc|Gender[psor]=Masc|Number=Plur|Number[psor]=Plur|PronType=Prs	22	obj	_	Translit=jinheṁ
+14	परिणाम	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	Translit=pariṇāma
+15	ऐसे	_	DET	DT	Definite=Def|Number=Sing	4	ccomp	_	Translit=aise
+16	हो	_	AUX	VB	_	15	cop	_	Translit=ho
+17	सकते	_	AUX	VXH	Aspect=Imp|Gender=Masc|Mood=Opt|Number=Plur|Person=3	15	aux	_	Translit=sakate
+18	हैं	_	AUX	VXH	Gender=Masc|Number=Plur|Person=3|Tense=Pres	15	aux	_	Translit=haiṁ
+19	जिन्हें	_	PRON	REL	Case=Acc|Gender[psor]=Masc|Number=Plur|Number[psor]=Plur|PronType=Rel	22	obj	_	Translit=jinheṁ
 20	स्वीकार	_	NOUN	NN	Gender=Masc|Number=Sing	22	compound:lvc	_	Translit=svīkāra
 21	नहीं	_	PART	NEG	Polarity=Neg	22	advmod	_	Translit=nahīṁ
 22	किया	_	VERB	VBI	Gender=Masc|Number=Plur|Person=3	14	acl:relcl	_	Translit=kiyā
 23	जा	_	AUX	VXH	_	22	aux:pass	_	Translit=jā
 24	सके	_	AUX	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres	22	aux	_	SpaceAfter=No|Translit=sake
-25	"	_	PUNCT	``	_	15	punct	_	SpaceAfter=No|Translit="
+25	"	_	PUNCT	``	_	22	punct	_	SpaceAfter=No|Translit="
 26	।	_	PUNCT	.	_	4	punct	_	Translit=.
 
 # sent_id = n03009011
@@ -26552,7 +26552,7 @@
 13	आशा	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	28	obl	_	Translit=āśā
 14	में	_	ADP	IN	Case=Acc	13	case	_	SpaceAfter=No|Translit=meṁ
 15	,	_	PUNCT	,	_	13	punct	_	Translit=,
-16	बेल्जियन	_	ADJ	JJ	_	17	nummod	_	Translit=beljiyana
+16	बेल्जियन	_	ADJ	JJ	_	17	amod	_	Translit=beljiyana
 17	कलाकार	_	NOUN	NN	Animacy=Anim|Case=Acc|Number=Sing	28	nsubj	_	Translit=kalākāra
 18	ने	_	ADP	IN	Case=Erg	17	case	_	Translit=ne
 19	वाल्ट	_	PROPN	NNP	Animacy=Inan|Gender=Masc|Number=Sing	20	amod	_	Translit=vālṭa
@@ -26595,7 +26595,7 @@
 23	दोस्त	_	NOUN	NN	Animacy=Anim|Case=Acc|Number=Sing	25	nmod:poss	_	Translit=dosta
 24	की	_	ADP	IN	Case=Gen|Gender=Fem	23	case	_	Translit=kī
 25	बेटी	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	acl:relcl	_	Translit=beṭī
-26	थी	_	VERB	VBI	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Past	25	cop	_	SpaceAfter=No|Translit=thī
+26	थी	_	AUX	VBI	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Past	25	cop	_	SpaceAfter=No|Translit=thī
 27	।	_	PUNCT	.	_	17	punct	_	Translit=.
 
 # sent_id = w03010100
@@ -27787,7 +27787,7 @@
 10	अल्बानी	_	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	obj	_	Translit=albānī
 11	पहुंचने	_	VERB	VINF	VerbForm=Inf	9	acl	_	Translit=pahuṁcane
 12	का	_	ADP	IN	Case=Gen|Gender=Masc	11	case	_	Translit=kā
-13	था	_	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	8	cop	_	SpaceAfter=No|Translit=thā
+13	था	_	AUX	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	8	cop	_	SpaceAfter=No|Translit=thā
 14	।	_	PUNCT	.	_	7	punct	_	Translit=.
 
 # sent_id = w05005087
