@@ -1549,7 +1549,7 @@
 4	कब्जा	_	NOUN	NN	Gender=Masc|Number=Sing	5	compound:conjv	_	Translit=kabjā
 5	जमा	_	VERB	VB	_	9	acl	_	Translit=jamā
 6	चुके	_	AUX	VXH	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Plur|Person=3	5	aux	_	Translit=cuke
-7	और	_	DET	QF	_	8	det:predet	_	Translit=aura
+7	और	_	DET	QF	_	8	det	_	Translit=aura
 8	कई	_	DET	QF	_	9	det	_	Translit=kaī
 9	प्रजातियों	_	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	17	obj	_	Translit=prajātiyoṁ
 10	-	_	PUNCT	-	_	12	punct	_	Translit=-
@@ -5343,7 +5343,7 @@
 1	दक्षिण	_	NOUN	NN	Animacy=Inan|Gender=Masc|Number=Sing	2	compound	_	Translit=dakṣiṇa
 2	अफ्रीकी	_	ADJ	JJ	_	3	amod	_	Translit=aphrīkī
 3	खिलाड़ी	_	NOUN	NN	Animacy=Anim|Case=Nom|Number=Sing	8	nsubj	_	Translit=khilāṛī
-4	लगभग	_	DET	QF	_	6	det:predet	_	Translit=lagabhaga
+4	लगभग	_	DET	QF	_	6	det	_	Translit=lagabhaga
 5	ऐसी	_	SCONJ	DT	_	8	mark	_	Translit=aisī
 6	स्थिति	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	Translit=sthiti
 7	में	_	ADP	IN	Case=Loc	6	case	_	Translit=meṁ
@@ -5663,7 +5663,7 @@
 7	पहुंचाते	_	VERB	VBI	Aspect=Imp|Mood=Ind|Number=Plur|Person=3	0	root	_	Translit=pahuṁcāte
 8	हैं	_	AUX	VXH	Number=Plur|Person=3|Tense=Pres	7	aux	_	SpaceAfter=No|Translit=haiṁ
 9	;	_	PUNCT	:	_	20	punct	_	Translit=;
-10	केवल	_	DET	QF	_	11	det:predet	_	Translit=kevala
+10	केवल	_	DET	QF	_	11	det	_	Translit=kevala
 11	यही	_	DET	DT	_	13	det	_	Translit=yahī
 12	वह	_	ADP	IN	_	14	mark	_	Translit=vaha
 13	समय	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	obj	_	Translit=samaya
@@ -11945,7 +11945,7 @@
 8	अकसर	_	ADV	RB	_	16	advmod	_	Translit=akasara
 9	लड़ाइयों	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obl	_	Translit=laṛāiyoṁ
 10	में	_	ADP	IN	Case=Acc	9	case	_	Translit=meṁ
-11	किसी	_	DET	DTI	_	12	det:predet	_	Translit=kisī
+11	किसी	_	DET	DTI	_	12	det	_	Translit=kisī
 12	एक	_	DET	DT	Definite=Ind|Number=Sing	13	det	_	Translit=eka
 13	स्टालियन	_	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	15	nmod:poss	_	Translit=sṭāliyana
 14	की	_	ADP	IN	Case=Gen|Gender=Fem	13	case	_	Translit=kī
@@ -14509,7 +14509,7 @@
 2	कविता	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	Translit=kavitā
 3	युद्ध	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nmod:poss	_	Translit=yuddha
 4	के	_	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	3	case	_	Translit=ke
-5	केवल	_	DET	QF	_	6	det:predet	_	Translit=kevala
+5	केवल	_	DET	QF	_	6	det	_	Translit=kevala
 6	एक	_	DET	DT	Definite=Ind|Number=Sing	7	det	_	Translit=eka
 7	हिस्से	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	nmod:poss	_	Translit=hisse
 8	का	_	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	7	case	_	Translit=kā
@@ -17183,7 +17183,7 @@
 4	आधुनिक	_	ADJ	JJ	_	5	amod	_	Translit=ādhunika
 5	युग	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	Translit=yuga
 6	में	_	ADP	IN	Case=Loc	5	case	_	Translit=meṁ
-7	केवल	_	DET	QF	_	8	det:predet	_	Translit=kevala
+7	केवल	_	DET	QF	_	8	det	_	Translit=kevala
 8	थोड़ी	_	DET	QF	Gender=Fem	10	det	_	Translit=thoṛī
 9	ही	_	PART	EMPH	_	8	discourse	_	Translit=hī
 10	ढील	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	obj	_	Translit=ḍhīla
@@ -18501,7 +18501,7 @@
 # text_en = Disney won another Honorary Academy Award, which consisted of one full-sized and seven miniature Oscar statuettes.
 1	डिज्नी	_	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	nsubj	_	Translit=ḍijnī
 2	ने	_	ADP	IN	Case=Erg	1	case	_	Translit=ne
-3	एक	_	DET	DT	Definite=Ind|Number=Sing	4	det:predet	_	Translit=eka
+3	एक	_	DET	DT	Definite=Ind|Number=Sing	4	det	_	Translit=eka
 4	और	_	DET	QF	_	7	det	_	Translit=aura
 5	मानद	_	ADJ	JJ	_	7	amod	_	Translit=mānada
 6	एकेडमी	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	compound	_	Proper=True|Translit=ekeḍamī
@@ -22515,7 +22515,7 @@
 20	अपतटीय	_	ADJ	JJ	_	22	amod	_	Translit=apataṭīya
 21	पवन	_	NOUN	NN	Animacy=Inan|Gender=Masc|Number=Sing	22	compound	_	Translit=pavana
 22	ऊर्जा	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	30	nsubj	_	Translit=ūrjā
-23	एक	_	DET	DT	Definite=Ind|Number=Sing	26	det:predet	_	Translit=eka
+23	एक	_	DET	DT	Definite=Ind|Number=Sing	26	det	_	Translit=eka
 24	ऐसी	_	DET	DT	Definite=Def|Number=Sing	26	det	_	Translit=aisī
 25	वैश्विक	_	ADJ	JJ	_	26	amod	_	Translit=vaiśvika
 26	अर्थव्यवस्था	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	30	nmod	_	ToDo=nmod|Translit=arthavyavasthā
@@ -23876,7 +23876,7 @@
 5	चार	_	NUM	CD	NumType=Card	6	nummod	_	Translit=cāra
 6	छात्रों	_	NOUN	NN	Animacy=Anim|Case=Acc|Number=Plur	12	nsubj	_	Translit=chātroṁ
 7	ने	_	ADP	IN	Case=Erg	6	case	_	Translit=ne
-8	एक	_	DET	DT	Definite=Ind|Number=Sing	11	det:predet	_	Translit=eka
+8	एक	_	DET	DT	Definite=Ind|Number=Sing	11	det	_	Translit=eka
 9	ऐसा	_	DET	DT	Definite=Def|Number=Sing	11	det	_	Translit=aisā
 10	मोटरसाइकिल	_	NOUN	NN	Animacy=Inan|Gender=Fem|Number=Sing	11	compound	_	Translit=moṭarasāikila
 11	हेलमेट	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	obj	_	Translit=helameṭa
@@ -27010,7 +27010,7 @@
 # text_en = Only a handful of them (earldoms) had existed under Henry I and these had been largely symbolic.
 1	उनमें	_	PRON	PDEM	Number=Plur	10	obl	_	Translit=unameṁ
 2	से	_	ADP	IN	_	1	case	_	Translit=se
-3	केवल	_	DET	QF	_	4	det:predet	_	Translit=kevala
+3	केवल	_	DET	QF	_	4	det	_	Translit=kevala
 4	मुट्ठीभर	_	DET	QF	_	5	det	_	Translit=muṭṭhībhara
 5	रियासतें	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	obj	_	Translit=riyāsateṁ
 6	हेनरी	_	PROPN	NNP	Animacy=Anim|Gender=Masc|Number=Sing	10	obl	_	Translit=henarī
