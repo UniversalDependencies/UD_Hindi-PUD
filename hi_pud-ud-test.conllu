@@ -19157,7 +19157,7 @@
 11	के	_	ADP	IN	_	9	case	_	Translit=ke
 12	बाद	_	ADP	IN	_	11	fixed	_	Translit=bāda
 13	,	_	PUNCT	,	_	9	punct	_	Translit=,
-14	थ़ॉट	_	X	NNP	Animacy=Inan|Case=Acc|Foreign=Yes|Gender=Masc|Number=Sing	22	nsubj	_	Translit=tha़ॉṭa
+14	थ़ॉट	_	X	NNP	Foreign=Yes	22	nsubj	_	Translit=tha़ॉṭa
 15	या	_	X	CC	Foreign=Yes	14	flat	_	Translit=yā
 16	न्यू	_	X	JJ	Foreign=Yes	14	flat	_	Proper=True|Translit=nyū
 17	ब्रिटेन	_	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obl	_	Translit=briṭena
