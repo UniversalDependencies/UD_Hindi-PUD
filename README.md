@@ -36,6 +36,11 @@ employ ten-fold cross-validation.
 
 # Changelog
 
+* 2021-05-15 v2.8
+  * Relation det:predet changed to just det. The subtype is not needed
+    and is not used in the other Hindi treebanks.
+  * Relation compound:conjv changed to compound:lvc (light-verb construction),
+    which is used in other UD treebanks for this construction.
 * 2019-05-15 v2.4
   * Normalized Unicode.
   * Fixed punctuation.
