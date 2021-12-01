@@ -200,7 +200,7 @@
 10	है	_	AUX	VXH	Gender=Fem|Number=Sing|Person=3|Tense=Pres	8	aux	_	SpaceAfter=No|Translit=hai
 11	,	_	PUNCT	,	_	8	punct	_	Translit=,
 12	यह	_	X	XX	_	18	dep	_	Translit=yaha
-13	—	_	PUNCT	-	_	14	punct	_	OrigForm=--|Translit=—
+13	—	_	PUNCT	-	_	14	punct	_	Translit=—
 14	वास्तव	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obl	_	Translit=vāstava
 15	में	_	ADP	IN	Case=Acc	14	case	_	SpaceAfter=No|Translit=meṁ
 16	,	_	PUNCT	,	_	14	punct	_	Translit=,
@@ -214,7 +214,7 @@
 # text = अधिकतम $5,000 प्रति व्यक्ति की स्वीकृति दी गयी है।
 # text_en = $5,000 per person, the maximum allowed.
 1	अधिकतम	_	ADJ	JJS	_	2	amod	_	Translit=adhikatama
-2	$5,000	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	compound	_	OrigForm=$5000|Translit=$5,000
+2	$5,000	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	compound	_	Translit=$5,000
 3	प्रति	_	DET	QF	_	4	det	_	Translit=prati
 4	व्यक्ति	_	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	nmod:poss	_	Translit=vyakti
 5	की	_	ADP	IN	Case=Gen|Gender=Fem	4	case	_	Translit=kī
@@ -508,7 +508,7 @@
 9	बढ़	_	VERB	VB	_	0	root	_	Translit=baṛha
 10	रहा	_	AUX	VXH	Aspect=Prog|Gender=Masc|Mood=Ind|Number=Sing|Person=3	9	aux	_	Translit=rahā
 11	है	_	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Pres	9	aux	_	Translit=hai
-12	—	_	PUNCT	-	_	31	punct	_	OrigForm=--|Translit=—
+12	—	_	PUNCT	-	_	31	punct	_	Translit=—
 13	जनगणना	_	NOUN	NN	Animacy=Inan|Gender=Fem|Number=Sing	14	compound	_	Translit=janagaṇanā
 14	ब्यूरो	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	obl	_	Translit=byūro
 15	के	_	ADP	IN	_	14	case	_	Translit=ke
@@ -2734,7 +2734,7 @@
 6	एजेंट	_	NOUN	NN	Animacy=Anim|Case=Acc|Number=Sing	12	obl	_	Translit=ejeṁṭa
 7	से	_	ADP	IN	Case=Acc	6	case	_	Translit=se
 8	अधिकतम	_	ADJ	JJS	_	9	amod	_	Translit=adhikatama
-9	$25,000	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	nmod:poss	_	OrigForm=$25000|Translit=$25,000
+9	$25,000	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	nmod:poss	_	Translit=$25,000
 10	का	_	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	9	case	_	Translit=kā
 11	अर्थदण्ड	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	obj	_	Translit=arthadaṇḍa
 12	वसूल	_	VERB	VB	_	0	root	_	Translit=vasūla
@@ -3190,7 +3190,7 @@
 35	को	_	ADP	IN	Case=Acc	34	case	_	Translit=ko
 36	अनुमानतः	_	ADV	RB	_	39	advmod	_	Translit=anumānataḥ
 37	औसतन	_	ADV	RB	_	38	advmod	_	Translit=ausatana
-38	$15,000	_	NUM	CD	NumType=Card	39	obj	_	OrigForm=$15000|Translit=$15,000
+38	$15,000	_	NUM	CD	NumType=Card	39	obj	_	Translit=$15,000
 39	मिलते	_	VERB	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Person=3	29	conj	_	Translit=milate
 40	हैं	_	AUX	VXH	Gender=Masc|Number=Plur|Person=3|Tense=Pres	39	aux	_	SpaceAfter=No|Translit=haiṁ
 41	।	_	PUNCT	.	_	21	punct	_	Translit=.
@@ -3209,7 +3209,7 @@
 9	,	_	PUNCT	,	_	16	punct	_	Translit=,
 10	और	_	CCONJ	CC	_	16	cc	_	Translit=aura
 11	इसके	_	PRON	PDEM	Number=Sing	15	nmod:poss	_	Translit=isake
-12	6,000	_	NUM	CD	NumType=Card	15	nmod	_	OrigForm=6000|Translit=6,000
+12	6,000	_	NUM	CD	NumType=Card	15	nmod	_	Translit=6,000
 13	से	_	ADP	IN	_	12	case	_	ToDo=ex-adp-child|Translit=se
 14	ज्यादा	_	ADP	IN	_	12	case	_	Translit=jyādā
 15	कर्मचारी	_	NOUN	NN	Animacy=Anim|Case=Nom|Number=Plur	16	obj	_	Translit=karmacārī
@@ -3243,7 +3243,7 @@
 22	वेब	_	NOUN	NN	Animacy=Inan|Gender=Masc|Number=Sing	23	compound	_	Translit=veba
 23	पोस्टिंग	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	34	nsubj	_	Translit=posṭiṁga
 24	2013-2014	_	NUM	CD	NumType=Card	34	obl	_	Translit=2013-2014
-25	—	_	PUNCT	-	_	27	punct	_	OrigForm=--|Translit=—
+25	—	_	PUNCT	-	_	27	punct	_	Translit=—
 26	या	_	CCONJ	CC	_	27	cc	_	Translit=yā
 27	तिथि	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	conj	_	Translit=tithi
 28	से	_	ADP	IN	Case=Acc	24	case	_	Translit=se
@@ -3872,7 +3872,7 @@
 11	,	_	PUNCT	,	_	21	punct	_	Translit=,
 12	जो	_	PRON	REL	Case=Nom|Gender[psor]=Masc|Number[psor]=Sing|PronType=Prs	21	nsubj	_	ToDo=जो|Translit=jo
 13	हर	_	DET	QF	_	14	det	_	Translit=hara
-14	35,000	_	NUM	CD	NumType=Card	16	nummod	_	OrigForm=35000|Translit=35,000
+14	35,000	_	NUM	CD	NumType=Card	16	nummod	_	Translit=35,000
 15	जन्मे	_	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	16	amod	_	Translit=janme
 16	बच्चों	_	NOUN	NN	Animacy=Anim|Case=Acc|Number=Plur	21	obl	_	Translit=baccoṁ
 17	में	_	ADP	IN	_	16	case	_	Translit=meṁ
@@ -4435,13 +4435,13 @@
 23	की	_	ADP	IN	Case=Gen|Gender=Fem	21	case	_	Translit=kī
 24	जरूरत	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	obj	_	Translit=jarūrata
 25	है	_	VERB	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres	15	acl	_	SpaceAfter=No|Translit=hai
-26	—	_	PUNCT	-	_	28	punct	_	SpaceAfter=No|OrigForm=--|Translit=—
+26	—	_	PUNCT	-	_	28	punct	_	SpaceAfter=No|Translit=—
 27	हम	_	PRON	PRP	Animacy=Anim|Case=Nom|Number=Plur|Person=1	28	nsubj	_	Translit=hama
 28	बेहतर	_	ADJ	JJR	_	25	parataxis	_	Translit=behatara
 29	कर	_	AUX	VB	_	28	cop	_	Translit=kara
 30	सकते	_	AUX	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Person=3	28	aux	_	Translit=sakate
 31	हैं	_	AUX	VXH	Gender=Masc|Number=Plur|Person=3|Tense=Pres	28	aux	_	SpaceAfter=No|Translit=haiṁ
-32	—	_	PUNCT	-	_	38	punct	_	SpaceAfter=No|OrigForm=--|Translit=—
+32	—	_	PUNCT	-	_	38	punct	_	SpaceAfter=No|Translit=—
 33	और	_	CCONJ	CC	_	38	cc	_	Translit=aura
 34	कहां	_	PRON	WP	_	38	obl	_	Translit=kahāṁ
 35	उसने	_	PRON	PRP	Animacy=Anim|Case=Acc|Number=Sing|Person=3	38	nsubj	_	Translit=usane
@@ -5806,7 +5806,7 @@
 8	हो	_	AUX	VB	_	7	cop	_	Translit=ho
 9	रहे	_	AUX	VXH	Aspect=Prog|Mood=Ind|Number=Plur|Person=3	7	aux	_	Translit=rahe
 10	हैं	_	AUX	VXH	Number=Plur|Person=3|Tense=Pres	7	aux	_	Translit=haiṁ
-11	…	_	PUNCT	...	_	18	punct	_	OrigForm=...|Translit=…
+11	…	_	PUNCT	...	_	18	punct	_	Translit=…
 12	जबकि	_	SCONJ	IN	_	18	mark	_	Translit=jabaki
 13	इस	_	DET	DT	Definite=Def|Number=Sing	14	det	_	Translit=isa
 14	उधार	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	nmod:poss	_	Translit=udhāra
@@ -5898,8 +5898,8 @@
 12	है	_	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Pres	10	aux	_	Translit=hai
 13	और	_	CCONJ	CC	_	23	cc	_	Translit=aura
 14	£	_	SYM	SYM	_	15	dep	_	SpaceAfter=No|Translit=£
-15	12,000	_	NUM	CD	NumType=Card	18	compound	_	OrigForm=12000|Translit=12,000
-16	–	_	PUNCT	-	_	15	punct	_	OrigForm=--|Translit=–
+15	12,000	_	NUM	CD	NumType=Card	18	compound	_	Translit=12,000
+16	–	_	PUNCT	-	_	15	punct	_	Translit=–
 17	£	_	SYM	SYM	_	18	dep	_	SpaceAfter=No|Translit=£
 18	360	_	NUM	CD	NumType=Card	23	obl	_	Translit=360
 19	पर	_	ADP	IN	Case=Acc	18	case	_	Translit=para
@@ -5936,10 +5936,10 @@
 20	तो	_	SCONJ	IN	_	35	mark	_	Translit=to
 21	उन्हें	_	PRON	PRP	Animacy=Anim|Case=Acc|Number=Plur|Person=3|Polite=Form	35	nsubj	_	Translit=unheṁ
 22	£	_	SYM	SYM	_	23	dep	_	SpaceAfter=No|Translit=£
-23	3,000	_	NUM	CD	NumType=Card	26	nummod	_	SpaceAfter=No|OrigForm=3000|Translit=3,000
+23	3,000	_	NUM	CD	NumType=Card	26	nummod	_	SpaceAfter=No|Translit=3,000
 24	-	_	PUNCT	-	_	23	punct	_	SpaceAfter=No|Translit=-
 25	£	_	SYM	SYM	_	26	dep	_	SpaceAfter=No|Translit=£
-26	5,000	_	NUM	CD	NumType=Card	29	nmod:poss	_	OrigForm=5000|Translit=5,000
+26	5,000	_	NUM	CD	NumType=Card	29	nmod:poss	_	Translit=5,000
 27	की	_	ADP	IN	Case=Gen|Gender=Fem	26	case	_	Translit=kī
 28	देय	_	ADJ	JJ	_	29	amod	_	Translit=deya
 29	राशियों	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	35	obl	_	Translit=rāśiyoṁ
@@ -5986,10 +5986,10 @@
 7	के	_	ADP	IN	_	6	case	_	Translit=ke
 8	बीच	_	ADP	IN	_	7	fixed	_	Translit=bīca
 9	£	_	SYM	SYM	_	10	dep	_	SpaceAfter=No|Translit=£
-10	15,001	_	NUM	CD	NumType=Card	16	obl	_	OrigForm=15001|Translit=15,001
+10	15,001	_	NUM	CD	NumType=Card	16	obl	_	Translit=15,001
 11	से	_	ADP	IN	Case=Acc	10	case	_	Translit=se
 12	£	_	SYM	SYM	_	13	dep	_	SpaceAfter=No|Translit=£
-13	19,999	_	NUM	CD	NumType=Card	16	obl	_	OrigForm=19999|Translit=19,999
+13	19,999	_	NUM	CD	NumType=Card	16	obl	_	Translit=19,999
 14	तक	_	ADP	IN	Case=Acc	13	case	_	Translit=taka
 15	कर्ज	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	obj	_	Translit=karja
 16	लेने	_	VERB	VINF	VerbForm=Inf	18	acl	_	Translit=lene
@@ -6840,12 +6840,12 @@
 # text = विश्व – और विस्तार से ब्रिटेन – एक प्रभावी रक्षा स्थापित करने के लिए जरूरी कौशल वाले लोगों की कमी का सामना कर रहा है।
 # text_en = The world – and by extension the UK – is facing a shortage of people with the skills needed to mount an effective defence.
 1	विश्व	_	NOUN	NN	Animacy=Inan|Gender=Masc|Number=Sing	23	nsubj	_	Translit=viśva
-2	–	_	PUNCT	-	_	6	punct	_	OrigForm=--|Translit=–
+2	–	_	PUNCT	-	_	6	punct	_	Translit=–
 3	और	_	CCONJ	CC	_	6	cc	_	Translit=aura
 4	विस्तार	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	Translit=vistāra
 5	से	_	ADP	IN	Case=Acc	4	case	_	Translit=se
 6	ब्रिटेन	_	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	conj	_	Translit=briṭena
-7	–	_	PUNCT	-	_	6	punct	_	OrigForm=--|Translit=–
+7	–	_	PUNCT	-	_	6	punct	_	Translit=–
 8	एक	_	DET	DT	Definite=Ind|Number=Sing	10	det	_	Translit=eka
 9	प्रभावी	_	ADJ	JJ	_	10	amod	_	Translit=prabhāvī
 10	रक्षा	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	obj	_	Translit=rakṣā
@@ -7785,7 +7785,7 @@
 5	निवेशक	_	NOUN	NN	Animacy=Anim|Case=Nom|Number=Sing	22	nsubj	_	Translit=niveśaka
 6	और	_	CCONJ	CC	_	10	cc	_	Translit=aura
 7	£	_	SYM	SYM	_	8	dep	_	SpaceAfter=No|Translit=£
-8	10,000	_	NUM	CD	NumType=Card	10	nmod:poss	_	OrigForm=10000|Translit=10,000
+8	10,000	_	NUM	CD	NumType=Card	10	nmod:poss	_	Translit=10,000
 9	के	_	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	8	case	_	Translit=ke
 10	बांड	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	obj	_	Translit=bāṁḍa
 11	प्रतिवर्ष	_	ADV	RB	_	19	advmod	_	Translit=prativarṣa
@@ -8694,7 +8694,7 @@
 10	तरह	_	ADP	IN	_	9	fixed	_	SpaceAfter=No|Translit=taraha
 11	,	_	PUNCT	,	_	8	punct	_	Translit=,
 12	फ्लॉक	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	obj	_	Translit=phlôka
-13	–	_	PUNCT	-	_	20	punct	_	OrigForm=--|Translit=–
+13	–	_	PUNCT	-	_	20	punct	_	Translit=–
 14	या	_	CCONJ	CC	_	20	cc	_	Translit=yā
 15	फर्श	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	nmod:poss	_	Translit=pharśa
 16	की	_	ADP	IN	Case=Gen|Gender=Fem	15	case	_	Translit=kī
@@ -8702,7 +8702,7 @@
 18	करने	_	VERB	VINF	VerbForm=Inf	20	xcomp	_	Translit=karane
 19	की	_	ADP	IN	Case=Gen|Gender=Fem	18	case	_	Translit=kī
 20	सामग्री	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	conj	_	Translit=sāmagrī
-21	–	_	PUNCT	-	_	20	punct	_	OrigForm=--|Translit=–
+21	–	_	PUNCT	-	_	20	punct	_	Translit=–
 22	फिर	_	ADV	RB	_	26	advmod	_	Translit=phira
 23	से	_	ADP	IN	Case=Acc	22	case	_	Translit=se
 24	चलन	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obl	_	Translit=calana
@@ -9133,7 +9133,7 @@
 20	कुल	_	DET	QF	_	21	det	_	Translit=kula
 21	वोट	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	obj	_	Translit=voṭa
 22	लगभग	_	DET	QF	_	23	det	_	Translit=lagabhaga
-23	16,500	_	NUM	CD	NumType=Card	11	conj	_	OrigForm=16500|Translit=16,500
+23	16,500	_	NUM	CD	NumType=Card	11	conj	_	Translit=16,500
 24	हो	_	AUX	VB	_	23	cop	_	Translit=ho
 25	गए	_	AUX	VXH	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past	23	aux	_	SpaceAfter=No|Translit=gae
 26	।	_	PUNCT	.	_	11	punct	_	Translit=.
@@ -16826,7 +16826,7 @@
 7	आबादी	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	obj	_	Translit=ābādī
 8	गिरकर	_	VERB	VB	_	10	acl	_	Translit=girakara
 9	लगभग	_	DET	QF	_	10	det	_	Translit=lagabhaga
-10	168,000	_	NUM	CD	NumType=Card	0	root	_	OrigForm=168000|Translit=168,000
+10	168,000	_	NUM	CD	NumType=Card	0	root	_	Translit=168,000
 11	हो	_	AUX	VB	_	10	cop	_	Translit=ho
 12	गयी	_	AUX	VXH	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Past	10	aux	_	SpaceAfter=No|Translit=gayī
 13	।	_	PUNCT	.	_	10	punct	_	Translit=.
@@ -19717,13 +19717,13 @@
 # text = इसमें 10,000 तकनीशियन सहित कम से कम 330,000 लोग शामिल थे।
 # text_en = At least 330,000 people, including 10,000 technicians, were involved.
 1	इसमें	_	PRON	PDEM	Number=Sing	11	iobj	_	Translit=isameṁ
-2	10,000	_	NUM	CD	NumType=Card	3	nummod	_	OrigForm=10000|Translit=10,000
+2	10,000	_	NUM	CD	NumType=Card	3	nummod	_	Translit=10,000
 3	तकनीशियन	_	NOUN	NN	Animacy=Anim|Case=Nom|Number=Sing	11	obl	_	Translit=takanīśiyana
 4	सहित	_	ADP	IN	_	3	case	_	Translit=sahita
 5	कम	_	DET	QF	_	8	det	_	Translit=kama
 6	से	_	ADP	IN	Case=Acc	5	fixed	_	Translit=se
 7	कम	_	DET	QF	_	5	fixed	_	Translit=kama
-8	330,000	_	NUM	CD	NumType=Card	9	nummod	_	OrigForm=330000|Translit=330,000
+8	330,000	_	NUM	CD	NumType=Card	9	nummod	_	Translit=330,000
 9	लोग	_	NOUN	NN	Animacy=Anim|Case=Nom|Number=Plur	11	nsubj	_	Translit=loga
 10	शामिल	_	ADJ	JJ	_	11	compound:lvc	_	Translit=śāmila
 11	थे	_	VERB	VBI	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Translit=the
@@ -23675,14 +23675,14 @@
 19	यूरोजोन	_	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	nmod:poss	_	Translit=yūrojona
 20	के	_	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	19	case	_	Translit=ke
 21	औसत	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	compound	_	Translit=ausata
-22	1,165	_	NUM	CD	NumType=Card	23	nummod	_	OrigForm=1165|Translit=1,165
+22	1,165	_	NUM	CD	NumType=Card	23	nummod	_	Translit=1,165
 23	यूरो	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	compound	_	Translit=yūro
 24	प्रति	_	DET	QF	_	25	det	_	Translit=prati
 25	लीटर	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	32	nmod	_	ToDo=nmod|Translit=līṭara
 26	की	_	ADP	IN	_	25	case	_	Translit=kī
 27	तुलना	_	ADP	IN	_	26	fixed	_	Translit=tulanā
 28	में	_	ADP	IN	_	26	fixed	_	Translit=meṁ
-29	1,335	_	NUM	CD	NumType=Card	30	nummod	_	OrigForm=1335|Translit=1,335
+29	1,335	_	NUM	CD	NumType=Card	30	nummod	_	Translit=1,335
 30	यूरो	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	32	compound	_	Translit=yūro
 31	प्रति	_	DET	QF	_	32	det	_	Translit=prati
 32	लीटर	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	ccomp	_	Translit=līṭara
@@ -23715,7 +23715,7 @@
 21	है	_	AUX	VBI	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Pres	20	cop	_	SpaceAfter=No|Translit=hai
 22	,	_	PUNCT	,	_	20	punct	_	Translit=,
 23	वह	_	PRON	PRP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Person=3	30	dep	_	Translit=vaha
-24	1,365	_	NUM	CD	NumType=Card	25	nummod	_	OrigForm=1365|Translit=1,365
+24	1,365	_	NUM	CD	NumType=Card	25	nummod	_	Translit=1,365
 25	यूरो	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	compound	_	Translit=yūro
 26	प्रति	_	DET	QF	_	27	det	_	Translit=prati
 27	लीटर	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obl	_	Translit=līṭara
@@ -24132,7 +24132,7 @@
 26	पहले	_	NOUN	NST	_	34	obl	_	Translit=pahale
 27	से	_	ADP	IN	_	26	case	_	Translit=se
 28	ही	_	PART	EMPH	_	26	discourse	_	Translit=hī
-29	600,000	_	NUM	CD	NumType=Card	31	nummod	_	OrigForm=600000|Translit=600,000
+29	600,000	_	NUM	CD	NumType=Card	31	nummod	_	Translit=600,000
 30	ज्यादा	_	DET	QF	_	31	det	_	Translit=jyādā
 31	लोगों	_	NOUN	NN	Animacy=Anim|Case=Acc|Number=Plur	34	iobj	_	Translit=logoṁ
 32	को	_	ADP	IN	Case=Acc	31	case	_	Translit=ko
@@ -25964,7 +25964,7 @@
 7	,	_	PUNCT	,	_	5	punct	_	Translit=,
 8	वहां	_	NOUN	NST	_	15	obl	_	Translit=vahāṁ
 9	प्रति	_	DET	DT	_	11	det	_	Translit=prati
-10	100,000	_	NUM	CD	NumType=Card	11	nummod	_	OrigForm=100000|Translit=100,000
+10	100,000	_	NUM	CD	NumType=Card	11	nummod	_	Translit=100,000
 11	बाशिंदों	_	NOUN	NN	Animacy=Anim|Case=Acc|Number=Plur	15	obl	_	Translit=bāśiṁdoṁ
 12	पर	_	ADP	IN	Case=Acc	11	case	_	Translit=para
 13	पांच	_	NUM	CD	NumType=Card	14	nummod	_	Translit=pāṁca
