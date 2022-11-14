@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
-Author: www-data (nschneid) <nschneid@github.com>
-Date:   Wed May 11 05:10:30 2022 +0200
-Evaluating the following revision of UD_Hindi-PUD:
-commit f7d55113e06fb6402170db09ef9b74b49afa2820
-Merge: 397024d 6e593b0
+commit 13e6b709a8bc643c3f902800321a7beda46feb8d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun Nov 13 22:03:41 2022 +0100
+Evaluating the following revision of UD_Hindi-PUD:
+commit 02793aaf77b81092765645d56fe26a07563d7f92
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sat May 14 14:30:15 2022 +0200
 Size: counted 23829 of 23829 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.34180665263821.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,8 +25,20 @@ Udapi: found 3636 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 23829 words.
 Genres: found 2 out of 17 known.
 validate.py --lang hi --max-err=10 UD_Hindi-PUD/hi_pud-ud-test.conllu
-*** PASSED ***
-Validity: 1
+[Line 717 Sent n01012003 Node 8]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [4, 13]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 2478 Sent n01034060 Node 18]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 5792 Sent n01081022 Node 33]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [13, 16]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 7822 Sent n01110008 Node 13]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [7, 17]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 9462 Sent n01136010 Node 25]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [8, 13]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 10659 Sent w01004051 Node 44]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [30, 31]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 12246 Sent w01027035 Node 6]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 10]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 15535 Sent w01069094 Node 27]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [19, 20]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 16075 Sent w01075038 Node 12]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 21]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+...suppressing further errors regarding Syntax
+Syntax errors: 12
+*** FAILED *** with 12 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=0.01) = 0.000769230769230769
@@ -35,6 +47,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.627027027027027) = 0.0482328482328482
-(TOTAL score=0.315723038748554) * (availability=1) * (validity=1) = 0.315723038748554
-STARS = 1.5
-UD_Hindi-PUD	0.315723038748554	1.5
+(TOTAL score=0.315723038748554) * (availability=1) * (validity=0.01) = 0.00315723038748554
+STARS = 0
+UD_Hindi-PUD	0.00315723038748554	0
