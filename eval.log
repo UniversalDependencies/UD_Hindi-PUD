@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+commit 04abe686385f14a9a6f68784bd723a6b60ded594
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 13 22:03:41 2022 +0100
+Date:   Tue May 9 00:14:39 2023 +0200
 Evaluating the following revision of UD_Hindi-PUD:
-commit 02793aaf77b81092765645d56fe26a07563d7f92
+commit 8b2ce15ab0be9e9809d9e28e7d5faba6d6c2b8c0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat May 14 14:30:15 2022 +0200
+Date:   Mon Nov 14 11:13:51 2022 +0100
 Size: counted 23829 of 23829 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.34180665263821.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -24,16 +24,16 @@ Udapi:
 Udapi: found 3636 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 23829 words.
 Genres: found 2 out of 17 known.
-validate.py --lang hi --max-err=10 UD_Hindi-PUD/hi_pud-ud-test.conllu
-[Line 717 Sent n01012003 Node 8]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [4, 13]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 2478 Sent n01034060 Node 18]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 5792 Sent n01081022 Node 33]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [13, 16]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 7822 Sent n01110008 Node 13]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [7, 17]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 9462 Sent n01136010 Node 25]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [8, 13]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 10659 Sent w01004051 Node 44]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [30, 31]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 12246 Sent w01027035 Node 6]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 10]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 15535 Sent w01069094 Node 27]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [19, 20]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 16075 Sent w01075038 Node 12]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 21]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+/net/work/people/zeman/unidep/tools/validate.py --lang hi --max-err=10 UD_Hindi-PUD/hi_pud-ud-test.conllu
+[Line 717 Sent n01012003 Node 8]: [L3 Syntax too-many-subjects] Multiple subjects [4, 13] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 2478 Sent n01034060 Node 18]: [L3 Syntax too-many-subjects] Multiple subjects [1, 8] not subtyped as ':outer'.
+[Line 5792 Sent n01081022 Node 33]: [L3 Syntax too-many-subjects] Multiple subjects [13, 16] not subtyped as ':outer'.
+[Line 7822 Sent n01110008 Node 13]: [L3 Syntax too-many-subjects] Multiple subjects [7, 17] not subtyped as ':outer'.
+[Line 9462 Sent n01136010 Node 25]: [L3 Syntax too-many-subjects] Multiple subjects [8, 13] not subtyped as ':outer'.
+[Line 10659 Sent w01004051 Node 44]: [L3 Syntax too-many-subjects] Multiple subjects [30, 31] not subtyped as ':outer'.
+[Line 12246 Sent w01027035 Node 6]: [L3 Syntax too-many-subjects] Multiple subjects [2, 10] not subtyped as ':outer'.
+[Line 15535 Sent w01069094 Node 27]: [L3 Syntax too-many-subjects] Multiple subjects [19, 20] not subtyped as ':outer'.
+[Line 16075 Sent w01075038 Node 12]: [L3 Syntax too-many-subjects] Multiple subjects [1, 21] not subtyped as ':outer'.
 ...suppressing further errors regarding Syntax
 Syntax errors: 12
 *** FAILED *** with 12 errors
