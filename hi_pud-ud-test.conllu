@@ -2538,8 +2538,8 @@
 # text_en = Police in B.C. said earlier Klein did not appear to have a criminal history and released vague details about his recent whereabouts.
 1	बी	_	PROPN	NNP	Animacy=Inan|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|Translit=bī
 2	.	_	PUNCT	NFP	_	1	punct	_	SpaceAfter=No|Translit=.
-3	सी	_	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No|Translit=sī
-4	.	_	PUNCT	NFP	_	1	punct	_	Translit=.
+3	सी	_	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	flat:name	_	SpaceAfter=No|Translit=sī
+4	.	_	PUNCT	NFP	_	3	punct	_	Translit=.
 5	में	_	ADP	IN	Case=Loc	1	case	_	Translit=meṁ
 6	पुलिस	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	nsubj	_	Translit=pulisa
 7	ने	_	ADP	IN	Case=Erg	6	case	_	Translit=ne
