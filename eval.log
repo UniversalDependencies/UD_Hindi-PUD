@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Hindi-PUD:
-commit 8b2ce15ab0be9e9809d9e28e7d5faba6d6c2b8c0
+commit 4288709a38aaf43a9e82e028d825220b2bfec966
+Merge: c44e5c2 4a477b1
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 14 11:13:51 2022 +0100
 Size: counted 23829 of 23829 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.34180665263821.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -26,16 +26,25 @@ Udapi: worst expected case (threshold) is one bug per 10 words. There are 23829 
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang hi --max-err=10 UD_Hindi-PUD/hi_pud-ud-test.conllu
 [Line 717 Sent n01012003 Node 8]: [L3 Syntax too-many-subjects] Multiple subjects [4, 13] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 2100 Sent n01030005 Node 13]: [L3 Warning fixed-gap] Gaps in fixed expression [13, 16] 'तू * * मैं'
 [Line 2478 Sent n01034060 Node 18]: [L3 Syntax too-many-subjects] Multiple subjects [1, 8] not subtyped as ':outer'.
+[Line 4185 Sent n01058037 Node 5]: [L3 Warning fixed-gap] Gaps in fixed expression [5, 7] 'के * बाहर'
+[Line 4226 Sent n01058052 Node 18]: [L3 Warning fixed-gap] Gaps in fixed expression [18, 21] 'के * * पास'
 [Line 5792 Sent n01081022 Node 33]: [L3 Syntax too-many-subjects] Multiple subjects [13, 16] not subtyped as ':outer'.
+[Line 6990 Sent n01097098 Node 6]: [L3 Warning fixed-gap] Gaps in fixed expression [6, 8] 'के * निकट'
+[Line 7615 Sent n01108003 Node 9]: [L3 Warning fixed-gap] Gaps in fixed expression [9, 11] 'के * बाद'
 [Line 7822 Sent n01110008 Node 13]: [L3 Syntax too-many-subjects] Multiple subjects [7, 17] not subtyped as ':outer'.
 [Line 9462 Sent n01136010 Node 25]: [L3 Syntax too-many-subjects] Multiple subjects [8, 13] not subtyped as ':outer'.
 [Line 10659 Sent w01004051 Node 44]: [L3 Syntax too-many-subjects] Multiple subjects [30, 31] not subtyped as ':outer'.
 [Line 12246 Sent w01027035 Node 6]: [L3 Syntax too-many-subjects] Multiple subjects [2, 10] not subtyped as ':outer'.
 [Line 15535 Sent w01069094 Node 27]: [L3 Syntax too-many-subjects] Multiple subjects [19, 20] not subtyped as ':outer'.
+[Line 16022 Sent w01075037 Node 11]: [L3 Warning fixed-gap] Gaps in fixed expression [11, 14] 'से * * ज्यादा'
+[Line 16042 Sent w01075037 Node 31]: [L3 Warning fixed-gap] Gaps in fixed expression [31, 34] 'से * * ज्यादा'
 [Line 16075 Sent w01075038 Node 12]: [L3 Syntax too-many-subjects] Multiple subjects [1, 21] not subtyped as ':outer'.
 ...suppressing further errors regarding Syntax
+[Line 27250 Sent w04009042 Node 29]: [L3 Warning fixed-gap] Gaps in fixed expression [29, 40] 'से * * * * * * * * * * प्रशिक्षित'
 Syntax errors: 12
+Warnings: 8
 *** FAILED *** with 12 errors
 Exit code: 1
 Validity: 0.01
