@@ -95,9 +95,9 @@
     <dep name="dep">65</dep>
     <dep name="det">791</dep>
     <dep name="discourse">165</dep>
-    <dep name="fixed">783</dep>
+    <dep name="fixed">782</dep>
     <dep name="flat">4</dep>
-    <dep name="flat:name">205</dep>
+    <dep name="flat:name">206</dep>
     <dep name="iobj">177</dep>
     <dep name="list">1</dep>
     <dep name="mark">403</dep>
