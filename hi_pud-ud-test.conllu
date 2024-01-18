@@ -18629,7 +18629,7 @@
 5	को	को	ADP	IN	Case=Acc	4	case	_	Translit=ko|LTranslit=ko
 6	सबसे	सबसे	ADJ	JJS	_	7	advmod	_	Translit=sabase|LTranslit=sabase
 7	ज्यादा	ज्यादा	ADJ	JJ	_	2	acl:relcl	_	Translit=jyādā|LTranslit=jyādā
-8	जाना	जा	AUX	VBI	Gender=Masc|Number=Sing|Person=3	7	cop	_	Translit=jānā|LTranslit=jāna
+8	जाना	जा	AUX	VBI	Gender=Masc|Number=Sing|Person=3	7	aux	_	Translit=jānā|LTranslit=jāna
 9	जाता	जा	AUX	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	7	aux:pass	_	Translit=jātā|LTranslit=jā
 10	है	है	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Pres	7	aux	_	Translit=hai|LTranslit=hai
 11	और	और	CCONJ	CC	_	7	cc	_	ToDo=cc-without-conj|Translit=aura|LTranslit=aura
