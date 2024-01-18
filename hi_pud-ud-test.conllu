@@ -8094,7 +8094,7 @@
 14	नहीं	नहीं	PART	NEG	Polarity=Neg	15	advmod	_	Translit=nahīṁ|LTranslit=nahīṁ
 15	किया	कर	VERB	VBI	Gender=Masc|Number=Sing|Person=3	0	root	_	Translit=kiyā|LTranslit=kara
 16	जा	जा	AUX	VXH	_	15	aux:pass	_	Translit=jā|LTranslit=jā
-17	सकेगा	सक	VERB	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut	15	nsubj	_	SpaceAfter=No|Translit=sakegā|LTranslit=saka
+17	सकेगा	सक	AUX	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut	15	aux	_	SpaceAfter=No|Translit=sakegā|LTranslit=saka
 18	।	।	PUNCT	.	_	15	punct	_	Translit=.|LTranslit=.
 
 # sent_id = n01110022
@@ -9783,7 +9783,7 @@
 10	से	से	ADP	IN	_	9	case	_	Translit=se|LTranslit=se
 11	शादीशुदा	शादीशुदा	ADJ	JJ	_	12	amod	_	Translit=śādīśudā|LTranslit=śādīśudā
 12	जोड़े	जोड	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	compound	_	Translit=joṛe|LTranslit=joḍa
-13	रिचर्ड	रिचर्ड	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	25	nsubj	_	Translit=ricarḍa|LTranslit=ricarḍa
+13	रिचर्ड	रिचर्ड	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	25	obl	_	Translit=ricarḍa|LTranslit=ricarḍa
 14	और	और	CCONJ	CC	_	15	cc	_	Translit=aura|LTranslit=aura
 15	मिल्ड्रेड	मिल्ड्रेड	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing	13	conj	_	Translit=milḍreḍa|LTranslit=milḍreḍa
 16	द्वारा	द्वारा	ADP	IN	Case=Ins	13	case	_	Translit=dvārā|LTranslit=dvārā
@@ -9795,7 +9795,7 @@
 22	के	के	ADP	IN	_	21	case	_	Translit=ke|LTranslit=ke
 23	साथ	साथ	ADP	IN	_	22	fixed	_	Translit=sātha|LTranslit=sātha
 24	शुरू	शुरू	NOUN	NN	Gender=Masc|Number=Sing	25	compound:lvc	_	Translit=śurū|LTranslit=śurū
-25	होती	हो	VERB	VBI	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3	0	root	_	Bug=multi-subj|Translit=hotī|LTranslit=ho
+25	होती	हो	VERB	VBI	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3	0	root	_	Translit=hotī|LTranslit=ho
 26	जिसे	जो	PRON	REL	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|PronType=Prs	29	obj	_	Translit=jise|LTranslit=jo
 27	देखना	देख	VERB	VINF	VerbForm=Inf	28	xcomp	_	Translit=dekhanā|LTranslit=dekha
 28	मजेदार	मजेदार	ADJ	JJ	_	29	xcomp	_	Translit=majedāra|LTranslit=majedāra
@@ -11026,7 +11026,7 @@
 28	संधियां	संधी	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	29	obj	_	Translit=saṁdhiyāṁ|LTranslit=saṁdhī
 29	कीं	कर	VERB	VBI	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	Translit=kīṁ|LTranslit=kara
 30	जो	जो	PRON	REL	Case=Nom|Gender[psor]=Masc|Number[psor]=Sing|PronType=Prs	44	nsubj	_	ToDo=जो|Translit=jo|LTranslit=jo
-31	जलडमरूमध्य	जलडमरूमध्य	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	44	nsubj	_	Translit=jalaḍamarūmadhya|LTranslit=jalaḍamarūmadhya
+31	जलडमरूमध्य	जलडमरूमध्य	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	44	obj	_	Translit=jalaḍamarūmadhya|LTranslit=jalaḍamarūmadhya
 32	(	(	PUNCT	(	_	33	punct	_	SpaceAfter=No|Translit=(|LTranslit=(
 33	स्ट्रेट्स	स्ट्रेट	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	31	appos	_	SpaceAfter=No|Translit=sṭreṭsa|LTranslit=sṭreṭa
 34	)	)	PUNCT	)	_	33	punct	_	SpaceAfter=No|Translit=)|LTranslit=)
@@ -11039,7 +11039,7 @@
 41	,	,	PUNCT	,	_	31	punct	_	Translit=,|LTranslit=,
 42	को	को	ADP	IN	Case=Acc	31	case	_	Translit=ko|LTranslit=ko
 43	नियंत्रित	नियंत्रित	ADJ	JJ	_	44	compound:lvc	_	Translit=niyaṁtrita|LTranslit=niyaṁtrita
-44	करते	कर	VERB	VBI	Aspect=Imp|Mood=Ind|Number=Plur|Person=3	24	acl:relcl	_	Bug=multi-subj|Translit=karate|LTranslit=kara
+44	करते	कर	VERB	VBI	Aspect=Imp|Mood=Ind|Number=Plur|Person=3	24	acl:relcl	_	Translit=karate|LTranslit=kara
 45	थे	था	AUX	VXH	Number=Plur|Person=3|Tense=Past	44	aux	_	SpaceAfter=No|Translit=the|LTranslit=thā
 46	।	।	PUNCT	.	_	29	punct	_	Translit=.|LTranslit=.
 
@@ -12681,11 +12681,11 @@
 3	शीतोष्ण	शीतोष्ण	ADJ	JJ	_	4	amod	_	Translit=śītoṣṇa|LTranslit=śītoṣṇa
 4	क्षेत्र	क्षेत्र	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	Translit=kṣetra|LTranslit=kṣetra
 5	में	में	ADP	IN	Case=Loc	4	case	_	Translit=meṁ|LTranslit=meṁ
-6	है	है	VERB	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	Bug=multi-subj|Translit=hai|LTranslit=hai
+6	है	है	VERB	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	Translit=hai|LTranslit=hai
 7	और	और	CCONJ	CC	_	16	cc	_	Translit=aura|LTranslit=aura
 8	यहां	यहाँ	NOUN	NST	_	10	nmod:poss	_	Translit=yahāṁ|LTranslit=yahām̃
 9	की	का	ADP	IN	Case=Gen|Gender=Fem	8	case	_	Translit=kī|LTranslit=kā
-10	जलवायु	जलवायु	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	Translit=jalavāyu|LTranslit=jalavāyu
+10	जलवायु	जलवायु	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	Translit=jalavāyu|LTranslit=jalavāyu
 11	हल्की	हल्का	ADV	RB	_	16	advmod	_	SpaceAfter=No|Translit=halkī|LTranslit=halkā
 12	,	,	PUNCT	,	_	11	punct	_	Translit=,|LTranslit=,
 13	भूमध्य	भूमध्य	NOUN	NN	Gender=Masc|Number=Sing	14	compound	_	Translit=bhūmadhya|LTranslit=bhūmadhya
@@ -16074,7 +16074,7 @@
 16	सीमित	सीमित	ADJ	JJ	_	17	xcomp	_	Translit=sīmita|LTranslit=sīmita
 17	कर	कर	VERB	VB	_	18	xcomp	_	Translit=kara|LTranslit=kara
 18	दिया	दे	VERB	VXH	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	Translit=diyā|LTranslit=de
-19	जो	जो	PRON	REL	Case=Nom|Gender[psor]=Fem|Number[psor]=Sing|PronType=Prs	27	nsubj	_	ToDo=जो|Translit=jo|LTranslit=jo
+19	जो	जो	PRON	REL	Case=Nom|Gender[psor]=Fem|Number[psor]=Sing|PronType=Prs	27	obj	_	Translit=jo|LTranslit=jo
 20	यह	यह	PRON	PDEM	Number=Sing	27	nsubj	_	Translit=yaha|LTranslit=yaha
 21	नीदरलैंड	नीदरलैंड	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	27	obl	_	Translit=nīdaralaiṁḍa|LTranslit=nīdaralaiṁḍa
 22	में	में	ADP	IN	Case=Loc	21	case	_	Translit=meṁ|LTranslit=meṁ
@@ -16082,7 +16082,7 @@
 24	के	के	ADP	IN	_	23	case	_	Translit=ke|LTranslit=ke
 25	खिलाफ	खिलाफ	ADP	IN	_	24	fixed	_	Translit=khilāpha|LTranslit=khilāpha
 26	तैनात	तैनात	ADJ	JJ	_	27	compound:lvc	_	Translit=taināta|LTranslit=taināta
-27	कर	कर	VERB	VB	_	13	acl:relcl	_	Bug=multi-subj|Translit=kara|LTranslit=kara
+27	कर	कर	VERB	VB	_	13	acl:relcl	_	Translit=kara|LTranslit=kara
 28	सकता	सक	AUX	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	27	aux	_	Translit=sakatā|LTranslit=saka
 29	था	था	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Past	27	aux	_	SpaceAfter=No|Translit=thā|LTranslit=thā
 30	।	।	PUNCT	.	_	18	punct	_	Translit=.|LTranslit=.
@@ -16631,7 +16631,7 @@
 # text = अध्ययन इन तीन कारकों को विद्रोह द्वारा त्यागी गयी आयों को परोक्ष बताते हैं, और इसलिए कम त्यागी गयी आय विद्रोह को बढ़ावा देती है।
 # translit = adhyayana ina tīna kārakoṁ ko vidroha dvārā tyāgī gayī āyoṁ ko parokṣa batāte haiṁ, aura isalie kama tyāgī gayī āya vidroha ko baṛhāvā detī hai.
 # text_en = The study interpreted these three factors as proxies for earnings forgone by rebellion, and therefore that lower forgone earnings encourage rebellion.
-1	अध्ययन	अध्ययन	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	Translit=adhyayana|LTranslit=adhyayana
+1	अध्ययन	अध्ययन	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	Translit=adhyayana|LTranslit=adhyayana
 2	इन	यह	DET	DT	Definite=Def|Number=Plur	4	det	_	Translit=ina|LTranslit=yaha
 3	तीन	तीन	NUM	CD	NumType=Card	4	nummod	_	Translit=tīna|LTranslit=tīna
 4	कारकों	कारक	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	25	obl	_	Translit=kārakoṁ|LTranslit=kāraka
@@ -24569,7 +24569,7 @@
 # text_en = Corrado Passera withdraws the offer for Mps due to "the attitude of total closure that the Bank has shown to us".
 1	बैंकों	बैंक	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	23	obl:agent	_	Translit=baiṁkoṁ|LTranslit=baiṁka
 2	द्वारा	द्वारा	ADP	IN	Case=Ins	1	case	_	Translit=dvārā|LTranslit=dvārā
-3	हमारे	हम	PRON	PRP	Case=Acc|Number=Plur|Person=1	23	nsubj	_	Translit=hamāre|LTranslit=hama
+3	हमारे	हम	PRON	PRP	Case=Acc|Number=Plur|Person=1	23	obl	_	Translit=hamāre|LTranslit=hama
 4	समक्ष	समक्ष	ADP	IN	_	3	case	_	Translit=samakṣa|LTranslit=samakṣa
 5	प्रदर्शित	प्रदर्शित	ADJ	JJ	_	7	amod	_	Translit=pradarśita|LTranslit=pradarśita
 6	पूर्ण	पूर्ण	ADJ	JJ	_	7	amod	_	Translit=pūrṇa|LTranslit=pūrṇa
@@ -24588,7 +24588,7 @@
 19	प्रस्ताव	प्रस्ताव	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	23	obj	_	Translit=prastāva|LTranslit=prastāva
 20	को	को	ADP	IN	Case=Acc	19	case	_	Translit=ko|LTranslit=ko
 21	वापल	वापल	ADV	RB	_	23	advmod	_	Translit=vāpala|LTranslit=vāpala
-22	ले	ले	VERB	VB	_	23	xcomp	_	Bug=multi-subj|Translit=le|LTranslit=le
+22	ले	ले	VERB	VB	_	23	xcomp	_	Translit=le|LTranslit=le
 23	लेता	ले	VERB	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	0	root	_	Translit=letā|LTranslit=le
 24	है	है	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Pres	23	aux	_	SpaceAfter=No|Translit=hai|LTranslit=hai
 25	।	।	PUNCT	.	_	23	punct	_	Translit=.|LTranslit=.
@@ -25136,7 +25136,7 @@
 11	नहीं	नहीं	PART	NEG	Polarity=Neg	13	advmod	_	Translit=nahīṁ|LTranslit=nahīṁ
 12	समझ	समझ	NOUN	NN	Gender=Masc|Number=Sing	13	compound:lvc	_	Translit=samajha|LTranslit=samajha
 13	पाया	पा	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	Translit=pāyā|LTranslit=pā
-14	जो	जो	PRON	REL	Case=Nom|Gender[psor]=Masc|Number[psor]=Sing|PronType=Prs	22	nsubj	_	ToDo=जो|Translit=jo|LTranslit=jo
+14	जो	जो	PRON	REL	Case=Nom|Gender[psor]=Masc|Number[psor]=Sing|PronType=Prs	22	obj	_	Translit=jo|LTranslit=jo
 15	अध्यक्ष	अध्यक्ष	NOUN	NN	Case=Acc|Number=Sing	22	nsubj	_	Translit=adhyakṣa|LTranslit=adhyakṣa
 16	ने	ने	ADP	IN	Case=Erg	15	case	_	Translit=ne|LTranslit=ne
 17	उन्हें	वह	PRON	PRP	Case=Acc|Number=Plur|Person=3	22	iobj	_	Translit=unheṁ|LTranslit=vaha
@@ -25144,7 +25144,7 @@
 19	भेजने	भेज	VERB	VINF	VerbForm=Inf	21	xcomp	_	Translit=bhejane|LTranslit=bheja
 20	का	का	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	19	case	_	Translit=kā|LTranslit=kā
 21	प्रयास	प्रयास	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	obj	_	Translit=prayāsa|LTranslit=prayāsa
-22	किया	कर	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3	9	acl:relcl	_	Bug=multi-subj|Translit=kiyā|LTranslit=kara
+22	किया	कर	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3	9	acl:relcl	_	Translit=kiyā|LTranslit=kara
 23	था	था	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Past	22	aux	_	SpaceAfter=No|Translit=thā|LTranslit=thā
 24	।	।	PUNCT	.	_	13	punct	_	Translit=.|LTranslit=.
 
@@ -28984,7 +28984,7 @@
 8	किकी	किकी	PROPN	NNP	Gender=Masc|Number=Sing	33	obj	_	Translit=kikī|LTranslit=kikī
 9	डी	डी	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	8	flat:name	_	SpaceAfter=No|Translit=ḍī|LTranslit=ḍī
 10	,	,	PUNCT	,	_	22	punct	_	Translit=,|LTranslit=,
-11	जो	जो	DET	DRE	_	22	nsubj	_	ToDo=जो|Translit=jo|LTranslit=jo
+11	जो	जो	DET	DRE	_	22	obj	_	Translit=jo|LTranslit=jo
 12	कि	कि	SCONJ	IN	_	22	mark	_	Translit=ki|LTranslit=ki
 13	उसके	वह	PRON	PRP$	Case=Acc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	14	nmod:poss	_	Translit=usake|LTranslit=vaha
 14	रिकॉर्ड	रिकॉर्ड	NOUN	NN	Gender=Masc|Number=Sing	22	nsubj	_	Translit=rikôrḍa|LTranslit=rikôrḍa
@@ -28995,7 +28995,7 @@
 19	के	के	ADP	IN	_	18	case	_	Translit=ke|LTranslit=ke
 20	साथ	साथ	ADP	IN	_	19	fixed	_	Translit=sātha|LTranslit=sātha
 21	काम	काम	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	obj	_	Translit=kāma|LTranslit=kāma
-22	करता	कर	VERB	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	8	acl:relcl	_	Bug=multi-subj|Translit=karatā|LTranslit=kara
+22	करता	कर	VERB	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	8	acl:relcl	_	Translit=karatā|LTranslit=kara
 23	था	था	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Past	22	aux	_	SpaceAfter=No|Translit=thā|LTranslit=thā
 24	,	,	PUNCT	,	_	8	punct	_	Translit=,|LTranslit=,
 25	से	से	ADP	IN	Case=Acc	8	case	_	Translit=se|LTranslit=se
