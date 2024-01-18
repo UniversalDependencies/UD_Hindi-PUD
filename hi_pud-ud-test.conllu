@@ -5713,9 +5713,9 @@
 11	रूप	रूप	ADP	IN	_	10	fixed	_	Translit=rūpa|LTranslit=rūpa
 12	में	में	ADP	IN	_	10	fixed	_	Translit=meṁ|LTranslit=meṁ
 13	है	है	VERB	VBI	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No|Translit=hai|LTranslit=hai
-14	,	,	PUNCT	,	_	27	punct	_	Translit=,|LTranslit=,
-15	लेकिन	लेकिन	CCONJ	CC	_	27	cc	_	Translit=lekina|LTranslit=lekina
-16	अमेरिका	अमेरिका	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	27	obl	_	Translit=amerikā|LTranslit=amerikā
+14	,	,	PUNCT	,	_	28	punct	_	Translit=,|LTranslit=,
+15	लेकिन	लेकिन	CCONJ	CC	_	28	cc	_	Translit=lekina|LTranslit=lekina
+16	अमेरिका	अमेरिका	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	28	obl	_	Translit=amerikā|LTranslit=amerikā
 17	में	में	ADP	IN	Case=Loc	16	case	_	Translit=meṁ|LTranslit=meṁ
 18	युद्ध	युद्ध	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	nmod	_	ToDo=nmod|Translit=yuddha|LTranslit=yuddha
 19	से	से	ADP	IN	Case=Acc	18	case	_	Translit=se|LTranslit=se
@@ -5723,12 +5723,12 @@
 21	चुकी	चुक	VERB	VBN	Gender=Fem|Number=Sing	22	acl	_	Translit=cukī|LTranslit=cuka
 22	जनता	जनता	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	24	nmod:poss	_	Translit=janatā|LTranslit=janatā
 23	की	का	ADP	IN	Case=Gen|Gender=Fem	22	case	_	Translit=kī|LTranslit=kā
-24	राय	राय	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	27	obl	_	Translit=rāya|LTranslit=rāya
+24	राय	राय	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	28	obl	_	Translit=rāya|LTranslit=rāya
 25	से	से	ADP	IN	Case=Acc	24	case	_	Translit=se|LTranslit=se
-26	यह	यह	PRON	PDEM	Number=Sing	27	nsubj	_	Translit=yaha|LTranslit=yaha
-27	ठंडा	ठंडा	ADJ	JJ	_	13	conj	_	Translit=ṭhaṁḍā|LTranslit=ṭhaṁḍā
-28	पड़	पड़	AUX	VB	_	27	cop	_	Translit=paṛa|LTranslit=paṛa
-29	जाएगा	जा	AUX	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut	27	aux	_	SpaceAfter=No|Translit=jāegā|LTranslit=jā
+26	यह	यह	PRON	PDEM	Number=Sing	28	nsubj	_	Translit=yaha|LTranslit=yaha
+27	ठंडा	ठंडा	ADJ	JJ	_	28	xcomp	_	Translit=ṭhaṁḍā|LTranslit=ṭhaṁḍā
+28	पड़	पड़	VERB	VB	_	13	conj	_	Translit=paṛa|LTranslit=paṛa
+29	जाएगा	जा	AUX	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut	28	aux	_	SpaceAfter=No|Translit=jāegā|LTranslit=jā
 30	।	।	PUNCT	.	_	13	punct	_	Translit=.|LTranslit=.
 
 # sent_id = n01076030
@@ -11624,18 +11624,18 @@
 13	नियंत्रण	नियंत्रण	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	Translit=niyaṁtraṇa|LTranslit=niyaṁtraṇa
 14	में	में	ADP	IN	Case=Acc	13	case	_	Translit=meṁ|LTranslit=meṁ
 15	था	था	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Translit=thā|LTranslit=thā
-16	,	,	PUNCT	,	_	26	punct	_	Translit=,|LTranslit=,
-17	फिर	फिर	ADV	RB	_	26	advmod	_	Translit=phira|LTranslit=phira
+16	,	,	PUNCT	,	_	27	punct	_	Translit=,|LTranslit=,
+17	फिर	फिर	ADV	RB	_	27	advmod	_	Translit=phira|LTranslit=phira
 18	भी	भी	PART	EMPH	_	17	discourse	_	Translit=bhī|LTranslit=bhī
 19	आइसलैंड	आइसलैंड	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	21	nmod:poss	_	Translit=āisalaiṁḍa|LTranslit=āisalaiṁḍa
 20	की	का	ADP	IN	Case=Gen|Gender=Fem	19	case	_	Translit=kī|LTranslit=kā
-21	भाषा	भाषा	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	26	obl	_	Translit=bhāṣā|LTranslit=bhāṣā
+21	भाषा	भाषा	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	27	obl	_	Translit=bhāṣā|LTranslit=bhāṣā
 22	पर	पर	ADP	IN	Case=Acc	21	case	_	Translit=para|LTranslit=para
 23	इसका	यह	PRON	PRP$	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	24	nmod:poss	_	Translit=isakā|LTranslit=yaha
-24	प्रभाव	प्रभाव	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	26	obj	_	Translit=prabhāva|LTranslit=prabhāva
+24	प्रभाव	प्रभाव	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	27	obj	_	Translit=prabhāva|LTranslit=prabhāva
 25	बहुत	बहुत	ADJ	JJS	_	26	amod	_	Translit=bahuta|LTranslit=bahuta
-26	कम	कम	ADJ	JJ	_	15	parataxis	_	Translit=kama|LTranslit=kama
-27	पड़ा	पड़	AUX	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	26	cop	_	Translit=paṛā|LTranslit=paṛa
+26	कम	कम	ADJ	JJ	_	27	xcomp	_	Translit=kama|LTranslit=kama
+27	पड़ा	पड़	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	15	parataxis	_	Translit=paṛā|LTranslit=paṛa
 28	और	और	CCONJ	CC	_	36	cc	_	Translit=aura|LTranslit=aura
 29	डेनिश	डेनिश	PROPN	NNP	Gender=Masc|Number=Sing	30	amod	_	Translit=ḍeniśa|LTranslit=ḍeniśa
 30	भाषा	भाषा	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	36	obl	_	Translit=bhāṣā|LTranslit=bhāṣā
@@ -14383,8 +14383,8 @@
 6	जब	जब	SCONJ	IN	_	11	mark	_	Translit=jaba|LTranslit=jaba
 7	युआन	युआन	PROPN	NNP	Gender=Masc|Number=Sing	8	compound	_	Translit=yuāna|LTranslit=yuāna
 8	राजवंश	राजवंश	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	Proper=True|Translit=rājavaṁśa|LTranslit=rājavaṁśa
-9	कमजोर	कमजोर	ADJ	JJ	_	11	xcomp	_	Translit=kamajora|LTranslit=kamajora
-10	पड़ने	पड़	AUX	VINF	VerbForm=Inf	9	cop	_	Translit=paṛane|LTranslit=paṛa
+9	कमजोर	कमजोर	ADJ	JJ	_	10	xcomp	_	Translit=kamajora|LTranslit=kamajora
+10	पड़ने	पड़	VERB	VINF	VerbForm=Inf	11	xcomp	_	Translit=paṛane|LTranslit=paṛa
 11	लगा	लग	VERB	VXH	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Tense=Past	24	advcl	_	Translit=lagā|LTranslit=laga
 12	तो	तो	SCONJ	IN	_	24	mark	_	Translit=to|LTranslit=to
 13	राजा	राजा	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	compound	_	Translit=rājā|LTranslit=rājā
@@ -16802,18 +16802,18 @@
 23	ऐसा	ऐसा	PRON	PDEM	Number=Sing	24	obj	_	Translit=aisā|LTranslit=aisā
 24	लगा	लग	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3	13	acl:relcl	_	Translit=lagā|LTranslit=laga
 25	था	था	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Past	24	aux	_	Translit=thā|LTranslit=thā
-26	कि	कि	SCONJ	IN	_	34	mark	_	Translit=ki|LTranslit=ki
+26	कि	कि	SCONJ	IN	_	35	mark	_	Translit=ki|LTranslit=ki
 27	युद्ध	युद्ध	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	31	nmod:poss	_	Translit=yuddha|LTranslit=yuddha
 28	के	का	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	27	case	_	Translit=ke|LTranslit=kā
 29	पहले	पहला	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	31	amod	_	Translit=pahale|LTranslit=pahalā
 30	दो	दो	NUM	CD	NumType=Card	31	nummod	_	Translit=do|LTranslit=do
-31	वर्षों	वर्ष	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	34	obl:tmod	_	Translit=varṣoṁ|LTranslit=varṣa
+31	वर्षों	वर्ष	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	35	obl:tmod	_	Translit=varṣoṁ|LTranslit=varṣa
 32	में	में	ADP	IN	Case=Loc	31	case	_	Translit=meṁ|LTranslit=meṁ
-33	वे	वह	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	34	nsubj	_	Translit=ve|LTranslit=vaha
-34	भारी	भारी	ADJ	JJ	_	23	acl	_	Translit=bhārī|LTranslit=bhārī
-35	पड़	पड़	AUX	VB	_	34	cop	_	Translit=paṛa|LTranslit=paṛa
-36	रहे	रह	AUX	VXH	Aspect=Prog|Gender=Masc|Mood=Ind|Number=Plur|Person=3	34	aux	_	Translit=rahe|LTranslit=raha
-37	थे	था	AUX	VXH	Gender=Masc|Number=Plur|Person=3|Tense=Past	34	aux	_	SpaceAfter=No|Translit=the|LTranslit=thā
+33	वे	वह	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	35	nsubj	_	Translit=ve|LTranslit=vaha
+34	भारी	भारी	ADJ	JJ	_	35	xcomp	_	Translit=bhārī|LTranslit=bhārī
+35	पड़	पड़	VERB	VB	_	23	acl	_	Translit=paṛa|LTranslit=paṛa
+36	रहे	रह	AUX	VXH	Aspect=Prog|Gender=Masc|Mood=Ind|Number=Plur|Person=3	35	aux	_	Translit=rahe|LTranslit=raha
+37	थे	था	AUX	VXH	Gender=Masc|Number=Plur|Person=3|Tense=Past	35	aux	_	SpaceAfter=No|Translit=the|LTranslit=thā
 38	।	।	PUNCT	.	_	20	punct	_	Translit=.|LTranslit=.
 
 # newdoc id = w01078
