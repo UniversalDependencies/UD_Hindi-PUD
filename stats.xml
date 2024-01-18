@@ -18,7 +18,7 @@
     <tag name="ADJ">1995</tag><!-- नया, सबसे, पहला, शामिल, प्राप्त, स्थापित, अन्य, अमेरिकी, दूसरा, अच्छा -->
     <tag name="ADP">4849</tag><!-- का, में, के, से, को, ने, पर, लिए, तक, साथ -->
     <tag name="ADV">159</tag><!-- फिर, कभी, वापस, लगातार, शायद, अंततः, अक्सर, आखिरकार, तुरंत, संभवतः -->
-    <tag name="AUX">1776</tag><!-- है, जा, था, हो, दे, सक, रह, कर, ले, पड़ -->
+    <tag name="AUX">1642</tag><!-- है, जा, था, दे, सक, रह, हो, ले, पड़, चुक -->
     <tag name="CCONJ">545</tag><!-- और, लेकिन, या, एवं, तथा, एंड, बहरहाल -->
     <tag name="DET">876</tag><!-- एक, यह, वह, कई, कोई, बहुत, ज्यादा, लगभग, कम, केवल -->
     <tag name="NOUN">5597</tag><!-- वर्ष, लोग, रूप, समय, क्षेत्र, शुरू, काम, दिन, साल, शहर -->
@@ -29,7 +29,7 @@
     <tag name="PUNCT">2297</tag><!-- ।, ,, ", -, (, ), ', :, ;, “ -->
     <tag name="SCONJ">382</tag><!-- कि, तो, जब, क्योंकि, हालांकि, यदि, जबकि, इसलिए, जैसे, जहाँ -->
     <tag name="SYM">30</tag><!-- %, £, € -->
-    <tag name="VERB">2058</tag><!-- कर, हो, है, था, दे, कह, रह, आ, मिल, ले -->
+    <tag name="VERB">2192</tag><!-- कर, हो, है, था, दे, कह, रह, आ, मिल, ले -->
     <tag name="X">11</tag><!-- वीं, आनन, ए, कि, थ़ॉट, न्यू, पहला, भरकम, यह, या -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -91,7 +91,7 @@
     <dep name="compound:lvc">447</dep>
     <dep name="compound:redup">14</dep>
     <dep name="conj">599</dep>
-    <dep name="cop">362</dep>
+    <dep name="cop">228</dep>
     <dep name="dep">65</dep>
     <dep name="det">791</dep>
     <dep name="discourse">165</dep>
@@ -113,6 +113,6 @@
     <dep name="parataxis">94</dep>
     <dep name="punct">2297</dep>
     <dep name="root">1000</dep>
-    <dep name="xcomp">172</dep>
+    <dep name="xcomp">306</dep>
   </deps>
 </treebank>

@@ -39,6 +39,7 @@ employ ten-fold cross-validation.
 * 2024-05-15 v2.14
   * Added sentence transliteration.
   * Added lemmas predicted by UDPipe trained on UD Hindi HDTB 2.12.
+  * The light verbs कर and हो are no longer analyzed as copulas.
 * 2021-05-15 v2.8
   * Relation det:predet changed to just det. The subtype is not needed
     and is not used in the other Hindi treebanks.
