@@ -41,6 +41,7 @@ employ ten-fold cross-validation.
   * Added lemmas predicted by UDPipe trained on UD Hindi HDTB 2.12.
   * The light verbs कर and हो are no longer analyzed as copulas.
   * Some other pseudo-auxiliaries reanalyzed using xcomp.
+  * The Animacy feature is not used in Hindi.
 * 2021-05-15 v2.8
   * Relation det:predet changed to just det. The subtype is not needed
     and is not used in the other Hindi treebanks.
