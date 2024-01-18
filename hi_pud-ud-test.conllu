@@ -739,12 +739,12 @@
 5	ने	ने	ADP	IN	Case=Erg	4	case	_	Translit=ne|LTranslit=ne
 6	रोना	रोना	VERB	VINF	VerbForm=Inf	8	xcomp	_	Translit=ronā|LTranslit=ronā
 7	शुरू	शुरू	NOUN	NN	Gender=Masc|Number=Sing	8	compound:lvc	_	Translit=śurū|LTranslit=śurū
-8	किया	कर	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Bug=multi-subj|Translit=kiyā|LTranslit=kara
-9	,	,	PUNCT	,	_	10	punct	_	Translit=,|LTranslit=,
-10	फिर	फिर	ADV	RB	_	8	advmod	_	Translit=phira|LTranslit=phira
+8	किया	कर	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Translit=kiyā|LTranslit=kara
+9	,	,	PUNCT	,	_	13	punct	_	Translit=,|LTranslit=,
+10	फिर	फिर	ADV	RB	_	13	advmod	_	Translit=phira|LTranslit=phira
 11	उसकी	वह	PRON	PRP$	Animacy=Anim|Case=Nom|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	13	nmod:poss	_	Translit=usakī|LTranslit=vaha
 12	एक	एक	DET	DT	Definite=Ind|Number=Sing	13	det	_	Translit=eka|LTranslit=eka
-13	दोस्त	दोस्त	NOUN	NN	Animacy=Anim|Case=Acc|Number=Sing	8	nsubj	_	Translit=dosta|LTranslit=dosta
+13	दोस्त	दोस्त	NOUN	NN	Animacy=Anim|Case=Acc|Number=Sing	8	conj	_	Translit=dosta|LTranslit=dosta
 14	ने	ने	ADP	IN	Case=Erg	13	case	_	SpaceAfter=No|Translit=ne|LTranslit=ne
 15	।	।	PUNCT	.	_	8	punct	_	Translit=.|LTranslit=.
 
