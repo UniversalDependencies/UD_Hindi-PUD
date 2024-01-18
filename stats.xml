@@ -10,15 +10,15 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>1000</sentences><tokens>23829</tokens><words>23829</words><fused>0</fused></test>
   </size>
-  <lemmas unique="4374" /><!-- का, ।, में, ,, है, कर, के, वह, और, से, जा, को, यह, हो, था -->
+  <lemmas unique="4373" /><!-- का, ।, में, ,, है, कर, के, वह, और, से, जा, को, यह, हो, था -->
   <forms unique="5151" /><!-- के, ।, में, ,, है, की, और, से, को, का, ने, एक, कि, पर, हैं -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
     <tag name="ADJ">1995</tag><!-- नया, सबसे, पहला, शामिल, प्राप्त, स्थापित, अन्य, अमेरिकी, दूसरा, अच्छा -->
-    <tag name="ADP">4849</tag><!-- का, में, के, से, को, ने, पर, लिए, तक, साथ -->
-    <tag name="ADV">159</tag><!-- फिर, कभी, वापस, लगातार, शायद, अंततः, अक्सर, आखिरकार, तुरंत, संभवतः -->
-    <tag name="AUX">1369</tag><!-- है, जा, था, सक, रह, पड़, चाहिए, पा, जान -->
+    <tag name="ADP">4847</tag><!-- का, में, के, से, को, ने, पर, लिए, तक, साथ -->
+    <tag name="ADV">161</tag><!-- फिर, कभी, वापस, लगातार, शायद, अंततः, अक्सर, आखिरकार, तुरंत, संभवतः -->
+    <tag name="AUX">1366</tag><!-- है, जा, था, सक, रह, पड़, चाहिए, पा -->
     <tag name="CCONJ">545</tag><!-- और, लेकिन, या, एवं, तथा, एंड, बहरहाल -->
     <tag name="DET">876</tag><!-- एक, यह, वह, कई, कोई, बहुत, ज्यादा, लगभग, कम, केवल -->
     <tag name="NOUN">5597</tag><!-- वर्ष, लोग, रूप, समय, क्षेत्र, शुरू, काम, दिन, साल, शहर -->
@@ -29,7 +29,7 @@
     <tag name="PUNCT">2297</tag><!-- ।, ,, ", -, (, ), ', :, ;, “ -->
     <tag name="SCONJ">382</tag><!-- कि, तो, जब, क्योंकि, हालांकि, यदि, जबकि, इसलिए, जैसे, जहाँ -->
     <tag name="SYM">30</tag><!-- %, £, € -->
-    <tag name="VERB">2465</tag><!-- कर, हो, दे, है, था, कह, ले, आ, रह, बना -->
+    <tag name="VERB">2468</tag><!-- कर, हो, दे, है, था, कह, ले, आ, रह, बना -->
     <tag name="X">11</tag><!-- वीं, आनन, ए, कि, थ़ॉट, न्यू, पहला, भरकम, यह, या -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -77,23 +77,23 @@
     <dep name="acl">338</dep>
     <dep name="acl:relcl">215</dep>
     <dep name="advcl">200</dep>
-    <dep name="advmod">379</dep>
+    <dep name="advmod">381</dep>
     <dep name="amod">1413</dep>
     <dep name="appos">111</dep>
-    <dep name="aux">988</dep>
+    <dep name="aux">989</dep>
     <dep name="aux:pass">203</dep>
-    <dep name="case">4075</dep>
+    <dep name="case">4076</dep>
     <dep name="cc">547</dep>
     <dep name="ccomp">153</dep>
-    <dep name="compound">815</dep>
+    <dep name="compound">816</dep>
     <dep name="compound:lvc">447</dep>
     <dep name="compound:redup">14</dep>
     <dep name="conj">600</dep>
-    <dep name="cop">178</dep>
+    <dep name="cop">174</dep>
     <dep name="dep">65</dep>
     <dep name="det">791</dep>
     <dep name="discourse">165</dep>
-    <dep name="fixed">782</dep>
+    <dep name="fixed">778</dep>
     <dep name="flat">4</dep>
     <dep name="flat:name">206</dep>
     <dep name="iobj">178</dep>
@@ -111,6 +111,6 @@
     <dep name="parataxis">94</dep>
     <dep name="punct">2297</dep>
     <dep name="root">1000</dep>
-    <dep name="xcomp">581</dep>
+    <dep name="xcomp">584</dep>
   </deps>
 </treebank>

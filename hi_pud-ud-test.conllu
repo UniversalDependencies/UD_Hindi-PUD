@@ -17958,9 +17958,9 @@
 20	किया	कर	VERB	VBI	Gender=Masc|Number=Sing|Person=3	0	root	_	Translit=kiyā|LTranslit=kara
 21	जाता	जा	AUX	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	20	aux:pass	_	Translit=jātā|LTranslit=jā
 22	था	था	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Past	20	aux	_	SpaceAfter=No|Translit=thā|LTranslit=thā
-23	,	,	PUNCT	,	_	24	punct	_	Translit=,|LTranslit=,
-24	जीवित	जीवित	ADJ	JJ	_	20	parataxis	_	Translit=jīvita|LTranslit=jīvita
-25	रहते	रह	AUX	VBN	Number=Plur	24	cop	_	Translit=rahate|LTranslit=raha
+23	,	,	PUNCT	,	_	25	punct	_	Translit=,|LTranslit=,
+24	जीवित	जीवित	ADJ	JJ	_	25	xcomp	_	Translit=jīvita|LTranslit=jīvita
+25	रहते	रह	VERB	VBN	Number=Plur	20	parataxis	_	Translit=rahate|LTranslit=raha
 26	और	और	CCONJ	CC	_	27	cc	_	Translit=aura|LTranslit=aura
 27	मरणोपरान्त	मरणोपरान्त	ADJ	JJ	_	24	conj	_	Translit=maraṇoparānta|LTranslit=maraṇoparānta
 28	भी	भी	PART	EMPH	_	27	discourse	_	SpaceAfter=No|Translit=bhī|LTranslit=bhī
@@ -22317,22 +22317,22 @@
 # text = क्योंकि सीरीज 1 अब पुरानी नहीं रही, कई उपयोगकर्ता 100 यूरो बचा सकते हैं।
 # translit = kyoṁki sīrīja 1 aba purānī nahīṁ rahī, kaī upayogakartā 100 yūro bacā sakate haiṁ.
 # text_en = Because series 1 is no longer the old one, many users can save 100 euros.
-1	क्योंकि	क्योंकि	SCONJ	IN	_	5	mark	_	Translit=kyoṁki|LTranslit=kyoṁki
-2	सीरीज	सीरीज	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	obj	_	Translit=sīrīja|LTranslit=sīrīja
+1	क्योंकि	क्योंकि	SCONJ	IN	_	7	mark	_	Translit=kyoṁki|LTranslit=kyoṁki
+2	सीरीज	सीरीज	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	obj	_	Translit=sīrīja|LTranslit=sīrīja
 3	1	1	NUM	CD	NumType=Card	2	nummod	_	Translit=1|LTranslit=1
-4	अब	अब	NOUN	NST	_	5	obl	_	Translit=aba|LTranslit=aba
-5	पुरानी	पुराना	ADJ	JJ	Gender=Fem	0	root	_	Translit=purānī|LTranslit=purānā
-6	नहीं	नहीं	PART	NEG	Polarity=Neg	5	advmod	_	Translit=nahīṁ|LTranslit=nahīṁ
-7	रही	रह	AUX	VBI	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Past	5	cop	_	SpaceAfter=No|Translit=rahī|LTranslit=raha
+4	अब	अब	NOUN	NST	_	7	obl	_	Translit=aba|LTranslit=aba
+5	पुरानी	पुराना	ADJ	JJ	Gender=Fem	7	xcomp	_	Translit=purānī|LTranslit=purānā
+6	नहीं	नहीं	PART	NEG	Polarity=Neg	7	advmod	_	Translit=nahīṁ|LTranslit=nahīṁ
+7	रही	रह	VERB	VBI	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Translit=rahī|LTranslit=raha
 8	,	,	PUNCT	,	_	13	punct	_	Translit=,|LTranslit=,
 9	कई	कई	DET	QF	_	10	det	_	Translit=kaī|LTranslit=kaī
 10	उपयोगकर्ता	उपयोगकर्ता	NOUN	NN	Case=Nom|Number=Plur	13	nsubj	_	Translit=upayogakartā|LTranslit=upayogakartā
 11	100	100	NUM	CD	NumType=Card	12	nummod	_	Translit=100|LTranslit=100
 12	यूरो	यूरो	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	13	obj	_	Translit=yūro|LTranslit=yūro
-13	बचा	बचा	VERB	VB	_	5	parataxis	_	Translit=bacā|LTranslit=bacā
+13	बचा	बचा	VERB	VB	_	7	parataxis	_	Translit=bacā|LTranslit=bacā
 14	सकते	सक	AUX	VXH	Aspect=Imp|Mood=Ind|Number=Plur|Person=3	13	aux	_	Translit=sakate|LTranslit=saka
 15	हैं	है	AUX	VXH	Number=Plur|Person=3|Tense=Pres	13	aux	_	SpaceAfter=No|Translit=haiṁ|LTranslit=hai
-16	।	।	PUNCT	.	_	5	punct	_	Translit=.|LTranslit=.
+16	।	।	PUNCT	.	_	7	punct	_	Translit=.|LTranslit=.
 
 # newdoc id = n02017
 # sent_id = n02017008
@@ -25015,11 +25015,11 @@
 # text = यूनियनें बहुत जुझारू रही हैं और कई मौकों पर उन्होंने उस कानून को भंग करने का आह्वान किया जिसपर फातिमा बानेज को गर्व है।
 # translit = yūniyaneṁ bahuta jujhārū rahī haiṁ aura kaī maukoṁ para unhoṁne usa kānūna ko bhaṁga karane kā āhvāna kiyā jisapara phātimā bāneja ko garva hai.
 # text_en = The unions have been very combative and on several occasions have called for the repeal of the legislation that Fátima Báñez is proudest of.
-1	यूनियनें	यूनियन	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	Translit=yūniyaneṁ|LTranslit=yūniyana
-2	बहुत	बहुत	DET	QF	_	3	advmod	_	Translit=bahuta|LTranslit=bahuta
-3	जुझारू	जुझारू	ADJ	JJ	_	0	root	_	Translit=jujhārū|LTranslit=jujhārū
-4	रही	रह	AUX	VBI	Aspect=Prog|Gender=Fem|Mood=Ind|Number=Plur|Person=3	3	cop	_	Translit=rahī|LTranslit=raha
-5	हैं	है	AUX	VXH	Gender=Fem|Number=Plur|Person=3|Tense=Pres	3	aux	_	Translit=haiṁ|LTranslit=hai
+1	यूनियनें	यूनियन	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	Translit=yūniyaneṁ|LTranslit=yūniyana
+2	बहुत	बहुत	DET	QF	_	4	advmod	_	Translit=bahuta|LTranslit=bahuta
+3	जुझारू	जुझारू	ADJ	JJ	_	4	xcomp	_	Translit=jujhārū|LTranslit=jujhārū
+4	रही	रह	VERB	VBI	Aspect=Prog|Gender=Fem|Mood=Ind|Number=Plur|Person=3	0	root	_	Translit=rahī|LTranslit=raha
+5	हैं	है	AUX	VXH	Gender=Fem|Number=Plur|Person=3|Tense=Pres	4	aux	_	Translit=haiṁ|LTranslit=hai
 6	और	और	CCONJ	CC	_	18	cc	_	Translit=aura|LTranslit=aura
 7	कई	कई	DET	QF	_	8	det	_	Translit=kaī|LTranslit=kaī
 8	मौकों	मौका	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	18	obl	_	Translit=maukoṁ|LTranslit=maukā
@@ -25039,7 +25039,7 @@
 22	को	को	ADP	IN	Case=Acc	20	case	_	Translit=ko|LTranslit=ko
 23	गर्व	गर्व	NOUN	NN	Gender=Masc|Number=Sing	12	acl:relcl	_	Translit=garva|LTranslit=garva
 24	है	है	AUX	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres	23	cop	_	SpaceAfter=No|Translit=hai|LTranslit=hai
-25	।	।	PUNCT	.	_	3	punct	_	Translit=.|LTranslit=.
+25	।	।	PUNCT	.	_	4	punct	_	Translit=.|LTranslit=.
 
 # sent_id = n05002020
 # text = यह विभाग अब नयी चुनौतियों का सामना कर रहा है।
