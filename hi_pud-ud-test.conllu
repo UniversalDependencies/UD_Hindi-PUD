@@ -13701,22 +13701,22 @@
 2	के	का	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	1	case	_	Translit=ke|LTranslit=kā
 3	तत्कालीन	तत्कालीन	ADJ	JJ	_	4	amod	_	Translit=tatkālīna|LTranslit=tatkālīna
 4	मेयर	मेयर	NOUN	NN	Case=Nom|Number=Sing	5	compound	_	Translit=meyara|LTranslit=meyara
-5	सैलिएन	सैलिएन	PROPN	NNP	Gender=Masc|Number=Sing	16	obl:agent	_	Translit=sailiena|LTranslit=sailiena
+5	सैलिएन	सैलिएन	PROPN	NNP	Gender=Masc|Number=Sing	17	obl:agent	_	Translit=sailiena|LTranslit=sailiena
 6	एटकिंसन	एटकिंसन	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	5	flat:name	_	Translit=eṭakiṁsana|LTranslit=eṭakiṁsana
 7	द्वारा	द्वारा	ADP	IN	Case=Ins	5	case	_	Translit=dvārā|LTranslit=dvārā
 8	सन	सन	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	compound	_	Translit=sana|LTranslit=sana
-9	1987	1987	NUM	CD	NumType=Card	16	iobj	_	Translit=1987|LTranslit=1987
+9	1987	1987	NUM	CD	NumType=Card	17	iobj	_	Translit=1987|LTranslit=1987
 10	को	को	ADP	IN	Case=Acc	9	case	_	Translit=ko|LTranslit=ko
 11	"	"	PUNCT	``	_	14	punct	_	SpaceAfter=No|Translit="|LTranslit="
 12	नदी	नदी	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	nmod:poss	_	Translit=nadī|LTranslit=nadī
 13	का	का	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	12	case	_	Translit=kā|LTranslit=kā
-14	वर्ष	वर्ष	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No|Translit=varṣa|LTranslit=varṣa
+14	वर्ष	वर्ष	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No|Translit=varṣa|LTranslit=varṣa
 15	"	"	PUNCT	``	_	14	punct	_	Translit="|LTranslit="
-16	घोषित	घोषित	ADJ	JJ	_	0	root	_	Translit=ghoṣita|LTranslit=ghoṣita
-17	कियकिया	कियकर	AUX	VBI	Gender=Masc|Number=Sing|Person=3	16	cop	_	Translit=kiyakiyā|LTranslit=kiyakara
-18	गया	जा	AUX	VXH	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3	16	aux:pass	_	Translit=gayā|LTranslit=jā
-19	था	था	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Past	16	aux	_	SpaceAfter=No|Translit=thā|LTranslit=thā
-20	।	।	PUNCT	.	_	16	punct	_	Translit=.|LTranslit=.
+16	घोषित	घोषित	ADJ	JJ	_	17	xcomp	_	Translit=ghoṣita|LTranslit=ghoṣita
+17	कियकिया	कियकर	VERB	VBI	Gender=Masc|Number=Sing|Person=3	0	root	_	Translit=kiyakiyā|LTranslit=kiyakara
+18	गया	जा	AUX	VXH	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3	17	aux:pass	_	Translit=gayā|LTranslit=jā
+19	था	था	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Past	17	aux	_	SpaceAfter=No|Translit=thā|LTranslit=thā
+20	।	।	PUNCT	.	_	17	punct	_	Translit=.|LTranslit=.
 
 # newdoc id = w01040
 # sent_id = w01040100
