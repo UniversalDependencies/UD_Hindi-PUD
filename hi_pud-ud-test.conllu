@@ -10629,8 +10629,8 @@
 4	रूपांतरण	रूपांतरण	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	obj	_	Translit=rūpāṁtaraṇa|LTranslit=rūpāṁtaraṇa
 5	सफल	सफल	ADJ	JJ	_	0	root	_	Translit=saphala|LTranslit=saphala
 6	नहीं	नहीं	PART	NEG	Polarity=Neg	5	advmod	_	Translit=nahīṁ|LTranslit=nahīṁ
-7	रहे	रह	AUX	VBI	Aspect=Prog|Gender=Masc|Mood=Ind|Number=Plur|Person=3	5	cop	_	Translit=rahe|LTranslit=raha
-8	हैं	है	AUX	VXH	Gender=Masc|Number=Plur|Person=3|Tense=Pres	5	aux	_	SpaceAfter=No|Translit=haiṁ|LTranslit=hai
+7	रहे	रह	AUX	VBI	Aspect=Prog|Gender=Masc|Mood=Ind|Number=Plur|Person=3	5	aux	_	Translit=rahe|LTranslit=raha
+8	हैं	है	AUX	VXH	Gender=Masc|Number=Plur|Person=3|Tense=Pres	5	cop	_	SpaceAfter=No|Translit=haiṁ|LTranslit=hai
 9	।	।	PUNCT	.	_	5	punct	_	Translit=.|LTranslit=.
 
 # newdoc id = n01149
