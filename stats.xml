@@ -10,27 +10,27 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>1000</sentences><tokens>23829</tokens><words>23829</words><fused>0</fused></test>
   </size>
-  <lemmas unique="0" /><!--  -->
+  <lemmas unique="4374" /><!-- का, ।, में, ,, है, कर, के, वह, और, से, जा, को, यह, हो, था -->
   <forms unique="5151" /><!-- के, ।, में, ,, है, की, और, से, को, का, ने, एक, कि, पर, हैं -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">1995</tag><!-- _ -->
-    <tag name="ADP">4849</tag><!-- _ -->
-    <tag name="ADV">159</tag><!-- _ -->
-    <tag name="AUX">1776</tag><!-- _ -->
-    <tag name="CCONJ">545</tag><!-- _ -->
-    <tag name="DET">876</tag><!-- _ -->
-    <tag name="NOUN">5597</tag><!-- _ -->
-    <tag name="NUM">452</tag><!-- _ -->
-    <tag name="PART">316</tag><!-- _ -->
-    <tag name="PRON">1128</tag><!-- _ -->
-    <tag name="PROPN">1358</tag><!-- _ -->
-    <tag name="PUNCT">2297</tag><!-- _ -->
-    <tag name="SCONJ">382</tag><!-- _ -->
-    <tag name="SYM">30</tag><!-- _ -->
-    <tag name="VERB">2058</tag><!-- _ -->
-    <tag name="X">11</tag><!-- _ -->
+    <tag name="ADJ">1995</tag><!-- नया, सबसे, पहला, शामिल, प्राप्त, स्थापित, अन्य, अमेरिकी, दूसरा, अच्छा -->
+    <tag name="ADP">4849</tag><!-- का, में, के, से, को, ने, पर, लिए, तक, साथ -->
+    <tag name="ADV">159</tag><!-- फिर, कभी, वापस, लगातार, शायद, अंततः, अक्सर, आखिरकार, तुरंत, संभवतः -->
+    <tag name="AUX">1776</tag><!-- है, जा, था, हो, दे, सक, रह, कर, ले, पड़ -->
+    <tag name="CCONJ">545</tag><!-- और, लेकिन, या, एवं, तथा, एंड, बहरहाल -->
+    <tag name="DET">876</tag><!-- एक, यह, वह, कई, कोई, बहुत, ज्यादा, लगभग, कम, केवल -->
+    <tag name="NOUN">5597</tag><!-- वर्ष, लोग, रूप, समय, क्षेत्र, शुरू, काम, दिन, साल, शहर -->
+    <tag name="NUM">452</tag><!-- दो, तीन, एक, मिलियन, चार, 1, 10, 3, छह, दस -->
+    <tag name="PART">316</tag><!-- नहीं, भी, ही, ईसा, पूर्व, भर, न, सुश्री, बगैर, श्रीमान -->
+    <tag name="PRON">1128</tag><!-- वह, यह, जो, अपना, मैं, हम, आप, क्या, ऐसा, जहाँ -->
+    <tag name="PROPN">1358</tag><!-- अमेरिका, चीन, ब्रिटेन, ट्रम्प, फ्रांस, यूरोप, इटली, मिस्र, रूस, हांगकांग -->
+    <tag name="PUNCT">2297</tag><!-- ।, ,, ", -, (, ), ', :, ;, “ -->
+    <tag name="SCONJ">382</tag><!-- कि, तो, जब, क्योंकि, हालांकि, यदि, जबकि, इसलिए, जैसे, जहाँ -->
+    <tag name="SYM">30</tag><!-- %, £, € -->
+    <tag name="VERB">2058</tag><!-- कर, हो, है, था, दे, कह, रह, आ, मिल, ले -->
+    <tag name="X">11</tag><!-- वीं, आनन, ए, कि, थ़ॉट, न्यू, पहला, भरकम, यह, या -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="39">
