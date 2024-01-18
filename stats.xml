@@ -18,7 +18,7 @@
     <tag name="ADJ">1995</tag><!-- नया, सबसे, पहला, शामिल, प्राप्त, स्थापित, अन्य, अमेरिकी, दूसरा, अच्छा -->
     <tag name="ADP">4849</tag><!-- का, में, के, से, को, ने, पर, लिए, तक, साथ -->
     <tag name="ADV">159</tag><!-- फिर, कभी, वापस, लगातार, शायद, अंततः, अक्सर, आखिरकार, तुरंत, संभवतः -->
-    <tag name="AUX">1421</tag><!-- है, जा, था, सक, रह, पड़, चाहिए, आ, पा, लग -->
+    <tag name="AUX">1386</tag><!-- है, जा, था, सक, रह, पड़, चाहिए, पा, अपुलियाई, कियकर -->
     <tag name="CCONJ">545</tag><!-- और, लेकिन, या, एवं, तथा, एंड, बहरहाल -->
     <tag name="DET">876</tag><!-- एक, यह, वह, कई, कोई, बहुत, ज्यादा, लगभग, कम, केवल -->
     <tag name="NOUN">5597</tag><!-- वर्ष, लोग, रूप, समय, क्षेत्र, शुरू, काम, दिन, साल, शहर -->
@@ -29,24 +29,24 @@
     <tag name="PUNCT">2297</tag><!-- ।, ,, ", -, (, ), ', :, ;, “ -->
     <tag name="SCONJ">382</tag><!-- कि, तो, जब, क्योंकि, हालांकि, यदि, जबकि, इसलिए, जैसे, जहाँ -->
     <tag name="SYM">30</tag><!-- %, £, € -->
-    <tag name="VERB">2413</tag><!-- कर, हो, दे, है, था, कह, ले, रह, आ, बना -->
+    <tag name="VERB">2448</tag><!-- कर, हो, दे, है, था, कह, ले, आ, रह, बना -->
     <tag name="X">11</tag><!-- वीं, आनन, ए, कि, थ़ॉट, न्यू, पहला, भरकम, यह, या -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="39">
     <feat name="Animacy" value="Anim" upos="AUX,NOUN,PRON,PROPN">1693</feat><!-- वह, उसने, लोगों, उसके, उसे, उसकी, उसका, व्यक्ति, मैं, लोग -->
-    <feat name="Animacy" value="Inan" upos="AUX,NOUN,PRON,PROPN">5392</feat><!-- रूप, वर्ष, समय, क्षेत्र, साल, तरह, बार, युद्ध, अमेरिका, उपयोग -->
+    <feat name="Animacy" value="Inan" upos="AUX,NOUN,PRON,PROPN,VERB">5392</feat><!-- रूप, वर्ष, समय, क्षेत्र, साल, तरह, बार, युद्ध, अमेरिका, उपयोग -->
     <feat name="Aspect" value="Imp" upos="AUX,VERB">801</feat><!-- है, हैं, जाता, सकता, करता, होता, करते, होती, सकते, होगा -->
     <feat name="Aspect" value="Perf" upos="AUX,VERB">944</feat><!-- गया, किया, था, गयी, कहा, थी, दिया, की, हुआ, थे -->
     <feat name="Aspect" value="Prog" upos="AUX,VERB">71</feat><!-- रहे, रहा, रही, हुए, फिशिंग -->
     <feat name="Case" value="Abl" upos="ADP">1</feat><!-- से -->
-    <feat name="Case" value="Acc" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN">5065</feat><!-- को, से, में, पर, अपने, उसने, रूप, लोगों, उसके, उसे -->
+    <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,PRON,PROPN,VERB">5065</feat><!-- को, से, में, पर, अपने, उसने, रूप, लोगों, उसके, उसे -->
     <feat name="Case" value="Dat" upos="ADP">2</feat><!-- को -->
     <feat name="Case" value="Erg" upos="ADP">256</feat><!-- ने, के -->
     <feat name="Case" value="Gen" upos="ADP">1215</feat><!-- के, की, का, ऑफ, आफ -->
     <feat name="Case" value="Ins" upos="ADP">42</feat><!-- द्वारा, से -->
     <feat name="Case" value="Loc" upos="ADP">593</feat><!-- में, पर, से, को, तक, इन, एट, ओवर, मे -->
-    <feat name="Case" value="Nom" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN">2880</feat><!-- जो, वह, अपनी, वर्ष, उसकी, उसका, समय, बार, मैं, साल -->
+    <feat name="Case" value="Nom" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN,VERB">2880</feat><!-- जो, वह, अपनी, वर्ष, उसकी, उसका, समय, बार, मैं, साल -->
     <feat name="Definite" value="Def" upos="DET">237</feat><!-- इस, यह, उस, इन, उन, ऐसा, द, उसी, ऐसे, ऐसी -->
     <feat name="Definite" value="Ind" upos="DET">208</feat><!-- एक, ए, उन, द, दि, वह, वैसा -->
     <feat name="Foreign" value="Yes" upos="X">3</feat><!-- थ़ॉट, न्यू, या -->
@@ -82,7 +82,7 @@
     <dep name="advmod">379</dep>
     <dep name="amod">1413</dep>
     <dep name="appos">111</dep>
-    <dep name="aux">1002</dep>
+    <dep name="aux">991</dep>
     <dep name="aux:pass">203</dep>
     <dep name="case">4075</dep>
     <dep name="cc">547</dep>
@@ -91,7 +91,7 @@
     <dep name="compound:lvc">447</dep>
     <dep name="compound:redup">14</dep>
     <dep name="conj">599</dep>
-    <dep name="cop">216</dep>
+    <dep name="cop">192</dep>
     <dep name="dep">65</dep>
     <dep name="det">791</dep>
     <dep name="discourse">165</dep>
@@ -113,6 +113,6 @@
     <dep name="parataxis">94</dep>
     <dep name="punct">2297</dep>
     <dep name="root">1000</dep>
-    <dep name="xcomp">527</dep>
+    <dep name="xcomp">562</dep>
   </deps>
 </treebank>

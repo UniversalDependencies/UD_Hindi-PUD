@@ -2706,11 +2706,11 @@
 8	,	,	PUNCT	,	_	9	punct	_	Translit=,|LTranslit=,
 9	असहयोगी	असहयोगी	ADJ	JJ	_	7	conj	_	Translit=asahayogī|LTranslit=asahayogī
 10	था	था	AUX	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	7	cop	_	Translit=thā|LTranslit=thā
-11	और	और	CCONJ	CC	_	29	cc	_	Translit=aura|LTranslit=aura
+11	और	और	CCONJ	CC	_	30	cc	_	Translit=aura|LTranslit=aura
 12	अपने	अपना	PRON	PRR	Case=Acc|Gender=Masc|Number=Sing	13	nmod:poss	_	Translit=apane|LTranslit=apanā
-13	मामले	मामला	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	obl	_	Translit=māmale|LTranslit=māmalā
+13	मामले	मामला	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obl	_	Translit=māmale|LTranslit=māmalā
 14	में	में	ADP	IN	Case=Acc	13	case	_	Translit=meṁ|LTranslit=meṁ
-15	सुनवाई	सुनवाई	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	29	obl	_	Translit=sunavāī|LTranslit=sunavāī
+15	सुनवाई	सुनवाई	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	30	obl	_	Translit=sunavāī|LTranslit=sunavāī
 16	के	के	ADP	IN	_	15	case	_	Translit=ke|LTranslit=ke
 17	लिए	लिए	ADP	IN	_	16	fixed	_	Translit=lie|LTranslit=lie
 18	अदालत	अदालत	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	nmod:poss	_	Translit=adālata|LTranslit=adālata
@@ -2724,9 +2724,9 @@
 26	जाने	जा	AUX	VXH	_	25	aux	_	Translit=jāne|LTranslit=jā
 27	के	के	ADP	IN	_	25	case	_	Translit=ke|LTranslit=ke
 28	प्रति	प्रति	ADP	IN	_	27	fixed	_	Translit=prati|LTranslit=prati
-29	अनिच्छुक	अनिच्छुक	ADJ	JJ	_	7	conj	_	Translit=anicchuka|LTranslit=anicchuka
-30	ऱहता	ऱह	AUX	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	29	cop	_	Translit=ṟahatā|LTranslit=ṟaha
-31	था	था	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Past	29	aux	_	SpaceAfter=No|Translit=thā|LTranslit=thā
+29	अनिच्छुक	अनिच्छुक	ADJ	JJ	_	30	xcomp	_	Translit=anicchuka|LTranslit=anicchuka
+30	ऱहता	ऱह	VERB	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	7	conj	_	Translit=ṟahatā|LTranslit=ṟaha
+31	था	था	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Past	30	aux	_	SpaceAfter=No|Translit=thā|LTranslit=thā
 32	।	।	PUNCT	.	_	4	punct	_	Translit=.|LTranslit=.
 
 # newdoc id = n01036
@@ -3872,8 +3872,8 @@
 12	के	का	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	11	case	_	Translit=ke|LTranslit=kā
 13	स्तर	स्तर	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	iobj	_	Translit=stara|LTranslit=stara
 14	को	को	ADP	IN	Case=Acc	13	case	_	Translit=ko|LTranslit=ko
-15	सामान्य	सामान्य	ADJ	JJ	_	17	acl	_	Translit=sāmānya|LTranslit=sāmānya
-16	रखना	रख	AUX	VINF	VerbForm=Inf	15	cop	_	Translit=rakhanā|LTranslit=rakha
+15	सामान्य	सामान्य	ADJ	JJ	_	16	xcomp	_	Translit=sāmānya|LTranslit=sāmānya
+16	रखना	रख	VERB	VINF	VerbForm=Inf	17	acl	_	Translit=rakhanā|LTranslit=rakha
 17	संभव	संभव	ADJ	JJ	_	8	ccomp	_	Translit=saṁbhava|LTranslit=saṁbhava
 18	है	है	AUX	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres	17	cop	_	SpaceAfter=No|Translit=hai|LTranslit=hai
 19	,	,	PUNCT	,	_	28	punct	_	Translit=,|LTranslit=,
@@ -3943,9 +3943,9 @@
 28	असाधारण	असाधारण	ADJ	JJ	_	20	ccomp	_	Translit=asādhāraṇa|LTranslit=asādhāraṇa
 29	है	है	AUX	VBI	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Pres	28	cop	_	Translit=hai|LTranslit=hai
 30	और	और	CCONJ	CC	_	39	cc	_	Translit=aura|LTranslit=aura
-31	उसे	वह	PRON	PRP	Animacy=Anim|Case=Acc|Number=Sing|Person=3	32	obj	_	Translit=use|LTranslit=vaha
-32	जीवित	जीवित	ADJ	JJ	_	39	advcl	_	Translit=jīvita|LTranslit=jīvita
-33	रखने	रख	AUX	VINF	VerbForm=Inf	32	cop	_	Translit=rakhane|LTranslit=rakha
+31	उसे	वह	PRON	PRP	Animacy=Anim|Case=Acc|Number=Sing|Person=3	33	obj	_	Translit=use|LTranslit=vaha
+32	जीवित	जीवित	ADJ	JJ	_	33	xcomp	_	Translit=jīvita|LTranslit=jīvita
+33	रखने	रख	VERB	VINF	VerbForm=Inf	39	advcl	_	Translit=rakhane|LTranslit=rakha
 34	के	के	ADP	IN	_	32	case	_	Translit=ke|LTranslit=ke
 35	लिए	लिए	ADP	IN	_	34	fixed	_	Translit=lie|LTranslit=lie
 36	सर्जरी	सर्जरी	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	38	nmod:poss	_	Translit=sarjarī|LTranslit=sarjarī
@@ -5559,8 +5559,8 @@
 4	को	को	ADP	IN	Case=Acc	3	case	_	Translit=ko|LTranslit=ko
 5	बहुत	बहुत	DET	QF	_	9	advmod	_	Translit=bahuta|LTranslit=bahuta
 6	ही	ही	PART	EMPH	_	5	discourse	_	Translit=hī|LTranslit=hī
-7	धारदार	धारदार	ADJ	JJ	_	9	xcomp	_	Translit=dhāradāra|LTranslit=dhāradāra
-8	बना	बन	AUX	VBI	Gender=Masc|Number=Sing|Person=3	7	cop	_	Translit=banā|LTranslit=bana
+7	धारदार	धारदार	ADJ	JJ	_	8	xcomp	_	Translit=dhāradāra|LTranslit=dhāradāra
+8	बना	बन	VERB	VBI	Gender=Masc|Number=Sing|Person=3	9	xcomp	_	Translit=banā|LTranslit=bana
 9	लिया	ले	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3	0	root	_	Translit=liyā|LTranslit=le
 10	है	है	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Pres	9	aux	_	Translit=hai|LTranslit=hai
 11	और	और	CCONJ	CC	_	15	cc	_	Translit=aura|LTranslit=aura
@@ -6272,11 +6272,11 @@
 # text = यह आश्चर्यजनक लग सकता है, यहां तक कि अम्ल वर्षा वाले बादलों में भी रूपहली रेखाएं हो सकती हैं।
 # translit = yaha āścaryajanaka laga sakatā hai, yahāṁ taka ki amla varṣā vāle bādaloṁ meṁ bhī rūpahalī rekhāeṁ ho sakatī haiṁ.
 # text_en = Surprising as it may seem, even acid rain clouds can have a silver lining.
-1	यह	यह	PRON	PDEM	Number=Sing	2	nsubj	_	Translit=yaha|LTranslit=yaha
-2	आश्चर्यजनक	आश्चर्यजनक	ADJ	JJ	_	0	root	_	Translit=āścaryajanaka|LTranslit=āścaryajanaka
-3	लग	लग	AUX	VB	_	2	cop	_	Translit=laga|LTranslit=laga
-4	सकता	सक	AUX	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	2	aux	_	Translit=sakatā|LTranslit=saka
-5	है	है	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Pres	2	aux	_	SpaceAfter=No|Translit=hai|LTranslit=hai
+1	यह	यह	PRON	PDEM	Number=Sing	3	nsubj	_	Translit=yaha|LTranslit=yaha
+2	आश्चर्यजनक	आश्चर्यजनक	ADJ	JJ	_	3	xcomp	_	Translit=āścaryajanaka|LTranslit=āścaryajanaka
+3	लग	लग	VERB	VB	_	0	root	_	Translit=laga|LTranslit=laga
+4	सकता	सक	AUX	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	3	aux	_	Translit=sakatā|LTranslit=saka
+5	है	है	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Pres	3	aux	_	SpaceAfter=No|Translit=hai|LTranslit=hai
 6	,	,	PUNCT	,	_	18	punct	_	Translit=,|LTranslit=,
 7	यहां	यहाँ	NOUN	NST	_	18	obl	_	Translit=yahāṁ|LTranslit=yahām̃
 8	तक	तक	ADP	IN	_	7	case	_	Translit=taka|LTranslit=taka
@@ -6289,10 +6289,10 @@
 15	भी	भी	PART	EMPH	_	13	discourse	_	ToDo=ex-adp-child|Translit=bhī|LTranslit=bhī
 16	रूपहली	रूपहली	ADJ	JJ	Gender=Fem	17	amod	_	Translit=rūpahalī|LTranslit=rūpahalī
 17	रेखाएं	रेखा	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	18	obj	_	Translit=rekhāeṁ|LTranslit=rekhā
-18	हो	हो	VERB	VB	_	2	advcl	_	Translit=ho|LTranslit=ho
+18	हो	हो	VERB	VB	_	3	advcl	_	Translit=ho|LTranslit=ho
 19	सकती	सक	AUX	VXH	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3	18	aux	_	Translit=sakatī|LTranslit=saka
 20	हैं	है	AUX	VXH	Gender=Fem|Number=Plur|Person=3|Tense=Pres	18	aux	_	SpaceAfter=No|Translit=haiṁ|LTranslit=hai
-21	।	।	PUNCT	.	_	2	punct	_	Translit=.|LTranslit=.
+21	।	।	PUNCT	.	_	3	punct	_	Translit=.|LTranslit=.
 
 # newdoc id = n01086
 # sent_id = n01086013
@@ -6380,15 +6380,15 @@
 # text = यह कहना सही है कि रोक्को कैटेलेनो पुराने जमाने के काम करता है, उनमें जीता है।
 # translit = yaha kahanā sahī hai ki rokko kaiṭeleno purāne jamāne ke kāma karatā hai, unameṁ jītā hai.
 # text_en = It’s fair to say that Rocco Catalano works, lives and breathes retro.
-1	यह	यह	PRON	PDEM	Number=Sing	3	obj	_	Translit=yaha|LTranslit=yaha
-2	कहना	कह	AUX	VINF	VerbForm=Inf	3	cop	_	Translit=kahanā|LTranslit=kaha
-3	सही	सही	ADJ	JJ	_	0	root	_	Translit=sahī|LTranslit=sahī
-4	है	है	AUX	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	aux	_	Translit=hai|LTranslit=hai
+1	यह	यह	PRON	PDEM	Number=Sing	2	obj	_	Translit=yaha|LTranslit=yaha
+2	कहना	कह	VERB	VINF	VerbForm=Inf	0	root	_	Translit=kahanā|LTranslit=kaha
+3	सही	सही	ADJ	JJ	_	2	xcomp	_	Translit=sahī|LTranslit=sahī
+4	है	है	AUX	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux	_	Translit=hai|LTranslit=hai
 5	कि	कि	SCONJ	IN	_	12	mark	_	Translit=ki|LTranslit=ki
 6	रोक्को	रोक्को	PROPN	NNP	Animacy=Anim|Gender=Masc|Number=Sing	12	nsubj	_	Translit=rokko|LTranslit=rokko
 7	कैटेलेनो	कैटेलेनो	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	flat:name	_	Translit=kaiṭeleno|LTranslit=kaiṭeleno
-8	पुराने	पुराना	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	11	nmod:poss	_	Translit=purāne|LTranslit=purānā
-9	जमाने	जमाना	AUX	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	cop	_	Translit=jamāne|LTranslit=jamānā
+8	पुराने	पुराना	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	9	xcomp	_	Translit=purāne|LTranslit=purānā
+9	जमाने	जमाना	VERB	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	nmod:poss	_	Translit=jamāne|LTranslit=jamānā
 10	के	का	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	8	case	_	Translit=ke|LTranslit=kā
 11	काम	काम	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	obj	_	Translit=kāma|LTranslit=kāma
 12	करता	कर	VERB	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	1	acl	_	Translit=karatā|LTranslit=kara
@@ -6397,7 +6397,7 @@
 15	उनमें	वह	PRON	PDEM	Number=Plur	16	obj	_	Translit=unameṁ|LTranslit=vaha
 16	जीता	जीत	VERB	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	12	parataxis	_	Translit=jītā|LTranslit=jīta
 17	है	है	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Pres	16	aux	_	SpaceAfter=No|Translit=hai|LTranslit=hai
-18	।	।	PUNCT	.	_	3	punct	_	Translit=.|LTranslit=.
+18	।	।	PUNCT	.	_	2	punct	_	Translit=.|LTranslit=.
 
 # sent_id = n01087018
 # text = मुझे लगता है कि इसी कारण उन्होंने खुद को पैटर्न और रंग में तल्लीन कर लिया।
@@ -7341,14 +7341,14 @@
 21	,	,	PUNCT	,	_	23	punct	_	Translit=,|LTranslit=,
 22	ततैया	ततैया	NOUN	NN	Animacy=Inan|Gender=Masc|Number=Sing	23	compound	_	Translit=tataiyā|LTranslit=tataiyā
 23	कोकून	कोकून	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	conj	_	Translit=kokūna|LTranslit=kokūna
-24	(	(	PUNCT	(	_	27	punct	_	SpaceAfter=No|Translit=(|LTranslit=(
-25	प्यूपा	प्यूपा	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obj	_	Translit=pyūpā|LTranslit=pyūpā
+24	(	(	PUNCT	(	_	28	punct	_	SpaceAfter=No|Translit=(|LTranslit=(
+25	प्यूपा	प्यूपा	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	obj	_	Translit=pyūpā|LTranslit=pyūpā
 26	को	को	ADP	IN	Case=Acc	25	case	_	Translit=ko|LTranslit=ko
-27	स्वादिष्ट	स्वादिष्ट	ADJ	JJ	_	23	appos	_	Translit=svādiṣṭa|LTranslit=svādiṣṭa
-28	माना	मान	AUX	VBI	Gender=Masc|Number=Sing|Person=3	27	cop	_	Translit=mānā|LTranslit=māna
-29	जाता	जा	AUX	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	27	aux:pass	_	Translit=jātā|LTranslit=jā
-30	है	है	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Pres	27	aux	_	SpaceAfter=No|Translit=hai|LTranslit=hai
-31	)	)	PUNCT	)	_	27	punct	_	SpaceAfter=No|Translit=)|LTranslit=)
+27	स्वादिष्ट	स्वादिष्ट	ADJ	JJ	_	28	xcomp	_	Translit=svādiṣṭa|LTranslit=svādiṣṭa
+28	माना	मान	VERB	VBI	Gender=Masc|Number=Sing|Person=3	23	appos	_	Translit=mānā|LTranslit=māna
+29	जाता	जा	AUX	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	28	aux:pass	_	Translit=jātā|LTranslit=jā
+30	है	है	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Pres	28	aux	_	SpaceAfter=No|Translit=hai|LTranslit=hai
+31	)	)	PUNCT	)	_	28	punct	_	SpaceAfter=No|Translit=)|LTranslit=)
 32	,	,	PUNCT	,	_	35	punct	_	Translit=,|LTranslit=,
 33	भैंस	भैंस	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	35	nmod:poss	_	Translit=bhaiṁsa|LTranslit=bhaiṁsa
 34	का	का	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	33	case	_	Translit=kā|LTranslit=kā
@@ -7563,8 +7563,8 @@
 8	ड्रॉ	ड्रॉ	NOUN	NN	Gender=Masc|Number=Sing	9	compound:lvc	_	Translit=ḍrô|LTranslit=ḍrô
 9	कराने	करा	VERB	VINF	VerbForm=Inf	11	xcomp	_	Translit=karāne|LTranslit=karā
 10	का	का	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	9	case	_	Translit=kā|LTranslit=kā
-11	आसान	आसान	ADJ	JJ	_	13	obj	_	Translit=āsāna|LTranslit=āsāna
-12	रास्ता	रास्ता	AUX	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	cop	_	Translit=rāstā|LTranslit=rāstā
+11	आसान	आसान	ADJ	JJ	_	12	xcomp	_	Translit=āsāna|LTranslit=āsāna
+12	रास्ता	रास्ता	VERB	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	obj	_	Translit=rāstā|LTranslit=rāstā
 13	है	है	VERB	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	parataxis	_	Translit=hai|LTranslit=hai
 14	खेल	खेल	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obl	_	Translit=khela|LTranslit=khela
 15	से	से	ADP	IN	Case=Acc	14	case	_	Translit=se|LTranslit=se
@@ -7872,8 +7872,8 @@
 2	उम्मीद	उम्मीद	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	obj	_	Translit=ummīda|LTranslit=ummīda
 3	थी	था	VERB	VBI	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	Translit=thī|LTranslit=thā
 4	कि	कि	SCONJ	IN	_	17	mark	_	Translit=ki|LTranslit=ki
-5	व्यापारिक	व्यापारिक	ADJ	JJ	_	17	nsubj	_	Translit=vyāpārika|LTranslit=vyāpārika
-6	घराने	घराना	AUX	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	cop	_	Translit=gharāne|LTranslit=gharānā
+5	व्यापारिक	व्यापारिक	ADJ	JJ	_	6	xcomp	_	Translit=vyāpārika|LTranslit=vyāpārika
+6	घराने	घराना	VERB	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	nsubj	_	Translit=gharāne|LTranslit=gharānā
 7	ब्रेक्जिट	ब्रेक्जिट	PROPN	NNP	Animacy=Inan|Gender=Masc|Number=Sing	8	compound	_	Translit=brekjiṭa|LTranslit=brekjiṭa
 8	मतदान	मतदान	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl	_	Translit=matadāna|LTranslit=matadāna
 9	के	के	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	8	case	_	Translit=ke|LTranslit=ke
@@ -8528,16 +8528,16 @@
 4	नसें	नस	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	obj	_	Translit=naseṁ|LTranslit=nasa
 5	तन	तन	ADJ	JJ	_	6	compound:lvc	_	Translit=tana|LTranslit=tana
 6	कर	कर	VERB	VB	_	8	acl	_	Translit=kara|LTranslit=kara
-7	बाहर	बाहर	NOUN	NST	_	8	obl	_	Translit=bāhara|LTranslit=bāhara
-8	निकल	निकल	VERB	VB	_	0	root	_	Translit=nikala|LTranslit=nikala
-9	आती	आ	AUX	VXH	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3	8	aux	_	Translit=ātī|LTranslit=ā
-10	हैं	है	AUX	VXH	Gender=Fem|Number=Plur|Person=3|Tense=Pres	8	aux	_	SpaceAfter=No|Translit=haiṁ|LTranslit=hai
+7	बाहर	बाहर	NOUN	NST	_	9	obl	_	Translit=bāhara|LTranslit=bāhara
+8	निकल	निकल	VERB	VB	_	9	xcomp	_	Translit=nikala|LTranslit=nikala
+9	आती	आ	VERB	VXH	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3	0	root	_	Translit=ātī|LTranslit=ā
+10	हैं	है	AUX	VXH	Gender=Fem|Number=Plur|Person=3|Tense=Pres	9	aux	_	SpaceAfter=No|Translit=haiṁ|LTranslit=hai
 11	,	,	PUNCT	,	_	14	punct	_	Translit=,|LTranslit=,
 12	उसके	वह	PRON	PRP$	Animacy=Anim|Case=Acc|Number=Sing|Person=3	13	nmod:poss	_	Translit=usake|LTranslit=vaha
 13	हाथ	हाथ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	obj	_	Translit=hātha|LTranslit=hātha
 14	कांपते	कांप	VERB	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Person=3	8	conj	_	Translit=kāṁpate|LTranslit=kāṁpa
 15	हैं	है	AUX	VXH	Gender=Masc|Number=Plur|Person=3|Tense=Pres	14	aux	_	SpaceAfter=No|Translit=haiṁ|LTranslit=hai
-16	।	।	PUNCT	.	_	8	punct	_	Translit=.|LTranslit=.
+16	।	।	PUNCT	.	_	9	punct	_	Translit=.|LTranslit=.
 
 # sent_id = n01116035
 # text = ग्लेंडा को इस तरह आंख पर पट्टी बांधने की अनुमति देने के बाद, कौन उसे दोषी ठहरा सकता है?
@@ -8720,16 +8720,16 @@
 17	काम	काम	NOUN	NN	Gender=Masc|Number=Sing	18	obj	_	Translit=kāma|LTranslit=kāma
 18	करता	कर	VERB	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	0	root	_	Translit=karatā|LTranslit=kara
 19	है	है	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Pres	18	aux	_	Translit=hai|LTranslit=hai
-20	जो	जो	PRON	REL	Case=Nom	27	nsubj	_	ToDo=जो|Translit=jo|LTranslit=jo
+20	जो	जो	PRON	REL	Case=Nom	28	nsubj	_	ToDo=जो|Translit=jo|LTranslit=jo
 21	रविवार	रविवार	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	nmod:poss	_	Translit=ravivāra|LTranslit=ravivāra
 22	के	का	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	21	case	_	Translit=ke|LTranslit=kā
 23	अपराह्न	अपराह्न	NOUN	NN	Animacy=Inan|Gender=Masc|Number=Sing	24	compound	_	Translit=aparāhna|LTranslit=aparāhna
-24	शो	शो	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obl	_	Translit=śo|LTranslit=śo
+24	शो	शो	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	obl	_	Translit=śo|LTranslit=śo
 25	के	के	ADP	IN	_	24	case	_	Translit=ke|LTranslit=ke
 26	लिए	लिए	ADP	IN	_	25	fixed	_	Translit=lie|LTranslit=lie
-27	बनावटी	बनावटी	ADJ	JJ	_	17	acl:relcl	_	Translit=banāvaṭī|LTranslit=banāvaṭī
-28	लगता	लग	AUX	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	27	cop	_	Translit=lagatā|LTranslit=laga
-29	है	है	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Pres	27	aux	_	SpaceAfter=No|Translit=hai|LTranslit=hai
+27	बनावटी	बनावटी	ADJ	JJ	_	28	xcomp	_	Translit=banāvaṭī|LTranslit=banāvaṭī
+28	लगता	लग	VERB	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	17	acl:relcl	_	Translit=lagatā|LTranslit=laga
+29	है	है	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Pres	28	aux	_	SpaceAfter=No|Translit=hai|LTranslit=hai
 30	।	।	PUNCT	.	_	18	punct	_	Translit=.|LTranslit=.
 
 # sent_id = n01119017
@@ -9132,20 +9132,20 @@
 # translit = do sāla bāda, hāṁgakāṁga hāīkorṭa meṁ, jaṭiṁga bahuta hī śānta najara āyā.
 # text_en = In Hong Kong's High Court, two years later, Jutting appeared largely composed.
 1	दो	दो	NUM	CD	NumType=Card	2	nummod	_	Translit=do|LTranslit=do
-2	साल	साल	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	obl:tmod	_	Translit=sāla|LTranslit=sāla
+2	साल	साल	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	obl:tmod	_	Translit=sāla|LTranslit=sāla
 3	बाद	बाद	ADP	IN	_	2	case	_	SpaceAfter=No|Translit=bāda|LTranslit=bāda
 4	,	,	PUNCT	,	_	2	punct	_	Translit=,|LTranslit=,
 5	हांगकांग	हांगकांग	PROPN	NNP	Animacy=Inan|Gender=Masc|Number=Sing	6	compound	_	Translit=hāṁgakāṁga|LTranslit=hāṁgakāṁga
-6	हाईकोर्ट	हाईकोर्ट	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obl	_	Proper=True|Translit=hāīkorṭa|LTranslit=hāīkorṭa
+6	हाईकोर्ट	हाईकोर्ट	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obl	_	Proper=True|Translit=hāīkorṭa|LTranslit=hāīkorṭa
 7	में	में	ADP	IN	Case=Loc	6	case	_	SpaceAfter=No|Translit=meṁ|LTranslit=meṁ
 8	,	,	PUNCT	,	_	6	punct	_	Translit=,|LTranslit=,
-9	जटिंग	जटिंग	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	Translit=jaṭiṁga|LTranslit=jaṭiṁga
+9	जटिंग	जटिंग	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	Translit=jaṭiṁga|LTranslit=jaṭiṁga
 10	बहुत	बहुत	DET	QF	_	12	det	_	Translit=bahuta|LTranslit=bahuta
 11	ही	ही	PART	EMPH	_	10	discourse	_	Translit=hī|LTranslit=hī
-12	शान्त	शान्त	ADJ	JJ	_	0	root	_	Translit=śānta|LTranslit=śānta
+12	शान्त	शान्त	ADJ	JJ	_	14	xcomp	_	Translit=śānta|LTranslit=śānta
 13	नजर	नजर	NOUN	NN	Gender=Fem|Number=Sing	12	compound:lvc	_	Translit=najara|LTranslit=najara
-14	आया	आ	AUX	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	12	cop	_	SpaceAfter=No|Translit=āyā|LTranslit=ā
-15	।	।	PUNCT	.	_	12	punct	_	Translit=.|LTranslit=.
+14	आया	आ	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Translit=āyā|LTranslit=ā
+15	।	।	PUNCT	.	_	14	punct	_	Translit=.|LTranslit=.
 
 # newdoc id = n01128
 # sent_id = n01128017
@@ -10282,12 +10282,12 @@
 10	को	को	ADP	IN	Case=Acc	9	case	_	Translit=ko|LTranslit=ko
 11	फांद	फांद	VERB	VBI	Gender=Masc|Number=Sing|Person=3	0	root	_	Translit=phāṁda|LTranslit=phāṁda
 12	जाता	जा	AUX	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	11	aux	_	Translit=jātā|LTranslit=jā
-13	और	और	CCONJ	CC	_	17	cc	_	Translit=aura|LTranslit=aura
-14	हमेशा	हमेशा	ADV	RB	_	17	advmod	_	Translit=hameśā|LTranslit=hameśā
+13	और	और	CCONJ	CC	_	18	cc	_	Translit=aura|LTranslit=aura
+14	हमेशा	हमेशा	ADV	RB	_	18	advmod	_	Translit=hameśā|LTranslit=hameśā
 15	उस	वह	DET	DT	Definite=Def|Number=Sing	16	det	_	Translit=usa|LTranslit=vaha
-16	जगह	जगह	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	obj	_	Translit=jagaha|LTranslit=jagaha
-17	लौट	लौट	VERB	VB	_	11	conj	_	Translit=lauṭa|LTranslit=lauṭa
-18	आता	आ	AUX	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	17	aux	_	Translit=ātā|LTranslit=ā
+16	जगह	जगह	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	obj	_	Translit=jagaha|LTranslit=jagaha
+17	लौट	लौट	VERB	VB	_	18	xcomp	_	Translit=lauṭa|LTranslit=lauṭa
+18	आता	आ	VERB	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	11	conj	_	Translit=ātā|LTranslit=ā
 19	जिसे	जो	PRON	REL	Case=Acc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|PronType=Prs	22	obj	_	Translit=jise|LTranslit=jo
 20	वह	वह	PRON	PRP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3	22	nsubj	_	Translit=vaha|LTranslit=vaha
 21	घर	घर	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	obj	_	Translit=ghara|LTranslit=ghara
@@ -11481,8 +11481,8 @@
 10	के	का	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	9	case	_	Translit=ke|LTranslit=kā
 11	दक्षिण	दक्षिण	NOUN	NN	Animacy=Inan|Gender=Masc|Number=Sing	13	compound	_	SpaceAfter=No|Translit=dakṣiṇa|LTranslit=dakṣiṇa
 12	-	-	PUNCT	-	_	11	punct	_	SpaceAfter=No|Translit=-|LTranslit=-
-13	पूर्वी	पूर्वी	ADJ	JJ	_	30	obl	_	Translit=pūrvī|LTranslit=pūrvī
-14	मोराविया	मोराविया	AUX	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	cop	_	SpaceAfter=No|Translit=morāviyā|LTranslit=morāviyā
+13	पूर्वी	पूर्वी	ADJ	JJ	_	14	xcomp	_	Translit=pūrvī|LTranslit=pūrvī
+14	मोराविया	मोराविया	VERB	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No|Translit=morāviyā|LTranslit=morāviyā
 15	,	,	PUNCT	,	_	19	punct	_	Translit=,|LTranslit=,
 16	दक्षिण	दक्षिण	NOUN	NN	Animacy=Inan|Gender=Masc|Number=Sing	18	compound	_	SpaceAfter=No|Translit=dakṣiṇa|LTranslit=dakṣiṇa
 17	-	-	PUNCT	-	_	16	punct	_	SpaceAfter=No|Translit=-|LTranslit=-
@@ -12109,13 +12109,13 @@
 # text = इसने युगों तक कई समुदायों को व्यापार, उपनिवेशन, और युद्ध के लिए मार्ग, साथ ही भोजन (मछली पकड़ने और अन्य समुद्री भोजन एकत्र करने से) उपलब्ध कराया।
 # translit = isane yugoṁ taka kaī samudāyoṁ ko vyāpāra, upaniveśana, aura yuddha ke lie mārga, sātha hī bhojana (machalī pakaṛane aura anya samudrī bhojana ekatra karane se) upalabdha karāyā.
 # text_en = It provided routes for trade, colonisation, and war, as well as food (from fishing and the gathering of other seafood) for numerous communities throughout the ages.
-1	इसने	यह	PRON	PDEM	Number=Sing	31	nsubj	_	Translit=isane|LTranslit=yaha
-2	युगों	युग	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	31	obl:tmod	_	Translit=yugoṁ|LTranslit=yuga
+1	इसने	यह	PRON	PDEM	Number=Sing	32	nsubj	_	Translit=isane|LTranslit=yaha
+2	युगों	युग	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	32	obl:tmod	_	Translit=yugoṁ|LTranslit=yuga
 3	तक	तक	ADP	IN	_	2	case	_	Translit=taka|LTranslit=taka
 4	कई	कई	DET	QF	_	5	det	_	Translit=kaī|LTranslit=kaī
-5	समुदायों	समुदाय	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	31	iobj	_	Translit=samudāyoṁ|LTranslit=samudāya
+5	समुदायों	समुदाय	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	32	iobj	_	Translit=samudāyoṁ|LTranslit=samudāya
 6	को	को	ADP	IN	Case=Acc	5	case	_	Translit=ko|LTranslit=ko
-7	व्यापार	व्यापार	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	obj	_	SpaceAfter=No|Translit=vyāpāra|LTranslit=vyāpāra
+7	व्यापार	व्यापार	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	32	obj	_	SpaceAfter=No|Translit=vyāpāra|LTranslit=vyāpāra
 8	,	,	PUNCT	,	_	9	punct	_	Translit=,|LTranslit=,
 9	उपनिवेशन	उपनिवेशन	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No|Translit=upaniveśana|LTranslit=upaniveśana
 10	,	,	PUNCT	,	_	9	punct	_	Translit=,|LTranslit=,
@@ -12139,9 +12139,9 @@
 28	करने	कर	VERB	VINF	VerbForm=Inf	22	conj	_	Translit=karane|LTranslit=kara
 29	से	से	ADP	IN	_	22	case	_	SpaceAfter=No|Translit=se|LTranslit=se
 30	)	)	PUNCT	)	_	22	punct	_	Translit=)|LTranslit=)
-31	उपलब्ध	उपलब्ध	ADJ	JJ	_	0	root	_	Translit=upalabdha|LTranslit=upalabdha
-32	कराया	करा	AUX	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	31	cop	_	SpaceAfter=No|Translit=karāyā|LTranslit=karā
-33	।	।	PUNCT	.	_	31	punct	_	Translit=.|LTranslit=.
+31	उपलब्ध	उपलब्ध	ADJ	JJ	_	32	xcomp	_	Translit=upalabdha|LTranslit=upalabdha
+32	कराया	करा	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Translit=karāyā|LTranslit=karā
+33	।	।	PUNCT	.	_	32	punct	_	Translit=.|LTranslit=.
 
 # sent_id = w01020018
 # text = जलवायु, भूविज्ञान, और समुद्र तक पहुंच साझी होने और भूमध्य सागर केन्द्रित संस्कृतियों के कारण इनकी संस्कृति और इतिहास एक हद तक आपस में गुंथा हुआ था।
@@ -12461,8 +12461,8 @@
 2	,	,	PUNCT	,	_	12	punct	_	Translit=,|LTranslit=,
 3	इसके	यह	PRON	PDEM	Number=Sing	12	obl	_	Translit=isake|LTranslit=yaha
 4	कारण	कारण	ADP	IN	_	3	case	_	Translit=kāraṇa|LTranslit=kāraṇa
-5	भारी	भारी	ADJ	JJ	_	9	nmod:poss	_	Translit=bhārī|LTranslit=bhārī
-6	तोपखाने	तोपखाना	AUX	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	cop	_	Translit=topakhāne|LTranslit=topakhānā
+5	भारी	भारी	ADJ	JJ	_	6	xcomp	_	Translit=bhārī|LTranslit=bhārī
+6	तोपखाने	तोपखाना	VERB	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	nmod:poss	_	Translit=topakhāne|LTranslit=topakhānā
 7	के	का	ADP	IN	Case=Gen|Gender=Masc|Number=Plur	5	case	_	Translit=ke|LTranslit=kā
 8	महत्वपूर्ण	महत्वपूर्ण	ADJ	JJ	_	9	amod	_	Translit=mahatvapūrṇa|LTranslit=mahatvapūrṇa
 9	टुकड़ों	टुकडा	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	nsubj:pass	_	Translit=ṭukaṛoṁ|LTranslit=ṭukaḍā
@@ -12515,13 +12515,13 @@
 9	गहरा	गहरा	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	10	amod	_	Translit=gaharā|LTranslit=gaharā
 10	धक्का	धक्का	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	obj	_	Translit=dhakkā|LTranslit=dhakkā
 11	लगा	लग	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3	0	root	_	Translit=lagā|LTranslit=laga
-12	जो	जो	PRON	REL	Case=Nom	16	nsubj	_	ToDo=जो|Translit=jo|LTranslit=jo
-13	कि	कि	SCONJ	IN	_	16	mark	_	Translit=ki|LTranslit=ki
-14	डेनेविर्के	डेनेविर्के	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	Translit=ḍenevirke|LTranslit=ḍenevirke
+12	जो	जो	PRON	REL	Case=Nom	17	nsubj	_	ToDo=जो|Translit=jo|LTranslit=jo
+13	कि	कि	SCONJ	IN	_	17	mark	_	Translit=ki|LTranslit=ki
+14	डेनेविर्के	डेनेविर्के	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	Translit=ḍenevirke|LTranslit=ḍenevirke
 15	को	को	ADP	IN	Case=Acc	14	case	_	Translit=ko|LTranslit=ko
-16	अभेद्य	अभेद्य	ADJ	JJ	_	7	acl:relcl	_	Translit=abhedya|LTranslit=abhedya
-17	मानता	मान	AUX	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	16	cop	_	Translit=mānatā|LTranslit=māna
-18	था	था	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Past	16	aux	_	SpaceAfter=No|Translit=thā|LTranslit=thā
+16	अभेद्य	अभेद्य	ADJ	JJ	_	17	xcomp	_	Translit=abhedya|LTranslit=abhedya
+17	मानता	मान	VERB	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	7	acl:relcl	_	Translit=mānatā|LTranslit=māna
+18	था	था	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Past	17	aux	_	SpaceAfter=No|Translit=thā|LTranslit=thā
 19	,	,	PUNCT	,	_	30	punct	_	Translit=,|LTranslit=,
 20	और	और	CCONJ	CC	_	30	cc	_	Translit=aura|LTranslit=aura
 21	जनरल	जनरल	NOUN	NN	Animacy=Anim|Case=Nom|Number=Sing	22	compound	_	Proper=True|Translit=janarala|LTranslit=janarala
@@ -13042,16 +13042,16 @@
 # text_en = The study of volcanoes is called volcanology, sometimes spelled vulcanology.
 1	ज्वालामुखियों	ज्वालामुखी	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	nmod:poss	_	Translit=jvālāmukhiyoṁ|LTranslit=jvālāmukhī
 2	के	का	ADP	IN	Case=Gen|Gender=Masc|Number=Plur	1	case	_	Translit=ke|LTranslit=kā
-3	अध्ययन	अध्ययन	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	nsubj:pass	_	Translit=adhyayana|LTranslit=adhyayana
+3	अध्ययन	अध्ययन	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	nsubj:pass	_	Translit=adhyayana|LTranslit=adhyayana
 4	को	को	ADP	IN	Case=Acc	3	case	_	Translit=ko|LTranslit=ko
 5	ज्वालामुखी	ज्वालामुखी	NOUN	NN	Animacy=Inan|Gender=Masc|Number=Sing	6	compound	_	Translit=jvālāmukhī|LTranslit=jvālāmukhī
-6	विज्ञान	विज्ञान	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	Translit=vijñāna|LTranslit=vijñāna
+6	विज्ञान	विज्ञान	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	xcomp	_	Translit=vijñāna|LTranslit=vijñāna
 7	(	(	PUNCT	(	_	8	punct	_	SpaceAfter=No|Translit=(|LTranslit=(
 8	volcanology	volcanology	NOUN	NN	_	6	appos	_	SpaceAfter=No|Translit=volcanology|LTranslit=volcanology
 9	)	)	PUNCT	)	_	8	punct	_	Translit=)|LTranslit=)
-10	कहा	कह	AUX	VBI	Gender=Masc|Number=Sing|Person=3	6	cop	_	Translit=kahā|LTranslit=kaha
-11	जाता	जा	AUX	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	6	aux:pass	_	Translit=jātā|LTranslit=jā
-12	है	है	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Pres	6	aux	_	SpaceAfter=No|Translit=hai|LTranslit=hai
+10	कहा	कह	VERB	VBI	Gender=Masc|Number=Sing|Person=3	0	root	_	Translit=kahā|LTranslit=kaha
+11	जाता	जा	AUX	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	10	aux:pass	_	Translit=jātā|LTranslit=jā
+12	है	है	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Pres	10	aux	_	SpaceAfter=No|Translit=hai|LTranslit=hai
 13	,	,	PUNCT	,	_	22	punct	_	Translit=,|LTranslit=,
 14	कभी	कभी	ADV	RB	_	16	compound:redup	_	SpaceAfter=No|Translit=kabhī|LTranslit=kabhī
 15	-	-	PUNCT	-	_	14	punct	_	SpaceAfter=No|Translit=-|LTranslit=-
@@ -13061,9 +13061,9 @@
 19	-	-	PUNCT	-	_	18	punct	_	SpaceAfter=No|Translit=-|LTranslit=-
 20	विन्यास	विन्यास	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	Translit=vinyāsa|LTranslit=vinyāsa
 21	vulcanology	vulcanology	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	obj	_	Translit=vulcanology|LTranslit=vulcanology
-22	होता	हो	VERB	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	6	parataxis	_	Translit=hotā|LTranslit=ho
+22	होता	हो	VERB	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	10	parataxis	_	Translit=hotā|LTranslit=ho
 23	है	है	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Pres	22	aux	_	SpaceAfter=No|Translit=hai|LTranslit=hai
-24	।	।	PUNCT	.	_	6	punct	_	Translit=.|LTranslit=.
+24	।	।	PUNCT	.	_	10	punct	_	Translit=.|LTranslit=.
 
 # sent_id = w01031015
 # text = मैग्मा में सिलिका की मात्रा ज्यादा होने के कारण यह बहुत ही चिपचिपा होता है, इसलिए यह अक्सर सतह तक नहीं पहुंच पाता लेकिन गहराई में ठण्डा हो जाता है।
@@ -13787,7 +13787,7 @@
 4	हवा	हवा	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	obj	_	Translit=havā|LTranslit=havā
 5	चलनी	चल	VERB	VBI	Gender=Fem|Number=Sing|Person=3	7	xcomp	_	Translit=calanī|LTranslit=cala
 6	शुरू	शुरू	NOUN	NN	Gender=Masc|Number=Sing	7	compound:lvc	_	Translit=śurū|LTranslit=śurū
-7	होती	हो	VERB	VBI	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3	17	advcl	_	Translit=hotī|LTranslit=ho
+7	होती	हो	VERB	VBI	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3	18	advcl	_	Translit=hotī|LTranslit=ho
 8	है	है	AUX	VXH	Gender=Fem|Number=Sing|Person=3|Tense=Pres	7	aux	_	SpaceAfter=No|Translit=hai|LTranslit=hai
 9	,	,	PUNCT	,	_	7	punct	_	Translit=,|LTranslit=,
 10	खुली	खुला	ADJ	JJ	Gender=Fem	11	amod	_	Translit=khulī|LTranslit=khulā
@@ -13795,12 +13795,12 @@
 12	पर	पर	ADP	IN	Case=Loc	11	case	_	Translit=para|LTranslit=para
 13	पड़े	पड़	VERB	VBN	Gender=Masc|Number=Plur	15	acl	_	Translit=paṛe|LTranslit=paṛa
 14	महीन	महीन	ADJ	JJ	_	15	amod	_	Translit=mahīna|LTranslit=mahīna
-15	कण	कण	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	Translit=kaṇa|LTranslit=kaṇa
+15	कण	कण	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	Translit=kaṇa|LTranslit=kaṇa
 16	कंपन	कंपन	NOUN	NN	Gender=Masc|Number=Sing	17	compound:lvc	_	Translit=kaṁpana|LTranslit=kaṁpana
-17	करने	कर	VERB	VINF	Gender=Masc|Number=Plur|Person=3|VerbForm=Inf	0	root	_	Translit=karane|LTranslit=kara
-18	लगते	लग	AUX	VXH	Aspect=Imp|Mood=Ind|Number=Plur|Person=3	17	aux	_	Translit=lagate|LTranslit=laga
-19	हैं	है	AUX	VXH	Gender=Masc|Number=Plur|Person=3|Tense=Pres	17	aux	_	SpaceAfter=No|Translit=haiṁ|LTranslit=hai
-20	।	।	PUNCT	.	_	17	punct	_	Translit=.|LTranslit=.
+17	करने	कर	VERB	VINF	Gender=Masc|Number=Plur|Person=3|VerbForm=Inf	18	xcomp	_	Translit=karane|LTranslit=kara
+18	लगते	लग	VERB	VXH	Aspect=Imp|Mood=Ind|Number=Plur|Person=3	0	root	_	Translit=lagate|LTranslit=laga
+19	हैं	है	AUX	VXH	Gender=Masc|Number=Plur|Person=3|Tense=Pres	18	aux	_	SpaceAfter=No|Translit=haiṁ|LTranslit=hai
+20	।	।	PUNCT	.	_	18	punct	_	Translit=.|LTranslit=.
 
 # sent_id = w01040103
 # text = हवा की गति और तेज होने पर, कुछ कण हवा की धारा में उठ जाते हैं।
@@ -13888,10 +13888,10 @@
 1	गरज	गरज	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	ToDo=nmod|Translit=garaja|LTranslit=garaja
 2	के	के	ADP	IN	_	1	case	_	Translit=ke|LTranslit=ke
 3	साथ	साथ	ADP	IN	_	2	fixed	_	Translit=sātha|LTranslit=sātha
-4	आंधियां	आंधी	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	obj	_	Translit=āṁdhiyāṁ|LTranslit=āṁdhī
-5	कम	कम	DET	QF	_	0	root	_	Translit=kama|LTranslit=kama
-6	आती	आ	AUX	VBI	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Plur|Person=3	5	cop	_	Translit=ātī|LTranslit=ā
-7	है	है	AUX	VXH	Gender=Fem|Number=Plur|Person=3|Tense=Pres	5	aux	_	SpaceAfter=No|Translit=hai|LTranslit=hai
+4	आंधियां	आंधी	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	obj	_	Translit=āṁdhiyāṁ|LTranslit=āṁdhī
+5	कम	कम	DET	QF	_	6	xcomp	_	Translit=kama|LTranslit=kama
+6	आती	आ	VERB	VBI	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Plur|Person=3	0	root	_	Translit=ātī|LTranslit=ā
+7	है	है	AUX	VXH	Gender=Fem|Number=Plur|Person=3|Tense=Pres	6	aux	_	SpaceAfter=No|Translit=hai|LTranslit=hai
 8	,	,	PUNCT	,	_	19	punct	_	Translit=,|LTranslit=,
 9	क्योंकि	क्योंकि	SCONJ	IN	_	19	mark	_	Translit=kyoṁki|LTranslit=kyoṁki
 10	शहर	शहर	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obl	_	Translit=śahara|LTranslit=śahara
@@ -14377,15 +14377,15 @@
 # text_en = In the 1350s, King Gongmin was free at last to reform the Goryeo government when the Yuan dynasty began to crumble.
 1	1350	1350	NUM	CD	NumType=Card	3	nmod:poss	_	Translit=1350|LTranslit=1350
 2	के	का	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	1	case	_	Translit=ke|LTranslit=kā
-3	दशक	दशक	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl:tmod	_	Translit=daśaka|LTranslit=daśaka
+3	दशक	दशक	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl:tmod	_	Translit=daśaka|LTranslit=daśaka
 4	में	में	ADP	IN	Case=Loc	3	case	_	SpaceAfter=No|Translit=meṁ|LTranslit=meṁ
 5	,	,	PUNCT	,	_	3	punct	_	Translit=,|LTranslit=,
-6	जब	जब	SCONJ	IN	_	9	mark	_	Translit=jaba|LTranslit=jaba
+6	जब	जब	SCONJ	IN	_	11	mark	_	Translit=jaba|LTranslit=jaba
 7	युआन	युआन	PROPN	NNP	Animacy=Inan|Gender=Masc|Number=Sing	8	compound	_	Translit=yuāna|LTranslit=yuāna
-8	राजवंश	राजवंश	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	Proper=True|Translit=rājavaṁśa|LTranslit=rājavaṁśa
-9	कमजोर	कमजोर	ADJ	JJ	_	24	advcl	_	Translit=kamajora|LTranslit=kamajora
+8	राजवंश	राजवंश	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	Proper=True|Translit=rājavaṁśa|LTranslit=rājavaṁśa
+9	कमजोर	कमजोर	ADJ	JJ	_	11	xcomp	_	Translit=kamajora|LTranslit=kamajora
 10	पड़ने	पड़	AUX	VINF	VerbForm=Inf	9	cop	_	Translit=paṛane|LTranslit=paṛa
-11	लगा	लग	AUX	VXH	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Tense=Past	9	aux	_	Translit=lagā|LTranslit=laga
+11	लगा	लग	VERB	VXH	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Tense=Past	24	advcl	_	Translit=lagā|LTranslit=laga
 12	तो	तो	SCONJ	IN	_	24	mark	_	Translit=to|LTranslit=to
 13	राजा	राजा	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	compound	_	Translit=rājā|LTranslit=rājā
 14	गोंगमिन	गोंगमिन	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	Translit=goṁgamina|LTranslit=goṁgamina
@@ -16303,8 +16303,8 @@
 # translit = lekina naye āne vāloṁ meṁ hispāniyā kā bhī prabhāva bahuta baṛā thā.
 # text_en = But the impact of Hispania in the newcomers was also big.
 1	लेकिन	लेकिन	CCONJ	CC	_	11	cc	_	Translit=lekina|LTranslit=lekina
-2	नये	नया	ADJ	JJ	Case=Acc|Gender=Masc|Number=Plur	4	acl	_	Translit=naye|LTranslit=nayā
-3	आने	आ	AUX	VINF	VerbForm=Inf	2	cop	_	Translit=āne|LTranslit=ā
+2	नये	नया	ADJ	JJ	Case=Acc|Gender=Masc|Number=Plur	3	xcomp	_	Translit=naye|LTranslit=nayā
+3	आने	आ	VERB	VINF	VerbForm=Inf	4	acl	_	Translit=āne|LTranslit=ā
 4	वालों	वाला	NOUN	NN	Animacy=Anim|Case=Nom|Number=Plur	11	obl	_	Translit=vāloṁ|LTranslit=vālā
 5	में	में	ADP	IN	Case=Acc	4	case	_	Translit=meṁ|LTranslit=meṁ
 6	हिस्पानिया	हिस्पानिया	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	nmod:poss	_	Translit=hispāniyā|LTranslit=hispāniyā
@@ -16427,13 +16427,13 @@
 24	रह	रह	VERB	VB	_	13	acl:relcl	_	Translit=raha|LTranslit=raha
 25	रही	रह	AUX	VXH	Aspect=Prog|Gender=Fem|Mood=Ind|Number=Sing|Person=3	24	aux	_	Translit=rahī|LTranslit=raha
 26	थी	था	AUX	VXH	Gender=Fem|Number=Sing|Person=3|Tense=Past	24	aux	_	Translit=thī|LTranslit=thā
-27	(	(	PUNCT	(	_	31	punct	_	SpaceAfter=No|Translit=(|LTranslit=(
-28	जहां	जहाँ	PRON	REL	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|PronType=Prs	31	obl	_	Translit=jahāṁ|LTranslit=jahām̃
+27	(	(	PUNCT	(	_	32	punct	_	SpaceAfter=No|Translit=(|LTranslit=(
+28	जहां	जहाँ	PRON	REL	Case=Acc|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|PronType=Prs	32	obl	_	Translit=jahāṁ|LTranslit=jahām̃
 29	से	से	ADP	IN	_	28	fixed	_	Translit=se|LTranslit=se
-30	ट्रिक्स	ट्रिक्स	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	31	nsubj	_	Translit=ṭriksa|LTranslit=ṭriksa
-31	लौट	लौट	VERB	VB	_	22	acl:relcl	_	Translit=lauṭa|LTranslit=lauṭa
-32	आई	आ	AUX	VXH	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Past	31	aux	_	SpaceAfter=No|Translit=āī|LTranslit=ā
-33	)	)	PUNCT	)	_	31	punct	_	SpaceAfter=No|Translit=)|LTranslit=)
+30	ट्रिक्स	ट्रिक्स	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	32	nsubj	_	Translit=ṭriksa|LTranslit=ṭriksa
+31	लौट	लौट	VERB	VB	_	32	xcomp	_	Translit=lauṭa|LTranslit=lauṭa
+32	आई	आ	VERB	VXH	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Past	22	acl:relcl	_	SpaceAfter=No|Translit=āī|LTranslit=ā
+33	)	)	PUNCT	)	_	32	punct	_	SpaceAfter=No|Translit=)|LTranslit=)
 34	।	।	PUNCT	.	_	11	punct	_	Translit=.|LTranslit=.
 
 # sent_id = w01073054
@@ -17177,8 +17177,8 @@
 13	स्थिति	स्थिति	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obl	_	Translit=sthiti|LTranslit=sthiti
 14	के	के	ADP	IN	_	13	case	_	Translit=ke|LTranslit=ke
 15	प्रति	प्रति	ADP	IN	_	14	fixed	_	Translit=prati|LTranslit=prati
-16	अंधा	अंधा	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	18	xcomp	_	Translit=aṁdhā|LTranslit=aṁdhā
-17	बना	बन	AUX	VBI	Gender=Masc|Number=Sing|Person=3	16	cop	_	Translit=banā|LTranslit=bana
+16	अंधा	अंधा	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	17	xcomp	_	Translit=aṁdhā|LTranslit=aṁdhā
+17	बना	बन	VERB	VBI	Gender=Masc|Number=Sing|Person=3	18	xcomp	_	Translit=banā|LTranslit=bana
 18	दिया	दे	VERB	VXH	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Translit=diyā|LTranslit=de
 19	।	।	PUNCT	.	_	18	punct	_	Translit=.|LTranslit=.
 
@@ -17840,13 +17840,13 @@
 9	का	का	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	8	case	_	Translit=kā|LTranslit=kā
 10	इस्तेमाल	इस्तेमाल	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	obj	_	Translit=istemāla|LTranslit=istemāla
 11	करना	कर	VERB	VINF	VerbForm=Inf	14	xcomp	_	Translit=karanā|LTranslit=kara
-12	बहुत	बहुत	DET	QF	_	14	advmod	_	Translit=bahuta|LTranslit=bahuta
+12	बहुत	बहुत	DET	QF	_	15	advmod	_	Translit=bahuta|LTranslit=bahuta
 13	ही	ही	PART	EMPH	_	12	discourse	_	Translit=hī|LTranslit=hī
-14	अनुचित	अनुचित	ADJ	JJ	_	0	root	_	Translit=anucita|LTranslit=anucita
-15	माना	मान	AUX	VBI	Gender=Masc|Number=Sing|Person=3	14	cop	_	Translit=mānā|LTranslit=māna
-16	जाता	जा	AUX	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	14	aux:pass	_	Translit=jātā|LTranslit=jā
-17	है	है	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Pres	14	aux	_	SpaceAfter=No|Translit=hai|LTranslit=hai
-18	।	।	PUNCT	.	_	14	punct	_	Translit=.|LTranslit=.
+14	अनुचित	अनुचित	ADJ	JJ	_	15	xcomp	_	Translit=anucita|LTranslit=anucita
+15	माना	मान	VERB	VBI	Gender=Masc|Number=Sing|Person=3	0	root	_	Translit=mānā|LTranslit=māna
+16	जाता	जा	AUX	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	15	aux:pass	_	Translit=jātā|LTranslit=jā
+17	है	है	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Pres	15	aux	_	SpaceAfter=No|Translit=hai|LTranslit=hai
+18	।	।	PUNCT	.	_	15	punct	_	Translit=.|LTranslit=.
 
 # sent_id = w01095091
 # text = सम्राट मीजी के समय से, यह प्रथा रही है कि हर सम्राट का एक युग हो और हर सम्राट की मृत्यु के बाद उस युग, जिसमें उसने शासन किया था, के नाम का उपयोग करते हुए उस सम्राट को पुनः नाम दिया जाए।
@@ -18979,23 +18979,23 @@
 # translit = 10 mārca, 1896 ko briṭiśa dūtāvāsa meṁ eṁglikana maṁtrī revareṁḍa viliyama heśalara harjala se milane āyā.
 # text_en = On March 10, 1896, Herzl was visited by Reverend William Hechler, the Anglican minister to the British Embassy.
 1	10	10	NUM	CD	NumType=Card	2	nummod	_	Translit=10|LTranslit=10
-2	मार्च	मार्च	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obl:tmod	_	SpaceAfter=No|Translit=mārca|LTranslit=mārca
+2	मार्च	मार्च	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl:tmod	_	SpaceAfter=No|Translit=mārca|LTranslit=mārca
 3	,	,	PUNCT	,	_	4	punct	_	Translit=,|LTranslit=,
 4	1896	1896	NUM	CD	NumType=Card	2	nummod	_	Translit=1896|LTranslit=1896
 5	को	को	ADP	IN	Case=Acc	2	case	_	Translit=ko|LTranslit=ko
 6	ब्रिटिश	ब्रिटिश	ADJ	JJ	_	7	amod	_	Translit=briṭiśa|LTranslit=briṭiśa
-7	दूतावास	दूतावास	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obl	_	Translit=dūtāvāsa|LTranslit=dūtāvāsa
+7	दूतावास	दूतावास	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl	_	Translit=dūtāvāsa|LTranslit=dūtāvāsa
 8	में	में	ADP	IN	Case=Loc	7	case	_	Translit=meṁ|LTranslit=meṁ
 9	एंग्लिकन	एंग्लिकन	ADJ	JJ	_	10	amod	_	Translit=eṁglikana|LTranslit=eṁglikana
 10	मंत्री	मंत्री	NOUN	NN	Animacy=Anim|Case=Nom|Number=Sing	11	compound	_	Translit=maṁtrī|LTranslit=maṁtrī
-11	रेवरेंड	रेवरेंड	PROPN	NNP	Animacy=Anim|Gender=Masc|Number=Sing	16	nsubj	_	Translit=revareṁḍa|LTranslit=revareṁḍa
+11	रेवरेंड	रेवरेंड	PROPN	NNP	Animacy=Anim|Gender=Masc|Number=Sing	17	nsubj	_	Translit=revareṁḍa|LTranslit=revareṁḍa
 12	विलियम	विलियम	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	flat:name	_	Translit=viliyama|LTranslit=viliyama
-13	हेशलर	हेशलर	PROPN	NNP	Animacy=Anim|Gender=Masc|Number=Sing	16	iobj	_	Translit=heśalara|LTranslit=heśalara
+13	हेशलर	हेशलर	PROPN	NNP	Animacy=Anim|Gender=Masc|Number=Sing	17	iobj	_	Translit=heśalara|LTranslit=heśalara
 14	हर्जल	हर्जल	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	13	flat:name	_	Translit=harjala|LTranslit=harjala
 15	से	से	ADP	IN	_	13	case	_	Translit=se|LTranslit=se
-16	मिलने	मिल	VERB	VINF	Gender=Masc|Number=Sing|Person=3|VerbForm=Inf	0	root	_	Translit=milane|LTranslit=mila
-17	आया	आ	AUX	VXH	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	16	aux	_	SpaceAfter=No|Translit=āyā|LTranslit=ā
-18	।	।	PUNCT	.	_	16	punct	_	Translit=.|LTranslit=.
+16	मिलने	मिल	VERB	VINF	Gender=Masc|Number=Sing|Person=3|VerbForm=Inf	17	xcomp	_	Translit=milane|LTranslit=mila
+17	आया	आ	VERB	VXH	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Translit=āyā|LTranslit=ā
+18	।	।	PUNCT	.	_	17	punct	_	Translit=.|LTranslit=.
 
 # newdoc id = w01109
 # sent_id = w01109009
@@ -19563,15 +19563,15 @@
 # text = फिक्शन में संक्रमण उसे आसान लगा, उसने कहा, "हर किताब सीखने की एक अवस्था है, और आपको अपना दिमाग खुला रखना होता है।"
 # translit = phikśana meṁ saṁkramaṇa use āsāna lagā, usane kahā, "hara kitāba sīkhane kī eka avasthā hai, aura āpako apanā dimāga khulā rakhanā hotā hai."
 # text_en = She found the transition to fiction easy, explaining, "Every book is a learning curve, and you have to keep an open mind."
-1	फिक्शन	फिक्शन	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	Translit=phikśana|LTranslit=phikśana
+1	फिक्शन	फिक्शन	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	Translit=phikśana|LTranslit=phikśana
 2	में	में	ADP	IN	Case=Acc	1	case	_	Translit=meṁ|LTranslit=meṁ
-3	संक्रमण	संक्रमण	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	Translit=saṁkramaṇa|LTranslit=saṁkramaṇa
-4	उसे	वह	PRON	PRP	Animacy=Anim|Case=Acc|Number=Sing|Person=3	5	nsubj	_	Translit=use|LTranslit=vaha
-5	आसान	आसान	ADJ	JJ	_	0	root	_	Translit=āsāna|LTranslit=āsāna
-6	लगा	लग	AUX	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	5	cop	_	SpaceAfter=No|Translit=lagā|LTranslit=laga
+3	संक्रमण	संक्रमण	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	Translit=saṁkramaṇa|LTranslit=saṁkramaṇa
+4	उसे	वह	PRON	PRP	Animacy=Anim|Case=Acc|Number=Sing|Person=3	6	nsubj	_	Translit=use|LTranslit=vaha
+5	आसान	आसान	ADJ	JJ	_	6	xcomp	_	Translit=āsāna|LTranslit=āsāna
+6	लगा	लग	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Translit=lagā|LTranslit=laga
 7	,	,	PUNCT	,	_	9	punct	_	Translit=,|LTranslit=,
 8	उसने	वह	PRON	PRP	Animacy=Anim|Case=Acc|Number=Sing|Person=3	9	nsubj	_	Translit=usane|LTranslit=vaha
-9	कहा	कह	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	5	parataxis	_	SpaceAfter=No|Translit=kahā|LTranslit=kaha
+9	कहा	कह	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	6	parataxis	_	SpaceAfter=No|Translit=kahā|LTranslit=kaha
 10	,	,	PUNCT	,	_	18	punct	_	Translit=,|LTranslit=,
 11	"	"	PUNCT	``	_	18	punct	_	SpaceAfter=No|Translit="|LTranslit="
 12	हर	हर	DET	QF	_	13	det	_	Translit=hara|LTranslit=hara
@@ -19581,15 +19581,15 @@
 16	एक	एक	DET	DT	Definite=Ind|Number=Sing	17	det	_	Translit=eka|LTranslit=eka
 17	अवस्था	अवस्था	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	obj	_	Translit=avasthā|LTranslit=avasthā
 18	है	है	VERB	VBI	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	ccomp	_	SpaceAfter=No|Translit=hai|LTranslit=hai
-19	,	,	PUNCT	,	_	26	punct	_	Translit=,|LTranslit=,
-20	और	और	CCONJ	CC	_	26	cc	_	Translit=aura|LTranslit=aura
-21	आपको	आप	PRON	PRP	Animacy=Anim|Case=Acc|Number=Sing|Person=2|Polite=Form	26	nsubj	_	Translit=āpako|LTranslit=āpa
+19	,	,	PUNCT	,	_	25	punct	_	Translit=,|LTranslit=,
+20	और	और	CCONJ	CC	_	25	cc	_	Translit=aura|LTranslit=aura
+21	आपको	आप	PRON	PRP	Animacy=Anim|Case=Acc|Number=Sing|Person=2|Polite=Form	25	nsubj	_	Translit=āpako|LTranslit=āpa
 22	अपना	अपना	PRON	PRR	Case=Nom|Gender=Masc|Number=Sing	23	nmod:poss	_	Translit=apanā|LTranslit=apanā
-23	दिमाग	दिमाग	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	obj	_	Translit=dimāga|LTranslit=dimāga
+23	दिमाग	दिमाग	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	obj	_	Translit=dimāga|LTranslit=dimāga
 24	खुला	खुल	VERB	VBI	Gender=Masc|Number=Sing|Person=3	26	xcomp	_	Translit=khulā|LTranslit=khula
-25	रखना	रख	AUX	VXH	Gender=Masc|Number=Sing|Person=3	26	aux	_	Translit=rakhanā|LTranslit=rakha
-26	होता	हो	VERB	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	18	conj	_	Translit=hotā|LTranslit=ho
-27	है	है	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Pres	26	aux	_	SpaceAfter=No|Translit=hai|LTranslit=hai
+25	रखना	रख	VERB	VXH	Gender=Masc|Number=Sing|Person=3	18	conj	_	Translit=rakhanā|LTranslit=rakha
+26	होता	हो	VERB	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	25	xcomp	_	Translit=hotā|LTranslit=ho
+27	है	है	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Pres	25	aux	_	SpaceAfter=No|Translit=hai|LTranslit=hai
 28	।	।	PUNCT	.	_	18	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
 29	"	"	PUNCT	``	_	18	punct	_	Translit="|LTranslit="
 
@@ -21490,18 +21490,18 @@
 11	नहीं	नहीं	PART	NEG	Polarity=Neg	12	advmod	_	Translit=nahīṁ|LTranslit=nahīṁ
 12	हुआ	हो	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3	0	root	_	Translit=huā|LTranslit=ho
 13	था	था	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Past	12	aux	_	SpaceAfter=No|Translit=thā|LTranslit=thā
-14	,	,	PUNCT	,	_	24	punct	_	Translit=,|LTranslit=,
-15	लेकिन	लेकिन	CCONJ	CC	_	24	cc	_	Translit=lekina|LTranslit=lekina
-16	उसने	वह	PRON	PRP	Animacy=Anim|Case=Acc|Number=Sing|Person=3	24	nsubj	_	Translit=usane|LTranslit=vaha
+14	,	,	PUNCT	,	_	25	punct	_	Translit=,|LTranslit=,
+15	लेकिन	लेकिन	CCONJ	CC	_	25	cc	_	Translit=lekina|LTranslit=lekina
+16	उसने	वह	PRON	PRP	Animacy=Anim|Case=Acc|Number=Sing|Person=3	25	nsubj	_	Translit=usane|LTranslit=vaha
 17	वैवाहिक	वैवाहिक	ADJ	JJ	_	20	amod	_	Translit=vaivāhika|LTranslit=vaivāhika
 18	उथल	उथल	NOUN	NN	Animacy=Inan|Gender=Masc|Number=Sing	20	compound:redup	_	SpaceAfter=No|Translit=uthala|LTranslit=uthala
 19	-	-	PUNCT	-	_	18	punct	_	SpaceAfter=No|Translit=-|LTranslit=-
-20	पुथल	पुथल	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obl	_	Translit=puthala|LTranslit=puthala
+20	पुथल	पुथल	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obl	_	Translit=puthala|LTranslit=puthala
 21	के	के	ADP	IN	_	20	case	_	Translit=ke|LTranslit=ke
 22	बाद	बाद	ADP	IN	_	21	fixed	_	Translit=bāda|LTranslit=bāda
-23	मशाल	मशाल	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	obj	_	Translit=maśāla|LTranslit=maśāla
-24	जलाए	जला	VERB	VBI	Gender=Masc|Number=Sing|Person=3	12	conj	_	Translit=jalāe|LTranslit=jalā
-25	रखा	रख	AUX	VXH	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	24	aux	_	SpaceAfter=No|Translit=rakhā|LTranslit=rakha
+23	मशाल	मशाल	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	obj	_	Translit=maśāla|LTranslit=maśāla
+24	जलाए	जला	VERB	VBI	Gender=Masc|Number=Sing|Person=3	25	xcomp	_	Translit=jalāe|LTranslit=jalā
+25	रखा	रख	VERB	VXH	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	12	conj	_	SpaceAfter=No|Translit=rakhā|LTranslit=rakha
 26	।	।	PUNCT	.	_	12	punct	_	Translit=.|LTranslit=.
 
 # sent_id = w01143037
@@ -23304,11 +23304,11 @@
 15	पर	पर	ADP	IN	Case=Acc	14	case	_	Translit=para|LTranslit=para
 16	आश्वस्त	आश्वस्त	ADJ	JJ	_	0	root	_	Translit=āśvasta|LTranslit=āśvasta
 17	हैं	है	AUX	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Polite=Form|Tense=Pres	16	cop	_	SpaceAfter=No|Translit=haiṁ|LTranslit=hai
-18	:	:	PUNCT	:	_	30	punct	_	Translit=:|LTranslit=:
-19	"	"	PUNCT	``	_	30	punct	_	Translit="|LTranslit="
+18	:	:	PUNCT	:	_	31	punct	_	Translit=:|LTranslit=:
+19	"	"	PUNCT	``	_	31	punct	_	Translit="|LTranslit="
 20	अपतटीय	अपतटीय	ADJ	JJ	_	22	amod	_	Translit=apataṭīya|LTranslit=apataṭīya
 21	पवन	पवन	NOUN	NN	Animacy=Inan|Gender=Masc|Number=Sing	22	compound	_	Translit=pavana|LTranslit=pavana
-22	ऊर्जा	ऊर्जा	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	30	nsubj	_	Translit=ūrjā|LTranslit=ūrjā
+22	ऊर्जा	ऊर्जा	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	31	nsubj	_	Translit=ūrjā|LTranslit=ūrjā
 23	एक	एक	DET	DT	Definite=Ind|Number=Sing	26	det	_	Translit=eka|LTranslit=eka
 24	ऐसी	ऐसा	DET	DT	Definite=Def|Number=Sing	26	det	_	Translit=aisī|LTranslit=aisā
 25	वैश्विक	वैश्विक	ADJ	JJ	_	26	amod	_	Translit=vaiśvika|LTranslit=vaiśvika
@@ -23316,10 +23316,10 @@
 27	में	में	ADP	IN	Case=Loc	26	case	_	Translit=meṁ|LTranslit=meṁ
 28	शीर्ष	शीर्ष	ADJ	JJ	_	30	amod	_	Translit=śīrṣa|LTranslit=śīrṣa
 29	ऊर्जा	ऊर्जा	NOUN	NN	Animacy=Inan|Gender=Fem|Number=Sing	30	compound	_	Translit=ūrjā|LTranslit=ūrjā
-30	उत्पादक	उत्पादक	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	parataxis	_	Translit=utpādaka|LTranslit=utpādaka
-31	बन	बन	AUX	VB	_	30	cop	_	Translit=bana|LTranslit=bana
-32	सकती	सक	AUX	VXH	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3	30	aux	_	Translit=sakatī|LTranslit=saka
-33	है	है	AUX	VXH	Gender=Fem|Number=Sing|Person=3|Tense=Pres	30	aux	_	Translit=hai|LTranslit=hai
+30	उत्पादक	उत्पादक	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	31	xcomp	_	Translit=utpādaka|LTranslit=utpādaka
+31	बन	बन	VERB	VB	_	16	parataxis	_	Translit=bana|LTranslit=bana
+32	सकती	सक	AUX	VXH	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3	31	aux	_	Translit=sakatī|LTranslit=saka
+33	है	है	AUX	VXH	Gender=Fem|Number=Sing|Person=3|Tense=Pres	31	aux	_	Translit=hai|LTranslit=hai
 34	जो	जो	PRON	REL	Case=Nom|Gender[psor]=Masc|Number[psor]=Sing|PronType=Prs	39	nsubj	_	ToDo=जो|Translit=jo|LTranslit=jo
 35	कोयला	कोयला	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	37	amod	_	Translit=koyalā|LTranslit=koyalā
 36	आधारित	आधारित	ADP	SFA	_	35	case	_	Translit=ādhārita|LTranslit=ādhārita
@@ -23327,8 +23327,8 @@
 38	से	से	ADP	IN	Case=Acc	37	case	_	Translit=se|LTranslit=se
 39	मुक्त	मुक्त	ADJ	JJ	_	26	acl:relcl	_	Translit=mukta|LTranslit=mukta
 40	है	है	AUX	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres	39	cop	_	SpaceAfter=No|Translit=hai|LTranslit=hai
-41	।	।	PUNCT	.	_	30	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
-42	"	"	PUNCT	``	_	30	punct	_	Translit="|LTranslit="
+41	।	।	PUNCT	.	_	31	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+42	"	"	PUNCT	``	_	31	punct	_	Translit="|LTranslit="
 
 # newdoc id = n02078
 # sent_id = n02078004
@@ -24406,15 +24406,15 @@
 3	बनाया	बना	VERB	VBI	Gender=Masc|Number=Sing|Person=3	0	root	_	Translit=banāyā|LTranslit=banā
 4	गया	जा	AUX	VXH	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3	3	aux:pass	_	Translit=gayā|LTranslit=jā
 5	है	है	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Pres	3	aux	_	Translit=hai|LTranslit=hai
-6	जिसे	जो	PRON	REL	Case=Acc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|PronType=Prs	10	obj	_	Translit=jise|LTranslit=jo
+6	जिसे	जो	PRON	REL	Case=Acc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|PronType=Prs	11	obj	_	Translit=jise|LTranslit=jo
 7	आपके	आप	PRON	PRP	Animacy=Anim|Case=Acc|Number=Sing|Person=2	8	nmod:poss	_	Translit=āpake|LTranslit=āpa
-8	स्मार्टफोन	स्मार्टफोन	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	Translit=smārṭaphona|LTranslit=smārṭaphona
+8	स्मार्टफोन	स्मार्टफोन	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	Translit=smārṭaphona|LTranslit=smārṭaphona
 9	में	में	ADP	IN	Case=Loc	8	case	_	Translit=meṁ|LTranslit=meṁ
-10	सुरक्षित	सुरक्षित	ADJ	JJ	_	2	acl:relcl	_	Translit=surakṣita|LTranslit=surakṣita
-11	रखा	रख	AUX	VBI	Gender=Masc|Number=Sing|Person=3	10	cop	_	Translit=rakhā|LTranslit=rakha
-12	जा	जा	AUX	VXH	_	10	aux:pass	_	Translit=jā|LTranslit=jā
-13	सकता	सक	AUX	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	10	aux	_	Translit=sakatā|LTranslit=saka
-14	है	है	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Pres	10	aux	_	SpaceAfter=No|Translit=hai|LTranslit=hai
+10	सुरक्षित	सुरक्षित	ADJ	JJ	_	11	xcomp	_	Translit=surakṣita|LTranslit=surakṣita
+11	रखा	रख	VERB	VBI	Gender=Masc|Number=Sing|Person=3	2	acl:relcl	_	Translit=rakhā|LTranslit=rakha
+12	जा	जा	AUX	VXH	_	11	aux:pass	_	Translit=jā|LTranslit=jā
+13	सकता	सक	AUX	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	11	aux	_	Translit=sakatā|LTranslit=saka
+14	है	है	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Pres	11	aux	_	SpaceAfter=No|Translit=hai|LTranslit=hai
 15	,	,	PUNCT	,	_	19	punct	_	Translit=,|LTranslit=,
 16	या	या	CCONJ	CC	_	19	cc	_	Translit=yā|LTranslit=yā
 17	दराज	दराज	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obl	_	Translit=darāja|LTranslit=darāja
@@ -25467,18 +25467,18 @@
 3	से	से	ADP	IN	Case=Acc	2	case	_	Translit=se|LTranslit=se
 4	लगता	लग	VERB	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	0	root	_	Translit=lagatā|LTranslit=laga
 5	है	है	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Pres	4	aux	_	Translit=hai|LTranslit=hai
-6	कि	कि	SCONJ	IN	_	16	mark	_	Translit=ki|LTranslit=ki
+6	कि	कि	SCONJ	IN	_	17	mark	_	Translit=ki|LTranslit=ki
 7	इस	यह	DET	DT	Definite=Def|Number=Sing	8	det	_	Translit=isa|LTranslit=yaha
-8	बार	बार	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	obl:tmod	_	Translit=bāra|LTranslit=bāra
+8	बार	बार	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	obl:tmod	_	Translit=bāra|LTranslit=bāra
 9	लैटिन	लैटिन	ADJ	JJ	_	11	amod	_	Translit=laiṭina|LTranslit=laiṭina
 10	अमेरिकी	अमेरिकी	ADJ	JJ	_	11	amod	_	Translit=amerikī|LTranslit=amerikī
-11	लोग	लोग	NOUN	NN	Animacy=Anim|Case=Nom|Number=Plur	16	nsubj	_	Translit=loga|LTranslit=loga
+11	लोग	लोग	NOUN	NN	Animacy=Anim|Case=Nom|Number=Plur	17	nsubj	_	Translit=loga|LTranslit=loga
 12	भारी	भारी	ADJ	JJ	_	13	amod	_	Translit=bhārī|LTranslit=bhārī
-13	संख्या	संख्या	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obl	_	Translit=saṁkhyā|LTranslit=saṁkhyā
+13	संख्या	संख्या	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obl	_	Translit=saṁkhyā|LTranslit=saṁkhyā
 14	में	में	ADP	IN	Case=Acc	13	case	_	Translit=meṁ|LTranslit=meṁ
-15	मतदान	मतदान	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	obj	_	Translit=matadāna|LTranslit=matadāna
-16	करने	कर	VERB	VINF	VerbForm=Inf	4	ccomp	_	Translit=karane|LTranslit=kara
-17	आएंगे	आ	AUX	VXH	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Fut	16	aux	_	SpaceAfter=No|Translit=āeṁge|LTranslit=ā
+15	मतदान	मतदान	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	obj	_	Translit=matadāna|LTranslit=matadāna
+16	करने	कर	VERB	VINF	VerbForm=Inf	17	xcomp	_	Translit=karane|LTranslit=kara
+17	आएंगे	आ	VERB	VXH	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Fut	4	ccomp	_	SpaceAfter=No|Translit=āeṁge|LTranslit=ā
 18	,	,	PUNCT	,	_	21	punct	_	Translit=,|LTranslit=,
 19	लेकिन	लेकिन	CCONJ	CC	_	21	cc	_	Translit=lekina|LTranslit=lekina
 20	यह	यह	PRON	PDEM	Number=Sing	21	nsubj	_	Translit=yaha|LTranslit=yaha
@@ -27063,22 +27063,22 @@
 1	ईसा	ईसा	PART	PRT	_	4	compound	_	Translit=īsā|LTranslit=īsā
 2	पूर्व	पूर्व	PART	PRT	_	1	compound	_	Translit=pūrva|LTranslit=pūrva
 3	8वीं	8वाँ	ADJ	JJ	Gender=Fem	4	amod	_	Translit=8vīṁ|LTranslit=8vām̃
-4	शताब्दी	शताब्दी	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obl	_	Translit=śatābdī|LTranslit=śatābdī
+4	शताब्दी	शताब्दी	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obl	_	Translit=śatābdī|LTranslit=śatābdī
 5	में	में	ADP	IN	Case=Loc	4	case	_	SpaceAfter=No|Translit=meṁ|LTranslit=meṁ
 6	,	,	PUNCT	,	_	4	punct	_	Translit=,|LTranslit=,
 7	मिसेनियाई	मिसेनियाई	ADJ	JJ	_	8	amod	_	Translit=miseniyāī|LTranslit=miseniyāī
 8	सभ्यता	सभ्यता	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	nmod:poss	_	Translit=sabhyatā|LTranslit=sabhyatā
 9	के	का	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	8	case	_	Translit=ke|LTranslit=kā
-10	पतन	पतन	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl	_	Translit=patana|LTranslit=patana
+10	पतन	पतन	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obl	_	Translit=patana|LTranslit=patana
 11	के	के	ADP	IN	_	10	case	_	Translit=ke|LTranslit=ke
 12	बाद	बाद	ADP	IN	_	11	fixed	_	Translit=bāda|LTranslit=bāda
-13	यूनान	यूनान	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	nsubj	_	Translit=yūnāna|LTranslit=yūnāna
+13	यूनान	यूनान	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	nsubj	_	Translit=yūnāna|LTranslit=yūnāna
 14	अंधकार	अंधकार	ADJ	JJ	_	15	amod	_	Translit=aṁdhakāra|LTranslit=aṁdhakāra
-15	युग	युग	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl	_	Translit=yuga|LTranslit=yuga
+15	युग	युग	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obl	_	Translit=yuga|LTranslit=yuga
 16	से	से	ADP	IN	Case=Acc	15	case	_	Translit=se|LTranslit=se
-17	उबरने	उबर	VERB	VINF	VerbForm=Inf	0	root	_	Translit=ubarane|LTranslit=ubara
-18	लगा	लग	AUX	VXH	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	17	aux	_	SpaceAfter=No|Translit=lagā|LTranslit=laga
-19	।	।	PUNCT	.	_	17	punct	_	Translit=.|LTranslit=.
+17	उबरने	उबर	VERB	VINF	VerbForm=Inf	18	xcomp	_	Translit=ubarane|LTranslit=ubara
+18	लगा	लग	VERB	VXH	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Translit=lagā|LTranslit=laga
+19	।	।	PUNCT	.	_	18	punct	_	Translit=.|LTranslit=.
 
 # sent_id = w03005013
 # text = साक्षरता खत्म हो चुकी थी और मेसेनियाई लिपि भुलाई जा चुकी थी, लेकिन यूनानियों ने फोनेशियन वर्णमाला को अपना लिया, इसमें सुधार करते हुए यूनानी वर्णमाला विकसित कर ली।
@@ -27129,14 +27129,14 @@
 6	,	,	PUNCT	,	_	7	punct	_	Translit=,|LTranslit=,
 7	पहले	पहले	ADP	IN	_	5	fixed	_	Translit=pahale|LTranslit=pahale
 8	यूनानी	यूनानी	ADJ	JJ	_	9	amod	_	Translit=yūnānī|LTranslit=yūnānī
-9	पाठ्य	पाठ्य	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	obj	_	Translit=pāṭhya|LTranslit=pāṭhya
+9	पाठ्य	पाठ्य	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	obj	_	Translit=pāṭhya|LTranslit=pāṭhya
 10	(	(	PUNCT	(	_	11	punct	_	SpaceAfter=No|Translit=(|LTranslit=(
 11	टेक्स्ट	टेक्स्ट	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No|Translit=ṭeksṭa|LTranslit=ṭeksṭa
 12	)	)	PUNCT	)	_	11	punct	_	Translit=)|LTranslit=)
 13	दिखाई	दिखा	VERB	VBI	Gender=Masc|Number=Plur|Person=3	14	xcomp	_	Translit=dikhāī|LTranslit=dikhā
-14	देने	दे	VERB	VXH	Gender=Masc|Number=Plur|Person=3	0	root	_	Translit=dene|LTranslit=de
-15	लगे	लग	AUX	VXH	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past	14	aux	_	SpaceAfter=No|Translit=lage|LTranslit=laga
-16	।	।	PUNCT	.	_	14	punct	_	Translit=.|LTranslit=.
+14	देने	दे	VERB	VXH	Gender=Masc|Number=Plur|Person=3	15	xcomp	_	Translit=dene|LTranslit=de
+15	लगे	लग	VERB	VXH	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Translit=lage|LTranslit=laga
+16	।	।	PUNCT	.	_	15	punct	_	Translit=.|LTranslit=.
 
 # sent_id = w03005015
 # text = यूनान कई छोटे, स्वशासी समुदायों, एक ऐसा पैटर्न जो काफी हद तक यूनान के भूगोल से निर्धारित था, में विभाजित था: हर द्वीप, घाटी और मैदान समुद्र और पर्वत श्रृंखलाओं के द्वारा अपने पड़ोसियों से कटा हुआ था।
