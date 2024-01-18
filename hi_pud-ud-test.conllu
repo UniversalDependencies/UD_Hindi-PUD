@@ -2171,9 +2171,9 @@
 11	"	"	PUNCT	``	_	13	punct	_	SpaceAfter=No|Translit="|LTranslit="
 12	तू	तू	NOUN	NN	Gender=Fem|Number=Sing	13	compound:redup	_	Translit=tū|LTranslit=tū
 13	तू	तू	NOUN	NN	Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No|Translit=tū|LTranslit=tū
-14	-	-	PUNCT	-	_	15	punct	_	SpaceAfter=No|Translit=-|LTranslit=-
-15	मैं	मैं	NOUN	NN	Gender=Fem|Number=Sing	13	compound:redup	_	Translit=maiṁ|LTranslit=maiṁ
-16	मैं	मैं	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	fixed	_	SpaceAfter=No|Translit=maiṁ|LTranslit=maiṁ
+14	-	-	PUNCT	-	_	16	punct	_	SpaceAfter=No|Translit=-|LTranslit=-
+15	मैं	मैं	NOUN	NN	Gender=Fem|Number=Sing	16	compound:redup	_	Translit=maiṁ|LTranslit=maiṁ
+16	मैं	मैं	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	compound	_	SpaceAfter=No|Translit=maiṁ|LTranslit=maiṁ
 17	"	"	PUNCT	``	_	13	punct	_	Translit="|LTranslit="
 18	के	के	ADP	IN	_	13	case	_	Translit=ke|LTranslit=ke
 19	बाद	बाद	ADP	IN	_	18	fixed	_	Translit=bāda|LTranslit=bāda
@@ -13713,7 +13713,7 @@
 14	वर्ष	वर्ष	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No|Translit=varṣa|LTranslit=varṣa
 15	"	"	PUNCT	``	_	14	punct	_	Translit="|LTranslit="
 16	घोषित	घोषित	ADJ	JJ	_	17	xcomp	_	Translit=ghoṣita|LTranslit=ghoṣita
-17	कियकिया	कियकर	VERB	VBI	Gender=Masc|Number=Sing|Person=3	0	root	_	Translit=kiyakiyā|LTranslit=kiyakara
+17	कियकिया	कर	VERB	VBI	Gender=Masc|Number=Sing|Person=3	0	root	_	Translit=kiyakiyā|LTranslit=kara
 18	गया	जा	AUX	VXH	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3	17	aux:pass	_	Translit=gayā|LTranslit=jā
 19	था	था	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Past	17	aux	_	SpaceAfter=No|Translit=thā|LTranslit=thā
 20	।	।	PUNCT	.	_	17	punct	_	Translit=.|LTranslit=.
@@ -16591,7 +16591,7 @@
 11	से	से	ADP	IN	Case=Acc	10	case	_	Translit=se|LTranslit=se
 12	10	10	NUM	CD	NumType=Card	15	nummod	_	SpaceAfter=No|Translit=10|LTranslit=10
 13	%	%	SYM	SYM	_	12	dep	_	Translit=%|LTranslit=%
-14	ज्यादा	ज्यादा	ADP	IN	_	11	fixed	_	Translit=jyādā|LTranslit=jyādā
+14	ज्यादा	ज्यादा	ADV	IN	_	15	advmod	_	Translit=jyādā|LTranslit=jyādā
 15	नामांकन	नामांकन	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	Translit=nāmāṁkana|LTranslit=nāmāṁkana
 16	संघर्ष	संघर्ष	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	21	nmod:poss	_	Translit=saṁgharṣa|LTranslit=saṁgharṣa
 17	की	का	ADP	IN	Case=Gen|Gender=Fem	16	case	_	Translit=kī|LTranslit=kā
@@ -16611,7 +16611,7 @@
 31	से	से	ADP	IN	Case=Acc	30	case	_	Translit=se|LTranslit=se
 32	1	1	NUM	CD	NumType=Card	36	nummod	_	SpaceAfter=No|Translit=1|LTranslit=1
 33	%	%	SYM	SYM	_	32	dep	_	Translit=%|LTranslit=%
-34	ज्यादा	ज्यादा	ADP	IN	_	31	fixed	_	Translit=jyādā|LTranslit=jyādā
+34	ज्यादा	ज्यादा	ADV	IN	_	36	advmod	_	Translit=jyādā|LTranslit=jyādā
 35	वृद्धि	वृद्धि	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	36	compound	_	Translit=vr̥ddhi|LTranslit=vr̥ddhi
 36	दर	दर	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	46	nsubj	_	Translit=dara|LTranslit=dara
 37	गृहयुद्ध	गृहयुद्ध	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	39	nmod:poss	_	Translit=gr̥hayuddha|LTranslit=gr̥hayuddha
@@ -28216,8 +28216,8 @@
 25	;	;	PUNCT	:	_	41	punct	_	Translit=;|LTranslit=;
 26	ऐसा	ऐसा	PRON	PDEM	Number=Sing	41	obl	_	Translit=aisā|LTranslit=aisā
 27	इस	यह	DET	DT	Definite=Def|Number=Sing	28	det	_	Translit=isa|LTranslit=yaha
-28	कारण	कारण	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	41	obj	_	ToDo=pobj|Translit=kāraṇa|LTranslit=kāraṇa
-29	से	से	ADP	IN	Case=Acc	41	xcomp	_	Translit=se|LTranslit=se
+28	कारण	कारण	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	41	obj	_	Translit=kāraṇa|LTranslit=kāraṇa
+29	से	से	ADP	IN	Case=Acc	28	case	_	Translit=se|LTranslit=se
 30	क्योंकि	क्योंकि	SCONJ	IN	_	41	mark	_	Translit=kyoṁki|LTranslit=kyoṁki
 31	अन्य	अन्य	ADJ	JJ	_	32	amod	_	Translit=anya|LTranslit=anya
 32	लोगों	लोग	NOUN	NN	Case=Acc|Number=Plur	41	obl	_	Translit=logoṁ|LTranslit=loga
@@ -28228,7 +28228,7 @@
 37	बच्चे	बच्चा	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	41	obl	_	Translit=bacce|LTranslit=baccā
 38	की	का	ADP	IN	_	37	case	_	Translit=kī|LTranslit=kā
 39	तरह	तरह	ADP	IN	_	38	fixed	_	Translit=taraha|LTranslit=taraha
-40	प्रशिक्षित	प्रशिक्षित	ADJ	JJ	_	29	fixed	_	Translit=praśikṣita|LTranslit=praśikṣita
+40	प्रशिक्षित	प्रशिक्षित	ADJ	JJ	_	41	xcomp	_	Translit=praśikṣita|LTranslit=praśikṣita
 41	किया	कर	VERB	VBI	Gender=Masc|Number=Sing|Person=3	23	advcl	_	Translit=kiyā|LTranslit=kara
 42	गया	जा	AUX	VXH	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3	41	aux:pass	_	Translit=gayā|LTranslit=jā
 43	था	था	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Past	41	aux	_	SpaceAfter=No|Translit=thā|LTranslit=thā
