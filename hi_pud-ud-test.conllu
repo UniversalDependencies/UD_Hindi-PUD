@@ -1104,7 +1104,7 @@
 # translit = adhikatara loga vimāna para se īmela bhejane meṁ sakṣama hone kī apekṣā havāī aḍḍe ke vāī-phāī ko jyādā upayogī pāeṁge.
 # text_en = "Most people would find airport wi-fi more useful than being able to send emails on a plane."
 1	अधिकतर	अधिकतर	DET	QF	_	2	det	_	Translit=adhikatara|LTranslit=adhikatara
-2	लोग	लोग	NOUN	NN	Animacy=Anim|Case=Nom|Number=Plur	21	nsubj	_	Translit=loga|LTranslit=loga
+2	लोग	लोग	NOUN	NN	Animacy=Anim|Case=Nom|Number=Plur	22	nsubj	_	Translit=loga|LTranslit=loga
 3	विमान	विमान	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	Translit=vimāna|LTranslit=vimāna
 4	पर	पर	ADP	IN	_	3	case	_	Translit=para|LTranslit=para
 5	से	से	ADP	IN	_	4	fixed	_	Translit=se|LTranslit=se
@@ -1112,7 +1112,7 @@
 7	भेजने	भेज	VERB	VINF	VerbForm=Inf	9	acl	_	Translit=bhejane|LTranslit=bheja
 8	में	में	ADP	IN	Case=Acc	7	case	_	Translit=meṁ|LTranslit=meṁ
 9	सक्षम	सक्षम	ADJ	JJ	_	10	xcomp	_	Translit=sakṣama|LTranslit=sakṣama
-10	होने	हो	VERB	VINF	VerbForm=Inf	21	advcl	_	Translit=hone|LTranslit=ho
+10	होने	हो	VERB	VINF	VerbForm=Inf	22	advcl	_	Translit=hone|LTranslit=ho
 11	की	का	ADP	IN	_	9	case	_	Translit=kī|LTranslit=kā
 12	अपेक्षा	अपेक्षा	ADP	IN	_	11	fixed	_	Translit=apekṣā|LTranslit=apekṣā
 13	हवाई	हवाई	ADJ	JJ	_	14	amod	_	Translit=havāī|LTranslit=havāī
@@ -1120,12 +1120,12 @@
 15	के	का	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	14	case	_	Translit=ke|LTranslit=kā
 16	वाई	वाई	NOUN	NN	Animacy=Inan|Gender=Masc|Number=Sing	18	compound	_	SpaceAfter=No|Translit=vāī|LTranslit=vāī
 17	-	-	PUNCT	-	_	16	punct	_	SpaceAfter=No|Translit=-|LTranslit=-
-18	फाई	फाई	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obj	_	Translit=phāī|LTranslit=phāī
+18	फाई	फाई	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	Translit=phāī|LTranslit=phāī
 19	को	को	ADP	IN	Case=Acc	18	case	_	Translit=ko|LTranslit=ko
-20	ज्यादा	ज्यादा	DET	QF	_	21	advmod	_	Translit=jyādā|LTranslit=jyādā
-21	उपयोगी	उपयोगी	ADJ	JJ	_	0	root	_	Translit=upayogī|LTranslit=upayogī
-22	पाएंगे	पा	AUX	VBI	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Fut	21	cop	_	SpaceAfter=No|Translit=pāeṁge|LTranslit=pā
-23	।	।	PUNCT	.	_	21	punct	_	Translit=.|LTranslit=.
+20	ज्यादा	ज्यादा	DET	QF	_	22	advmod	_	Translit=jyādā|LTranslit=jyādā
+21	उपयोगी	उपयोगी	ADJ	JJ	_	22	xcomp	_	Translit=upayogī|LTranslit=upayogī
+22	पाएंगे	पा	VERB	VBI	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Fut	0	root	_	SpaceAfter=No|Translit=pāeṁge|LTranslit=pā
+23	।	।	PUNCT	.	_	22	punct	_	Translit=.|LTranslit=.
 
 # newdoc id = n01018
 # sent_id = n01018024
