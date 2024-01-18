@@ -16412,11 +16412,11 @@
 9	से	से	ADP	IN	Case=Acc	7	case	_	Translit=se|LTranslit=se
 10	भी	भी	PART	EMPH	_	7	discourse	_	Translit=bhī|LTranslit=bhī
 11	मिला	मिल	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	Translit=milā|LTranslit=mila
-12	और	और	CCONJ	CC	_	15	cc	_	Translit=aura|LTranslit=aura
-13	उसे	वह	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	15	iobj	_	Translit=use|LTranslit=vaha
-14	दिल	दिल	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	obj	_	Translit=dila|LTranslit=dila
-15	दे	दे	VERB	VB	_	11	conj	_	Translit=de|LTranslit=de
-16	बैठा	बैठ	AUX	VXH	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	15	aux	_	Translit=baiṭhā|LTranslit=baiṭha
+12	और	और	CCONJ	CC	_	16	cc	_	Translit=aura|LTranslit=aura
+13	उसे	वह	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	16	iobj	_	Translit=use|LTranslit=vaha
+14	दिल	दिल	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	obj	_	Translit=dila|LTranslit=dila
+15	दे	दे	VERB	VB	_	16	xcomp	_	Translit=de|LTranslit=de
+16	बैठा	बैठ	VERB	VXH	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	11	conj	_	Translit=baiṭhā|LTranslit=baiṭha
 17	जो	जो	PRON	REL	Case=Nom|Gender[psor]=Fem|Number[psor]=Sing|PronType=Prs	24	nsubj	_	ToDo=जो|Translit=jo|LTranslit=jo
 18	कि	कि	SCONJ	IN	_	24	mark	_	Translit=ki|LTranslit=ki
 19	ट्रिक्स	ट्रिक्स	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing	24	obl	_	Translit=ṭriksa|LTranslit=ṭriksa
