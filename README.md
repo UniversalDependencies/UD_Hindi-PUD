@@ -42,6 +42,7 @@ employ ten-fold cross-validation.
   * The light verbs कर and हो are no longer analyzed as copulas.
   * Some other pseudo-auxiliaries reanalyzed using xcomp.
   * The Animacy feature is not used in Hindi.
+  * Verbal lemma is infinitive instead of stem.
 * 2021-05-15 v2.8
   * Relation det:predet changed to just det. The subtype is not needed
     and is not used in the other Hindi treebanks.
