@@ -14940,7 +14940,7 @@
 17	यह	यह	PRON	PDEM	Number=Sing	18	obj	_	Translit=yaha|LTranslit=yaha
 18	बता	बता	VERB	VB	_	20	xcomp	_	Translit=batā|LTranslit=batā
 19	पाना	पा	AUX	VXH	Gender=Masc|Number=Sing|Person=3	18	aux	_	Translit=pānā|LTranslit=pā
-20	संभव	संभव	ADJ	JJ	_	29	xcomp	_	Translit=saṁbhava|LTranslit=saṁbhava
+20	संभव	संभव	ADJ	JJ	_	28	xcomp	_	Translit=saṁbhava|LTranslit=saṁbhava
 21	नहीं	नहीं	PART	NEG	Polarity=Neg	29	advmod	_	Translit=nahīṁ|LTranslit=nahīṁ
 22	कि	कि	SCONJ	IN	_	29	mark	_	Translit=ki|LTranslit=ki
 23	वह	वह	PRON	PRP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Person=3	29	nsubj	_	Translit=vaha|LTranslit=vaha
@@ -14948,7 +14948,7 @@
 25	या	या	CCONJ	CC	_	26	cc	_	Translit=yā|LTranslit=yā
 26	धुंध	धुंध	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	conj	_	Translit=dhuṁdha|LTranslit=dhuṁdha
 27	में	में	ADP	IN	Case=Loc	24	case	_	Translit=meṁ|LTranslit=meṁ
-28	छिपा	छिप	AUX	VBI	Gender=Masc|Number=Sing|Person=3	20	cop	_	Translit=chipā|LTranslit=chipa
+28	छिपा	छिप	VERB	VBI	Gender=Masc|Number=Sing|Person=3	29	xcomp	_	Translit=chipā|LTranslit=chipa
 29	होता	हो	VERB	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres	14	conj	_	Translit=hotā|LTranslit=ho
 30	कि	कि	SCONJ	IN	_	29	mark	_	Translit=ki|LTranslit=ki
 31	नहीं	नहीं	PART	NEG	Polarity=Neg	29	advmod	_	SpaceAfter=No|Translit=nahīṁ|LTranslit=nahīṁ
@@ -18648,14 +18648,14 @@
 24	युद्ध	युद्ध	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	39	obl	_	Translit=yuddha|LTranslit=yuddha
 25	के	के	ADP	IN	_	24	case	_	Translit=ke|LTranslit=ke
 26	बाद	बाद	ADP	IN	_	25	fixed	_	Translit=bāda|LTranslit=bāda
-27	बर्लिन	बर्लिन	PROPN	NNP	Animacy=Inan|Gender=Masc|Number=Sing	33	obl	_	Translit=barlina|LTranslit=barlina
+27	बर्लिन	बर्लिन	PROPN	NNP	Animacy=Inan|Gender=Masc|Number=Sing	34	obl	_	Translit=barlina|LTranslit=barlina
 28	एयरलिफ्ट	एयरलिफ्ट	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	27	flat:name	_	Translit=eyaraliphṭa|LTranslit=eyaraliphṭa
 29	में	में	ADP	IN	Case=Loc	27	case	_	SpaceAfter=No|Translit=meṁ|LTranslit=meṁ
 30	,	,	PUNCT	,	_	27	punct	_	Translit=,|LTranslit=,
-31	जमीन	जमीन	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	33	obl	_	Translit=jamīna|LTranslit=jamīna
+31	जमीन	जमीन	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	34	obl	_	Translit=jamīna|LTranslit=jamīna
 32	से	से	ADP	IN	Case=Loc	31	case	_	Translit=se|LTranslit=se
-33	नियंत्रित	नियंत्रित	ADJ	JJ	_	39	xcomp	_	Translit=niyaṁtrita|LTranslit=niyaṁtrita
-34	पहुंच	पहुंच	AUX	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	33	cop	_	Translit=pahuṁca|LTranslit=pahuṁca
+33	नियंत्रित	नियंत्रित	ADJ	JJ	_	34	xcomp	_	Translit=niyaṁtrita|LTranslit=niyaṁtrita
+34	पहुंच	पहुंच	VERB	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	39	xcomp	_	Translit=pahuṁca|LTranslit=pahuṁca
 35	(	(	PUNCT	(	_	36	punct	_	SpaceAfter=No|Translit=(|LTranslit=(
 36	जीसीए	जीसीए	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	33	appos	_	SpaceAfter=No|Proper=True|Translit=jīsīe|LTranslit=jīsīe
 37	)	)	PUNCT	)	_	36	punct	_	Translit=)|LTranslit=)
@@ -20053,9 +20053,9 @@
 4	एल्बम	एल्बम	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	compound	_	Translit=elbama|LTranslit=elbama
 5	वाइल्ड	वाइल्ड	ADJ	JJ	_	6	amod	_	Proper=True|Translit=vāilḍa|LTranslit=vāilḍa
 6	वेस्ट	वेस्ट	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	Proper=True|Translit=vesṭa|LTranslit=vesṭa
-7	सबसे	सबसे	ADJ	JJS	_	8	advmod	_	Translit=sabase|LTranslit=sabase
-8	ज्यादा	ज्यादा	DET	QF	_	11	acl	_	Translit=jyādā|LTranslit=jyādā
-9	बिकने	बिक	AUX	VINF	VerbForm=Inf	8	cop	_	Translit=bikane|LTranslit=bika
+7	सबसे	सबसे	ADJ	JJS	_	9	advmod	_	Translit=sabase|LTranslit=sabase
+8	ज्यादा	ज्यादा	DET	QF	_	9	xcomp	_	Translit=jyādā|LTranslit=jyādā
+9	बिकने	बिक	VERB	VINF	VerbForm=Inf	11	acl	_	Translit=bikane|LTranslit=bika
 10	वाले	वाला	ADP	SFV	Gender=Masc|Number=Plur	8	case	_	Translit=vāle|LTranslit=vālā
 11	एल्बम	एल्बम	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	nmod	_	ToDo=nmod|Translit=elbama|LTranslit=elbama
 12	में	में	ADP	IN	_	11	case	_	Translit=meṁ|LTranslit=meṁ
@@ -21644,8 +21644,8 @@
 23	लगने	लग	VERB	VINF	VerbForm=Inf	33	advcl	_	Translit=lagane|LTranslit=laga
 24	के	के	ADP	IN	_	23	case	_	Translit=ke|LTranslit=ke
 25	बाद	बाद	ADP	IN	_	24	fixed	_	Translit=bāda|LTranslit=bāda
-26	जिन्दा	जिन्दा	ADJ	JJ	_	32	acl	_	Translit=jindā|LTranslit=jindā
-27	बचने	बच	AUX	VINF	VerbForm=Inf	26	cop	_	Translit=bacane|LTranslit=baca
+26	जिन्दा	जिन्दा	ADJ	JJ	_	27	xcomp	_	Translit=jindā|LTranslit=jindā
+27	बचने	बच	VERB	VINF	VerbForm=Inf	32	acl	_	Translit=bacane|LTranslit=baca
 28	वाला	वाला	ADP	SFV	Gender=Masc|Number=Sing	26	case	_	Translit=vālā|LTranslit=vālā
 29	पहला	पहला	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	32	amod	_	Translit=pahalā|LTranslit=pahalā
 30	सेवारत	सेवारत	ADJ	JJ	_	32	amod	_	Translit=sevārata|LTranslit=sevārata
@@ -22702,7 +22702,7 @@
 # text = वॉन ब्यूस्त ने कीमत में वृद्धि को विस्तृत योजना की कमी बताते हुए इसे उचित ठहराया।
 # translit = vôna byūsta ne kīmata meṁ vr̥ddhi ko vistr̥ta yojanā kī kamī batāte hue ise ucita ṭhaharāyā.
 # text_en = Von Beust justified the cost increases as lack of detailed planning.
-1	वॉन	वॉन	PROPN	NNP	Animacy=Anim|Gender=Masc|Number=Sing	15	nsubj	_	Translit=vôna|LTranslit=vôna
+1	वॉन	वॉन	PROPN	NNP	Animacy=Anim|Gender=Masc|Number=Sing	16	nsubj	_	Translit=vôna|LTranslit=vôna
 2	ब्यूस्त	ब्यूस्त	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	1	flat:name	_	Translit=byūsta|LTranslit=byūsta
 3	ने	ने	ADP	IN	Case=Erg	1	case	_	Translit=ne|LTranslit=ne
 4	कीमत	कीमत	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obl	_	Translit=kīmata|LTranslit=kīmata
@@ -22715,10 +22715,10 @@
 11	कमी	कमी	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	obj	_	Translit=kamī|LTranslit=kamī
 12	बताते	बता	VERB	VBI	Gender=Masc|Number=Sing|Person=3	13	xcomp	_	Translit=batāte|LTranslit=batā
 13	हुए	हो	VERB	VXH	Gender=Masc|Number=Sing|Person=3	15	acl	_	Translit=hue|LTranslit=ho
-14	इसे	यह	PRON	PDEM	Number=Sing	15	obj	_	Translit=ise|LTranslit=yaha
-15	उचित	उचित	ADJ	JJ	_	0	root	_	Translit=ucita|LTranslit=ucita
-16	ठहराया	ठहरा	AUX	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	15	cop	_	SpaceAfter=No|Translit=ṭhaharāyā|LTranslit=ṭhaharā
-17	।	।	PUNCT	.	_	15	punct	_	Translit=.|LTranslit=.
+14	इसे	यह	PRON	PDEM	Number=Sing	16	obj	_	Translit=ise|LTranslit=yaha
+15	उचित	उचित	ADJ	JJ	_	16	xcomp	_	Translit=ucita|LTranslit=ucita
+16	ठहराया	ठहरा	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Translit=ṭhaharāyā|LTranslit=ṭhaharā
+17	।	।	PUNCT	.	_	16	punct	_	Translit=.|LTranslit=.
 
 # newdoc id = n02038
 # sent_id = n02038007
@@ -23044,8 +23044,8 @@
 22	और	और	CCONJ	CC	_	27	cc	_	Translit=aura|LTranslit=aura
 23	क्या	क्या	PRON	WP	_	27	dep	_	Translit=kyā|LTranslit=kyā
 24	हम	हम	PRON	PRP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Person=1	27	nsubj	_	Translit=hama|LTranslit=hama
-25	बौद्धिक	बौद्धिक	ADJ	JJ	_	27	xcomp	_	Translit=bauddhika|LTranslit=bauddhika
-26	संबंधी	संबंधी	AUX	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	25	cop	_	Translit=saṁbaṁdhī|LTranslit=saṁbaṁdhī
+25	बौद्धिक	बौद्धिक	ADJ	JJ	_	26	xcomp	_	Translit=bauddhika|LTranslit=bauddhika
+26	संबंधी	संबंधी	VERB	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	27	xcomp	_	Translit=saṁbaṁdhī|LTranslit=saṁbaṁdhī
 27	हैं	है	VERB	VBI	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Person=1|Tense=Pres	20	conj	_	SpaceAfter=No|Translit=haiṁ|LTranslit=hai
 28	।	।	PUNCT	.	_	9	punct	_	Translit=.|LTranslit=.
 
@@ -23272,9 +23272,9 @@
 7	कार्यप्रणाली	कार्यप्रणाली	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obl	_	Translit=kāryapraṇālī|LTranslit=kāryapraṇālī
 8	के	के	ADP	IN	_	7	case	_	Translit=ke|LTranslit=ke
 9	प्रति	प्रति	ADP	IN	_	8	fixed	_	Translit=prati|LTranslit=prati
-10	अत्यधिक	अत्यधिक	ADJ	JJS	_	11	advmod	_	Translit=atyadhika|LTranslit=atyadhika
-11	समझदारी	समझदारी	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	acl	_	Translit=samajhadārī|LTranslit=samajhadārī
-12	दिखाने	दिखा	AUX	VINF	VerbForm=Inf	11	cop	_	Translit=dikhāne|LTranslit=dikhā
+10	अत्यधिक	अत्यधिक	ADJ	JJS	_	12	advmod	_	Translit=atyadhika|LTranslit=atyadhika
+11	समझदारी	समझदारी	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	xcomp	_	Translit=samajhadārī|LTranslit=samajhadārī
+12	दिखाने	दिखा	VERB	VINF	VerbForm=Inf	17	acl	_	Translit=dikhāne|LTranslit=dikhā
 13	के	के	ADP	IN	_	11	case	_	Translit=ke|LTranslit=ke
 14	बारे	बारे	ADP	IN	_	13	fixed	_	Translit=bāre|LTranslit=bāre
 15	में	में	ADP	IN	_	13	fixed	_	Translit=meṁ|LTranslit=meṁ
@@ -24815,14 +24815,14 @@
 2	से	से	ADP	IN	Case=Acc	1	case	_	Translit=se|LTranslit=se
 3	ज्यादा	ज्यादा	DET	QF	_	5	det	_	Translit=jyādā|LTranslit=jyādā
 4	तकनीकी	तकनीकी	ADJ	JJ	_	5	amod	_	Translit=takanīkī|LTranslit=takanīkī
-5	कंपनियां	कंपनी	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	Translit=kaṁpaniyāṁ|LTranslit=kaṁpanī
-6	विशेषज्ञों	विशेषज्ञ	NOUN	NN	Animacy=Anim|Case=Acc|Number=Plur	9	iobj	_	Translit=viśeṣajñoṁ|LTranslit=viśeṣajña
+5	कंपनियां	कंपनी	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	Translit=kaṁpaniyāṁ|LTranslit=kaṁpanī
+6	विशेषज्ञों	विशेषज्ञ	NOUN	NN	Animacy=Anim|Case=Acc|Number=Plur	10	iobj	_	Translit=viśeṣajñoṁ|LTranslit=viśeṣajña
 7	को	को	ADP	IN	Case=Acc	6	case	_	Translit=ko|LTranslit=ko
-8	इतना	इतना	ADP	IN	_	9	mark	_	Translit=itanā|LTranslit=itanā
-9	अधिक	अधिक	ADJ	JJ	_	0	root	_	Translit=adhika|LTranslit=adhika
-10	बुला	बुला	AUX	VBI	Gender=Masc|Number=Plur|Person=3	9	cop	_	Translit=bulā|LTranslit=bulā
-11	रही	रह	AUX	VXH	Aspect=Prog|Gender=Fem|Mood=Ind|Number=Plur|Person=3	9	aux	_	Translit=rahī|LTranslit=raha
-12	हैं	है	AUX	VXH	Gender=Fem|Number=Plur|Person=3|Tense=Pres	9	aux	_	Translit=haiṁ|LTranslit=hai
+8	इतना	इतना	ADP	IN	_	10	mark	_	Translit=itanā|LTranslit=itanā
+9	अधिक	अधिक	ADJ	JJ	_	10	xcomp	_	Translit=adhika|LTranslit=adhika
+10	बुला	बुला	VERB	VBI	Gender=Masc|Number=Plur|Person=3	0	root	_	Translit=bulā|LTranslit=bulā
+11	रही	रह	AUX	VXH	Aspect=Prog|Gender=Fem|Mood=Ind|Number=Plur|Person=3	10	aux	_	Translit=rahī|LTranslit=raha
+12	हैं	है	AUX	VXH	Gender=Fem|Number=Plur|Person=3|Tense=Pres	10	aux	_	Translit=haiṁ|LTranslit=hai
 13	जितना	जितना	ADP	IN	_	20	mark	_	Translit=jitanā|LTranslit=jitanā
 14	वाल	वाल	PROPN	NNP	Animacy=Inan|Gender=Masc|Number=Sing	20	nsubj	_	Translit=vāla|LTranslit=vāla
 15	स्ट्रीट	स्ट्रीट	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	flat:name	_	Translit=sṭrīṭa|LTranslit=sṭrīṭa
@@ -24830,7 +24830,7 @@
 17	पहले	पहले	NOUN	NST	_	20	obl:tmod	_	Translit=pahale|LTranslit=pahale
 18	कभी	कभी	ADV	RB	_	20	advmod	_	Translit=kabhī|LTranslit=kabhī
 19	नहीं	नहीं	PART	NEG	Polarity=Neg	20	advmod	_	Translit=nahīṁ|LTranslit=nahīṁ
-20	बुलाया	बुला	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	9	ccomp	_	SpaceAfter=No|Translit=bulāyā|LTranslit=bulā
+20	बुलाया	बुला	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	10	ccomp	_	SpaceAfter=No|Translit=bulāyā|LTranslit=bulā
 21	,	,	PUNCT	,	_	29	punct	_	Translit=,|LTranslit=,
 22	यहां	यहाँ	NOUN	NST	_	29	nmod	_	Translit=yahāṁ|LTranslit=yahām̃
 23	तक	तक	ADP	IN	_	22	case	_	Translit=taka|LTranslit=taka
@@ -24840,7 +24840,7 @@
 27	से	से	ADP	IN	Case=Acc	26	case	_	Translit=se|LTranslit=se
 28	भी	भी	PART	EMPH	_	26	discourse	_	ToDo=ex-adp-child|Translit=bhī|LTranslit=bhī
 29	ज्यादा	ज्यादा	DET	QF	_	20	parataxis	_	SpaceAfter=No|Translit=jyādā|LTranslit=jyādā
-30	।	।	PUNCT	.	_	9	punct	_	Translit=.|LTranslit=.
+30	।	।	PUNCT	.	_	10	punct	_	Translit=.|LTranslit=.
 
 # sent_id = n04010017
 # text = सर्वाधिक बाजार पूंजीकरण के मामले में अमेजन ExxonMobil को पीछे छोड़ते हुए चौथी अमेरिकी कंपनी बन गयी है।
@@ -27884,9 +27884,9 @@
 # text_en = The second Apulian and Calabrian Royal Region was then established, also including Samnium, parts of Molise and the oriental Basilicata.
 1	उस	वह	DET	DT	Definite=Def|Number=Sing	2	det	_	Translit=usa|LTranslit=vaha
 2	समय	समय	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	obl:tmod	_	Translit=samaya|LTranslit=samaya
-3	दूसरा	दूसरा	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	Translit=dūsarā|LTranslit=dūsarā
-4	अपुलियाई	अपुलियाई	AUX	JJ	_	3	cop	_	Translit=apuliyāī|LTranslit=apuliyāī
-5	और	और	CCONJ	CC	_	3	cc	_	ToDo=cc-without-conj|Translit=aura|LTranslit=aura
+3	दूसरा	दूसरा	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	4	xcomp	_	Translit=dūsarā|LTranslit=dūsarā
+4	अपुलियाई	अपुलियाई	VERB	JJ	_	7	amod	_	Translit=apuliyāī|LTranslit=apuliyāī
+5	और	और	CCONJ	CC	_	4	cc	_	ToDo=cc-without-conj|Translit=aura|LTranslit=aura
 6	कैलेब्रियाई	कैलेब्रियाई	ADJ	JJ	_	3	amod	_	Translit=kailebriyāī|LTranslit=kailebriyāī
 7	क्षेत्र	क्षेत्र	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj:pass	_	Translit=kṣetra|LTranslit=kṣetra
 8	स्थापित	स्थापित	ADJ	JJ	_	9	compound:lvc	_	Translit=sthāpita|LTranslit=sthāpita
@@ -28194,16 +28194,16 @@
 3	ने	ने	ADP	IN	Case=Erg	2	case	_	Translit=ne|LTranslit=ne
 4	उसे	वह	PRON	PRP	Animacy=Anim|Case=Acc|Number=Sing|Person=3	5	obj	_	Translit=use|LTranslit=vaha
 5	बताया	बता	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	Translit=batāyā|LTranslit=batā
-6	कि	कि	SCONJ	IN	_	13	mark	_	Translit=ki|LTranslit=ki
+6	कि	कि	SCONJ	IN	_	14	mark	_	Translit=ki|LTranslit=ki
 7	दोनों	दो	DET	QF	_	8	det	_	Translit=donoṁ|LTranslit=do
-8	ब्रम्हांडों	ब्रम्हांड	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obl	_	Translit=bramhāṁḍoṁ|LTranslit=bramhāṁḍa
+8	ब्रम्हांडों	ब्रम्हांड	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obl	_	Translit=bramhāṁḍoṁ|LTranslit=bramhāṁḍa
 9	के	के	ADP	IN	_	8	case	_	Translit=ke|LTranslit=ke
 10	बीच	बीच	ADP	IN	_	9	fixed	_	Translit=bīca|LTranslit=bīca
-11	युद्ध	युद्ध	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	obj	_	Translit=yuddha|LTranslit=yuddha
+11	युद्ध	युद्ध	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	obj	_	Translit=yuddha|LTranslit=yuddha
 12	शुरू	शुरू	NOUN	NN	Gender=Masc|Number=Sing	13	compound:lvc	_	Translit=śurū|LTranslit=śurū
-13	होने	हो	VERB	VINF	Gender=Masc|Number=Sing|Person=3|VerbForm=Inf	4	acl	_	Translit=hone|LTranslit=ho
-14	वाला	वाला	AUX	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	13	aux	_	Translit=vālā|LTranslit=vālā
-15	है	है	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Pres	13	aux	_	SpaceAfter=No|Translit=hai|LTranslit=hai
+13	होने	हो	VERB	VINF	Gender=Masc|Number=Sing|Person=3|VerbForm=Inf	14	xcomp	_	Translit=hone|LTranslit=ho
+14	वाला	वाला	VERB	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	4	acl	_	Translit=vālā|LTranslit=vālā
+15	है	है	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Pres	14	aux	_	SpaceAfter=No|Translit=hai|LTranslit=hai
 16	,	,	PUNCT	,	_	23	punct	_	Translit=,|LTranslit=,
 17	जैसाकि	जैसाकि	SCONJ	IN	_	23	mark	_	Translit=jaisāki|LTranslit=jaisāki
 18	उसने	वह	PRON	PRP	Animacy=Anim|Case=Acc|Number=Sing|Person=3	23	nsubj	_	Translit=usane|LTranslit=vaha
@@ -28211,7 +28211,7 @@
 20	वाल्टर	वाल्टर	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	18	conj	_	Translit=vālṭara|LTranslit=vālṭara
 21	ने	ने	ADP	IN	Case=Erg	18	case	_	Translit=ne|LTranslit=ne
 22	अनुमान	अनुमान	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	obj	_	Translit=anumāna|LTranslit=anumāna
-23	लगाया	लगा	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3	13	parataxis	_	Translit=lagāyā|LTranslit=lagā
+23	लगाया	लगा	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3	14	parataxis	_	Translit=lagāyā|LTranslit=lagā
 24	था	था	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Past	23	aux	_	SpaceAfter=No|Translit=thā|LTranslit=thā
 25	;	;	PUNCT	:	_	41	punct	_	Translit=;|LTranslit=;
 26	ऐसा	ऐसा	PRON	PDEM	Number=Sing	41	obl	_	Translit=aisā|LTranslit=aisā
@@ -28554,12 +28554,12 @@
 26	को	को	ADP	IN	Case=Acc	20	case	_	Translit=ko|LTranslit=ko
 27	बढ़ावा	बढावा	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	obj	_	Translit=baṛhāvā|LTranslit=baḍhāvā
 28	मिला	मिल	VERB	VBI	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	Translit=milā|LTranslit=mila
-29	जिसने	जो	PRON	REL	Case=Acc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|PronType=Prs	33	nsubj	_	Translit=jisane|LTranslit=jo
-30	उसे	वह	PRON	PRP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3	33	obj	_	Translit=use|LTranslit=vaha
-31	1879	1879	NUM	CD	NumType=Card	33	obl:tmod	_	Translit=1879|LTranslit=1879
+29	जिसने	जो	PRON	REL	Case=Acc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|PronType=Prs	34	nsubj	_	Translit=jisane|LTranslit=jo
+30	उसे	वह	PRON	PRP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3	34	obj	_	Translit=use|LTranslit=vaha
+31	1879	1879	NUM	CD	NumType=Card	34	obl:tmod	_	Translit=1879|LTranslit=1879
 32	में	में	ADP	IN	Case=Loc	31	case	_	Translit=meṁ|LTranslit=meṁ
-33	उखाड़	उखाड	VERB	VB	_	20	acl:relcl	_	Translit=ukhāṛa|LTranslit=ukhāḍa
-34	फेंका	फेंक	AUX	VXH	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	33	aux	_	SpaceAfter=No|Translit=pheṁkā|LTranslit=pheṁka
+33	उखाड़	उखाड	VERB	VB	_	34	xcomp	_	Translit=ukhāṛa|LTranslit=ukhāḍa
+34	फेंका	फेंक	VERB	VXH	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past	20	acl:relcl	_	SpaceAfter=No|Translit=pheṁkā|LTranslit=pheṁka
 35	।	।	PUNCT	.	_	28	punct	_	Translit=.|LTranslit=.
 
 # sent_id = w05003050
