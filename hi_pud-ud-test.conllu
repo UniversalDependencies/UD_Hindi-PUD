@@ -4321,7 +4321,7 @@
 3	चैपल	चैपल	PROPN	NNP	Number=Sing	4	compound	_	Translit=caipala|LTranslit=caipala
 4	हिल	हिल	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obl	_	Proper=True|Translit=hila|LTranslit=hila
 5	के	के	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	4	case	_	Translit=ke|LTranslit=ke
-6	ठीक	ठीक	ADJ	JJ	_	4	amod	_	ToDo=ex-adp-child|Translit=ṭhīka|LTranslit=ṭhīka
+6	ठीक	ठीक	ADJ	JJ	_	4	amod	_	Translit=ṭhīka|LTranslit=ṭhīka
 7	बाहर	बाहर	ADP	IN	_	5	fixed	_	Translit=bāhara|LTranslit=bāhara
 8	हिल्सबोरो	हिल्सबोरो	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	9	compound	_	Translit=hilsaboro|LTranslit=hilsaboro
 9	शहर	शहर	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	23	obl	_	Translit=śahara|LTranslit=śahara
@@ -7877,7 +7877,7 @@
 7	ब्रेक्जिट	ब्रेक्जिट	PROPN	NNP	Gender=Masc|Number=Sing	8	compound	_	Translit=brekjiṭa|LTranslit=brekjiṭa
 8	मतदान	मतदान	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obl	_	Translit=matadāna|LTranslit=matadāna
 9	के	के	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	8	case	_	Translit=ke|LTranslit=ke
-10	तुरंत	तुरंत	ADV	RB	_	17	advmod	_	Translit=turaṁta|LTranslit=turaṁta
+10	तुरंत	तुरंत	ADV	RB	_	8	advmod	_	Translit=turaṁta|LTranslit=turaṁta
 11	बाद	बाद	ADP	IN	_	9	fixed	_	Translit=bāda|LTranslit=bāda
 12	जुलाई	जुलाई	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obl:tmod	_	Translit=julāī|LTranslit=julāī
 13	में	में	ADP	IN	Case=Loc	12	case	_	Translit=meṁ|LTranslit=meṁ
@@ -18629,7 +18629,7 @@
 5	को	को	ADP	IN	Case=Acc	4	case	_	Translit=ko|LTranslit=ko
 6	सबसे	सबसे	ADJ	JJS	_	7	advmod	_	Translit=sabase|LTranslit=sabase
 7	ज्यादा	ज्यादा	ADJ	JJ	_	2	acl:relcl	_	Translit=jyādā|LTranslit=jyādā
-8	जाना	जान	AUX	VBI	Gender=Masc|Number=Sing|Person=3	7	cop	_	Translit=jānā|LTranslit=jāna
+8	जाना	जा	AUX	VBI	Gender=Masc|Number=Sing|Person=3	7	cop	_	Translit=jānā|LTranslit=jāna
 9	जाता	जा	AUX	VXH	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3	7	aux:pass	_	Translit=jātā|LTranslit=jā
 10	है	है	AUX	VXH	Gender=Masc|Number=Sing|Person=3|Tense=Pres	7	aux	_	Translit=hai|LTranslit=hai
 11	और	और	CCONJ	CC	_	7	cc	_	ToDo=cc-without-conj|Translit=aura|LTranslit=aura
