@@ -36,6 +36,13 @@ employ ten-fold cross-validation.
 
 # Changelog
 
+* 2024-05-15 v2.14
+  * Added sentence transliteration.
+  * Added lemmas predicted by UDPipe trained on UD Hindi HDTB 2.12.
+  * The light verbs कर and हो are no longer analyzed as copulas.
+  * Some other pseudo-auxiliaries reanalyzed using xcomp.
+  * The Animacy feature is not used in Hindi.
+  * Verbal lemma is infinitive instead of stem.
 * 2021-05-15 v2.8
   * Relation det:predet changed to just det. The subtype is not needed
     and is not used in the other Hindi treebanks.
@@ -120,7 +127,7 @@ Data available since: UD v2.1
 License: CC BY-SA 3.0
 Includes text: yes
 Genre: news wiki
-Lemmas: not available
+Lemmas: automatic
 UPOS: converted from manual
 XPOS: not available
 Features: converted from manual

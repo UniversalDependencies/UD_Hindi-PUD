@@ -10,43 +10,41 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>1000</sentences><tokens>23829</tokens><words>23829</words><fused>0</fused></test>
   </size>
-  <lemmas unique="0" /><!--  -->
+  <lemmas unique="4420" /><!-- का, ।, में, ,, करना, है, के, वह, और, से, जाना, को, यह, होना, ने -->
   <forms unique="5151" /><!-- के, ।, में, ,, है, की, और, से, को, का, ने, एक, कि, पर, हैं -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">1995</tag><!-- _ -->
-    <tag name="ADP">4849</tag><!-- _ -->
-    <tag name="ADV">159</tag><!-- _ -->
-    <tag name="AUX">1776</tag><!-- _ -->
-    <tag name="CCONJ">545</tag><!-- _ -->
-    <tag name="DET">876</tag><!-- _ -->
-    <tag name="NOUN">5597</tag><!-- _ -->
-    <tag name="NUM">452</tag><!-- _ -->
-    <tag name="PART">316</tag><!-- _ -->
-    <tag name="PRON">1128</tag><!-- _ -->
-    <tag name="PROPN">1358</tag><!-- _ -->
-    <tag name="PUNCT">2297</tag><!-- _ -->
-    <tag name="SCONJ">382</tag><!-- _ -->
-    <tag name="SYM">30</tag><!-- _ -->
-    <tag name="VERB">2058</tag><!-- _ -->
-    <tag name="X">11</tag><!-- _ -->
+    <tag name="ADJ">1995</tag><!-- नया, सबसे, पहला, शामिल, प्राप्त, स्थापित, अन्य, अमेरिकी, दूसरा, अच्छा -->
+    <tag name="ADP">4847</tag><!-- का, में, के, से, को, ने, पर, लिए, तक, साथ -->
+    <tag name="ADV">161</tag><!-- फिर, कभी, वापस, लगातार, शायद, अंततः, अक्सर, आखिरकार, तुरंत, संभवतः -->
+    <tag name="AUX">1366</tag><!-- है, जाना, था, सकना, रहना, पड़ना, चाहिए, पाना -->
+    <tag name="CCONJ">545</tag><!-- और, लेकिन, या, एवं, तथा, एंड, बहरहाल -->
+    <tag name="DET">876</tag><!-- एक, यह, वह, कई, कोई, बहुत, ज्यादा, लगभग, कम, केवल -->
+    <tag name="NOUN">5597</tag><!-- वर्ष, लोग, रूप, समय, क्षेत्र, शुरू, काम, दिन, साल, शहर -->
+    <tag name="NUM">452</tag><!-- दो, तीन, एक, मिलियन, चार, 1, 10, 3, छह, दस -->
+    <tag name="PART">316</tag><!-- नहीं, भी, ही, ईसा, पूर्व, भर, न, सुश्री, बगैर, श्रीमान -->
+    <tag name="PRON">1128</tag><!-- वह, यह, जो, अपना, मैं, हम, आप, क्या, ऐसा, जहाँ -->
+    <tag name="PROPN">1358</tag><!-- अमेरिका, चीन, ब्रिटेन, ट्रम्प, फ्रांस, यूरोप, इटली, मिस्र, रूस, हांगकांग -->
+    <tag name="PUNCT">2297</tag><!-- ।, ,, ", -, (, ), ', :, ;, “ -->
+    <tag name="SCONJ">382</tag><!-- कि, तो, जब, क्योंकि, हालांकि, यदि, जबकि, इसलिए, जैसे, जहाँ -->
+    <tag name="SYM">30</tag><!-- %, £, € -->
+    <tag name="VERB">2468</tag><!-- करना, होना, देना, हैना, थाना, कहना, लेना, आना, रहना, बनाना -->
+    <tag name="X">11</tag><!-- वीं, आनन, ए, कि, थ़ॉट, न्यू, पहला, भरकम, यह, या -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="39">
-    <feat name="Animacy" value="Anim" upos="AUX,NOUN,PRON,PROPN">1693</feat><!-- वह, उसने, लोगों, उसके, उसे, उसकी, उसका, व्यक्ति, मैं, लोग -->
-    <feat name="Animacy" value="Inan" upos="AUX,NOUN,PRON,PROPN">5392</feat><!-- रूप, वर्ष, समय, क्षेत्र, साल, तरह, बार, युद्ध, अमेरिका, उपयोग -->
+  <feats unique="37">
     <feat name="Aspect" value="Imp" upos="AUX,VERB">801</feat><!-- है, हैं, जाता, सकता, करता, होता, करते, होती, सकते, होगा -->
     <feat name="Aspect" value="Perf" upos="AUX,VERB">944</feat><!-- गया, किया, था, गयी, कहा, थी, दिया, की, हुआ, थे -->
     <feat name="Aspect" value="Prog" upos="AUX,VERB">71</feat><!-- रहे, रहा, रही, हुए, फिशिंग -->
     <feat name="Case" value="Abl" upos="ADP">1</feat><!-- से -->
-    <feat name="Case" value="Acc" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN">5065</feat><!-- को, से, में, पर, अपने, उसने, रूप, लोगों, उसके, उसे -->
+    <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,PRON,PROPN,VERB">5065</feat><!-- को, से, में, पर, अपने, उसने, रूप, लोगों, उसके, उसे -->
     <feat name="Case" value="Dat" upos="ADP">2</feat><!-- को -->
     <feat name="Case" value="Erg" upos="ADP">256</feat><!-- ने, के -->
     <feat name="Case" value="Gen" upos="ADP">1215</feat><!-- के, की, का, ऑफ, आफ -->
     <feat name="Case" value="Ins" upos="ADP">42</feat><!-- द्वारा, से -->
     <feat name="Case" value="Loc" upos="ADP">593</feat><!-- में, पर, से, को, तक, इन, एट, ओवर, मे -->
-    <feat name="Case" value="Nom" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN">2880</feat><!-- जो, वह, अपनी, वर्ष, उसकी, उसका, समय, बार, मैं, साल -->
+    <feat name="Case" value="Nom" upos="ADJ,ADP,DET,NOUN,PRON,PROPN,VERB">2880</feat><!-- जो, वह, अपनी, वर्ष, उसकी, उसका, समय, बार, मैं, साल -->
     <feat name="Definite" value="Def" upos="DET">237</feat><!-- इस, यह, उस, इन, उन, ऐसा, द, उसी, ऐसे, ऐसी -->
     <feat name="Definite" value="Ind" upos="DET">208</feat><!-- एक, ए, उन, द, दि, वह, वैसा -->
     <feat name="Foreign" value="Yes" upos="X">3</feat><!-- थ़ॉट, न्यू, या -->
@@ -79,40 +77,40 @@
     <dep name="acl">338</dep>
     <dep name="acl:relcl">215</dep>
     <dep name="advcl">200</dep>
-    <dep name="advmod">379</dep>
+    <dep name="advmod">381</dep>
     <dep name="amod">1413</dep>
     <dep name="appos">111</dep>
-    <dep name="aux">1203</dep>
-    <dep name="aux:pass">211</dep>
-    <dep name="case">4075</dep>
+    <dep name="aux">989</dep>
+    <dep name="aux:pass">203</dep>
+    <dep name="case">4076</dep>
     <dep name="cc">547</dep>
     <dep name="ccomp">153</dep>
-    <dep name="compound">815</dep>
+    <dep name="compound">816</dep>
     <dep name="compound:lvc">447</dep>
     <dep name="compound:redup">14</dep>
-    <dep name="conj">599</dep>
-    <dep name="cop">362</dep>
+    <dep name="conj">600</dep>
+    <dep name="cop">174</dep>
     <dep name="dep">65</dep>
     <dep name="det">791</dep>
     <dep name="discourse">165</dep>
-    <dep name="fixed">782</dep>
+    <dep name="fixed">778</dep>
     <dep name="flat">4</dep>
     <dep name="flat:name">206</dep>
-    <dep name="iobj">177</dep>
+    <dep name="iobj">178</dep>
     <dep name="list">1</dep>
     <dep name="mark">403</dep>
     <dep name="nmod">141</dep>
     <dep name="nmod:poss">1401</dep>
-    <dep name="nsubj">1137</dep>
+    <dep name="nsubj">1127</dep>
     <dep name="nsubj:pass">167</dep>
     <dep name="nummod">279</dep>
-    <dep name="obj">1465</dep>
-    <dep name="obl">1644</dep>
+    <dep name="obj">1469</dep>
+    <dep name="obl">1646</dep>
     <dep name="obl:agent">43</dep>
     <dep name="obl:tmod">313</dep>
     <dep name="parataxis">94</dep>
     <dep name="punct">2297</dep>
     <dep name="root">1000</dep>
-    <dep name="xcomp">172</dep>
+    <dep name="xcomp">584</dep>
   </deps>
 </treebank>
