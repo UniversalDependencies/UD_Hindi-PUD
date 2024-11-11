@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Hindi-PUD:
-commit 0ec5336b6f067935b832f1d855e5f8040da73ce9
-Merge: c0dcd1a 33e5ecd
+commit aa8ab0c919ecd0b0995e241235ecab2132491323
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun May 5 12:32:07 2024 +0200
 Size: counted 23829 of 23829 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.34180665263821.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,11 +25,15 @@ Udapi: found 3762 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 23829 words.
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang hi --max-err=10 UD_Hindi-PUD/hi_pud-ud-test.conllu
+[Line 1660 Sent n01024010 Node 12]: [L3 Warning leaf-det] 'det' not expected to have children (12:थोड़ा:det --> 9:70:nmod)
 [Line 4323 Sent n01058037 Node 5]: [L3 Warning fixed-gap] Gaps in fixed expression [5, 7] 'के * बाहर'
 [Line 4365 Sent n01058052 Node 18]: [L3 Warning fixed-gap] Gaps in fixed expression [18, 21] 'के * * पास'
+[Line 6316 Sent n01086013 Node 17]: [L3 Warning leaf-det] 'det' not expected to have children (17:कम:det --> 15:कम:nmod)
 [Line 7231 Sent n01097098 Node 6]: [L3 Warning fixed-gap] Gaps in fixed expression [6, 8] 'के * निकट'
 [Line 7879 Sent n01108003 Node 9]: [L3 Warning fixed-gap] Gaps in fixed expression [9, 11] 'के * बाद'
-Warnings: 4
+[Line 24814 Sent n04010016 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:ज्यादा:det --> 1:ज्यादा:nmod)
+[Line 25069 Sent n05002023 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:और:det --> 6:एक:nummod)
+Warnings: 8
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
