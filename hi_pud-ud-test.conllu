@@ -28748,9 +28748,9 @@
 17	क्योंकि	क्योंकि	SCONJ	IN	_	26	mark	_	Translit=kyoṁki|LTranslit=kyoṁki
 18	उपनिवेशवादी	उपनिवेशवादी	NOUN	NN	Case=Nom|Number=Plur	26	nsubj	_	Translit=upaniveśavādī|LTranslit=upaniveśavādī
 19	उनकी	वह	PRON	PRP$	Case=Acc|Number=Plur|Number[psor]=Plur|Person=3|PronType=Prs	23	nmod:poss	_	Translit=unakī|LTranslit=vaha
-20	अधिक	अधिक	DET	QF	_	21	det	_	Translit=adhika|LTranslit=adhika
-21	से	से	ADP	IN	Case=Acc	23	det	_	Bug=det-upos|Translit=se|LTranslit=se
-22	अधिक	अधिक	DET	QF	_	21	fixed	_	Translit=adhika|LTranslit=adhika
+20	अधिक	अधिक	DET	QF	_	23	det	_	Translit=adhika|LTranslit=adhika
+21	से	से	ADP	IN	Case=Acc	20	fixed	_	Translit=se|LTranslit=se
+22	अधिक	अधिक	DET	QF	_	20	fixed	_	Translit=adhika|LTranslit=adhika
 23	जमीनों	जमीन	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	26	obl	_	Translit=jamīnoṁ|LTranslit=jamīna
 24	पर	पर	ADP	IN	Case=Loc	23	case	_	Translit=para|LTranslit=para
 25	कब्जा	कब्जा	NOUN	NN	Gender=Masc|Number=Sing	26	compound:lvc	_	Translit=kabjā|LTranslit=kabjā
