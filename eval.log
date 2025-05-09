@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Hindi-PUD:
-commit aa8ab0c919ecd0b0995e241235ecab2132491323
+commit 400ab724706f89b9b5b2ea4d1510c6cf76094c7e
+Merge: b5a61bf cddf652
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 12:32:07 2024 +0200
 Size: counted 23829 of 23829 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.34180665263821.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,30 +20,43 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL       3762
-Udapi: found 3762 bugs.
+               TOTAL       3757
+Udapi: found 3757 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 23829 words.
-Genres: found 2 out of 17 known.
+Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang hi --max-err=10 UD_Hindi-PUD/hi_pud-ud-test.conllu
-[Line 1660 Sent n01024010 Node 12]: [L3 Warning leaf-det] 'det' not expected to have children (12:थोड़ा:det --> 9:70:nmod)
-[Line 4323 Sent n01058037 Node 5]: [L3 Warning fixed-gap] Gaps in fixed expression [5, 7] 'के * बाहर'
-[Line 4365 Sent n01058052 Node 18]: [L3 Warning fixed-gap] Gaps in fixed expression [18, 21] 'के * * पास'
-[Line 6316 Sent n01086013 Node 17]: [L3 Warning leaf-det] 'det' not expected to have children (17:कम:det --> 15:कम:nmod)
-[Line 7231 Sent n01097098 Node 6]: [L3 Warning fixed-gap] Gaps in fixed expression [6, 8] 'के * निकट'
-[Line 7879 Sent n01108003 Node 9]: [L3 Warning fixed-gap] Gaps in fixed expression [9, 11] 'के * बाद'
-[Line 24814 Sent n04010016 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:ज्यादा:det --> 1:ज्यादा:nmod)
-[Line 25069 Sent n05002023 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:और:det --> 6:एक:nummod)
-Warnings: 8
-*** PASSED ***
-Validity: 1
+[Line 57 Sent n01001013 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'के संबंध में' does not have the 'ExtPos' feature
+[Line 67 Sent n01001013 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'के लिए' does not have the 'ExtPos' feature
+[Line 85 Sent n01002017 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'के बारे में' does not have the 'ExtPos' feature
+[Line 111 Sent n01002017 Node 31]: [L3 Warning fixed-without-extpos] Fixed expression 'के आधार पर' does not have the 'ExtPos' feature
+[Line 182 Sent n01002042 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'की वजह से' does not have the 'ExtPos' feature
+[Line 250 Sent n01003010 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'के साथ' does not have the 'ExtPos' feature
+[Line 328 Sent n01004009 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'के लिए' does not have the 'ExtPos' feature
+[Line 336 Sent n01004009 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'के तौर पर' does not have the 'ExtPos' feature
+[Line 341 Sent n01004009 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'की बजाय' does not have the 'ExtPos' feature
+[Line 453 Sent n01005031 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'के अनुसार' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 1660 Sent n01024010 Node 12]: [L3 Syntax leaf-det] 'det' not expected to have children (12:थोड़ा:det --> 9:70:nmod)
+[Line 2587 Sent n01035004 Node 17]: [L3 Syntax rel-upos-case] 'case' should not be 'PRON' word 'उसके'
+[Line 4291 Sent n01057014 Node 21]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'एक'
+[Line 6316 Sent n01086013 Node 17]: [L3 Syntax leaf-det] 'det' not expected to have children (17:कम:det --> 15:कम:nmod)
+[Line 9201 Sent n01128021 Node 12]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'X' word 'आनन'
+[Line 12128 Sent w01020017 Node 17]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'साथ'
+[Line 24814 Sent n04010016 Node 3]: [L3 Syntax leaf-det] 'det' not expected to have children (3:ज्यादा:det --> 1:ज्यादा:nmod)
+[Line 25069 Sent n05002023 Node 7]: [L3 Syntax leaf-det] 'det' not expected to have children (7:और:det --> 6:एक:nummod)
+Syntax errors: 8
+Warnings: 675
+*** FAILED *** with 8 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
+(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
 (weight=0.0769230769230769) * (score{lemmas}=0.4) = 0.0307692307692308
 (weight=0.256410256410256) * (score{size}=0.459035272423018) = 0.117701351903338
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.627027027027027) = 0.0482328482328482
-(TOTAL score=0.345723038748554) * (availability=1) * (validity=1) = 0.345723038748554
-STARS = 1.5
-UD_Hindi-PUD	0.345723038748554	1.5
+(TOTAL score=0.345220273539907) * (availability=1) * (validity=0.01) = 0.00345220273539907
+STARS = 0
+UD_Hindi-PUD	0.00345220273539907	0
