@@ -91,9 +91,9 @@
     <dep name="conj">600</dep>
     <dep name="cop">174</dep>
     <dep name="dep">65</dep>
-    <dep name="det">791</dep>
+    <dep name="det">790</dep>
     <dep name="discourse">165</dep>
-    <dep name="fixed">778</dep>
+    <dep name="fixed">779</dep>
     <dep name="flat">4</dep>
     <dep name="flat:name">206</dep>
     <dep name="iobj">178</dep>
