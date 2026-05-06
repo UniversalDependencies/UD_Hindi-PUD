@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Hindi-PUD:
-commit 07d4d7a1bb6e6697c55a9a06d6ab0c88b41374e9
-Merge: cdba752 66d0398
+commit 8bc630f73e0737ce5ed9eaa97abf11f172ecc9bd
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 19:43:05 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'hi_pud'
 Language code (from CoNLL-U file name) = 'hi'
@@ -25,31 +25,42 @@ Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang hi --max-err=10 UD_Hindi-PUD/hi_pud-ud-test.conllu
-[Line 12 Sent n01001011]: [L3 Warning pron-det-without-prontype] The word 'ज्यादातर jyādātara' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 43 Sent n01001011]: [L3 Warning pron-det-without-prontype] The word 'एक eka' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 59 Sent n01001013]: [L3 Warning fixed-without-extpos] Fixed expression 'के संबंध में' does not have the 'ExtPos' feature
-[Line 69 Sent n01001013]: [L3 Warning fixed-without-extpos] Fixed expression 'के लिए' does not have the 'ExtPos' feature
-[Line 72 Sent n01001013]: [L3 Warning pron-det-without-prontype] The word 'यह yaha' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 73 Sent n01001013]: [L3 Warning pron-det-without-prontype] The word 'थोड़ा thoṛā' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 88 Sent n01002017]: [L3 Warning fixed-without-extpos] Fixed expression 'के बारे में' does not have the 'ExtPos' feature
-[Line 108 Sent n01002017]: [L3 Warning pron-det-without-prontype] The word 'वह vaha' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 109 Sent n01002017]: [L3 Warning pron-det-without-prontype] The word 'एक eka' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 114 Sent n01002017]: [L3 Warning fixed-without-extpos] Fixed expression 'के आधार पर' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-[Line 1716 Sent n01024010]: [L3 Syntax leaf-det] 'det' not expected to have children (12:थोड़ा:det --> 9:70:nmod)
-[Line 2673 Sent n01035004]: [L3 Syntax rel-upos-case] 'case' should not be 'PRON' ('उसके usake')
-[Line 4427 Sent n01057014]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('एक eka')
-[Line 6524 Sent n01086013]: [L3 Syntax leaf-det] 'det' not expected to have children (17:कम:det --> 15:कम:nmod)
-[Line 6558 Sent n01086016]: [L3 Syntax too-many-objects] Multiple direct objects [3, 12] ('आवाज āvāja', 'हैं haiṁ') under the predicate 'देते dete'.
-[Line 6686 Sent n01087035]: [L3 Syntax too-many-objects] Multiple direct objects [8, 9] ('रंग raṁga', 'पसंद pasaṁda') under the predicate 'आए āe'.
-[Line 9495 Sent n01128017]: [L3 Syntax too-many-objects] Multiple direct objects [23, 27] ('हम hama', 'पालन pālana') under the predicate 'करते karate'.
-[Line 9515 Sent n01128021]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'X' ('आनन ānana')
-[Line 10648 Sent n01144021]: [L3 Syntax too-many-objects] Multiple direct objects [19, 21] ('जिसे jise', 'घर ghara') under the predicate 'मानता mānatā'.
-[Line 12548 Sent w01020017]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('साथ sātha')
-...suppressing further errors regarding Syntax
-Syntax errors: 20
-Warnings: 2398
-*** FAILED *** with 20 errors
+[Line 12 Sent n01001011]: [L3 WARNING pron-det-without-prontype] The word 'ज्यादातर jyādātara' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 43 Sent n01001011]: [L3 WARNING pron-det-without-prontype] The word 'एक eka' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 59 Sent n01001013]: [L3 WARNING fixed-without-extpos] Fixed expression 'के संबंध में' does not have the 'ExtPos' feature
+[Line 69 Sent n01001013]: [L3 WARNING fixed-without-extpos] Fixed expression 'के लिए' does not have the 'ExtPos' feature
+[Line 72 Sent n01001013]: [L3 WARNING pron-det-without-prontype] The word 'यह yaha' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 73 Sent n01001013]: [L3 WARNING pron-det-without-prontype] The word 'थोड़ा thoṛā' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 88 Sent n01002017]: [L3 WARNING fixed-without-extpos] Fixed expression 'के बारे में' does not have the 'ExtPos' feature
+[Line 108 Sent n01002017]: [L3 WARNING pron-det-without-prontype] The word 'वह vaha' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 109 Sent n01002017]: [L3 WARNING pron-det-without-prontype] The word 'एक eka' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 114 Sent n01002017]: [L3 WARNING fixed-without-extpos] Fixed expression 'के आधार पर' does not have the 'ExtPos' feature
+[Line 147 Sent n01002032]: [L3 WARNING pron-det-without-prontype] The word 'उन्होंने unhoṁne' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 152 Sent n01002032]: [L3 WARNING pron-det-without-prontype] The word 'मैं maiṁ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 153 Sent n01002032]: [L3 WARNING pron-det-without-prontype] The word 'आप āpa' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 156 Sent n01002032]: [L3 WARNING pron-det-without-prontype] The word 'थोड़ा thoṛā' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 187 Sent n01002042]: [L3 WARNING fixed-without-extpos] Fixed expression 'की वजह से' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 258 Sent n01003010]: [L3 WARNING fixed-without-extpos] Fixed expression 'के साथ' does not have the 'ExtPos' feature
+[Line 303 Sent n01003012]: [L3 SYNTAX obl-should-be-nmod] The parent (node [10] 'स्ट्रीट sṭrīṭa') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 339 Sent n01004009]: [L3 WARNING fixed-without-extpos] Fixed expression 'के लिए' does not have the 'ExtPos' feature
+[Line 347 Sent n01004009]: [L3 WARNING fixed-without-extpos] Fixed expression 'के तौर पर' does not have the 'ExtPos' feature
+[Line 352 Sent n01004009]: [L3 WARNING fixed-without-extpos] Fixed expression 'की बजाय' does not have the 'ExtPos' feature
+[Line 468 Sent n01005031]: [L3 WARNING fixed-without-extpos] Fixed expression 'के अनुसार' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 855 Sent n01014012]: [L3 SYNTAX obl-should-be-nmod] The parent (node [21] 'संग्रह saṁgraha') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1716 Sent n01024010]: [L3 SYNTAX leaf-det] 'det' not expected to have children (12:थोड़ा:det --> 9:70:nmod)
+[Line 2673 Sent n01035004]: [L3 SYNTAX rel-upos-case] 'case' should not be 'PRON' ('उसके usake')
+[Line 4427 Sent n01057014]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('एक eka')
+[Line 6524 Sent n01086013]: [L3 SYNTAX leaf-det] 'det' not expected to have children (17:कम:det --> 15:कम:nmod)
+[Line 6558 Sent n01086016]: [L3 SYNTAX too-many-objects] Multiple direct objects [3, 12] ('आवाज āvāja', 'हैं haiṁ') under the predicate 'देते dete'.
+[Line 6686 Sent n01087035]: [L3 SYNTAX too-many-objects] Multiple direct objects [8, 9] ('रंग raṁga', 'पसंद pasaṁda') under the predicate 'आए āe'.
+[Line 9495 Sent n01128017]: [L3 SYNTAX too-many-objects] Multiple direct objects [23, 27] ('हम hama', 'पालन pālana') under the predicate 'करते karate'.
+[Line 9515 Sent n01128021]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'X' ('आनन ānana')
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 2386
+SYNTAX errors: 31
+*** FAILED *** with 31 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
