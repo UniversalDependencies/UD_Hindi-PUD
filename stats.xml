@@ -73,7 +73,7 @@
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">437</feat><!-- करने, होने, करना, रहने, बनाने, देने, रखने, कहना, लगाने, आने -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="38">
+  <deps unique="39">
     <dep name="acl">338</dep>
     <dep name="acl:relcl">215</dep>
     <dep name="advcl">200</dep>
@@ -99,15 +99,16 @@
     <dep name="iobj">178</dep>
     <dep name="list">1</dep>
     <dep name="mark">403</dep>
-    <dep name="nmod">141</dep>
+    <dep name="nmod">145</dep>
     <dep name="nmod:poss">1401</dep>
+    <dep name="nmod:tmod">8</dep>
     <dep name="nsubj">1127</dep>
     <dep name="nsubj:pass">167</dep>
     <dep name="nummod">279</dep>
     <dep name="obj">1469</dep>
-    <dep name="obl">1646</dep>
-    <dep name="obl:agent">43</dep>
-    <dep name="obl:tmod">313</dep>
+    <dep name="obl">1643</dep>
+    <dep name="obl:agent">42</dep>
+    <dep name="obl:tmod">305</dep>
     <dep name="parataxis">94</dep>
     <dep name="punct">2297</dep>
     <dep name="root">1000</dep>

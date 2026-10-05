@@ -300,7 +300,7 @@
 5	कुछ	कुछ	DET	QF	_	7	det	_	Translit=kucha|LTranslit=kucha
 6	ही	ही	PART	EMPH	_	5	discourse	_	Translit=hī|LTranslit=hī
 7	ब्लॉक	ब्लॉक	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	compound	_	Translit=blôka|LTranslit=blôka
-8	दूर	दूर	NOUN	NST	_	10	obl	_	Translit=dūra|LTranslit=dūra
+8	दूर	दूर	NOUN	NST	_	10	nmod	_	Translit=dūra|LTranslit=dūra
 9	एच	एच	PROPN	NNP	Gender=Masc|Number=Sing	10	compound	_	Translit=eca|LTranslit=eca
 10	स्ट्रीट	स्ट्रीट	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	Proper=True|ToDo=nmod|Translit=sṭrīṭa|LTranslit=sṭrīṭa
 11	पर	पर	ADP	IN	Case=Loc	10	case	_	Translit=para|LTranslit=para
@@ -852,7 +852,7 @@
 14	आदेशों	आदेश	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	nmod:poss	_	Translit=ādeśoṁ|LTranslit=ādeśa
 15	का	का	ADP	IN	Case=Gen|Gender=Masc|Number=Sing	14	case	_	Translit=kā|LTranslit=kā
 16	वादा	वादा	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	nsubj:pass	_	Translit=vādā|LTranslit=vādā
-17	2014	2014	NUM	CD	NumType=Card	21	obl:tmod	_	Translit=2014|LTranslit=2014
+17	2014	2014	NUM	CD	NumType=Card	21	nmod:tmod	_	Translit=2014|LTranslit=2014
 18	स्कॉटिश	स्कॉटिश	ADJ	JJ	_	21	amod	_	Translit=skôṭiśa|LTranslit=skôṭiśa
 19	स्वतंत्रता	स्वतन्त्रता	NOUN	NN	Gender=Fem|Number=Sing	21	compound	_	Translit=svataṁtratā|LTranslit=svatantratā
 20	जनमत	जनमत	NOUN	NN	Gender=Masc|Number=Sing	21	compound	_	Translit=janamata|LTranslit=janamata
@@ -7619,7 +7619,7 @@
 # text_en = The intervention is potentially the most far-reaching by Beijing since the 1997 handover of Hong Kong from the UK.
 1	ब्रिटेन	ब्रिटेन	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	8	nsubj	_	ToDo=ex-adp-child|Translit=briṭena|LTranslit=briṭena
 2	द्वारा	द्वारा	ADP	IN	Case=Ins	1	case	_	Translit=dvārā|LTranslit=dvārā
-3	वर्ष	वर्ष	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obl:tmod	_	ToDo=ex-adp-child|Translit=varṣa|LTranslit=varṣa
+3	वर्ष	वर्ष	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nmod:tmod	_	ToDo=ex-adp-child|Translit=varṣa|LTranslit=varṣa
 4	1997	1997	NUM	CD	NumType=Card	3	nummod	_	Translit=1997|LTranslit=1997
 5	में	में	ADP	IN	Case=Loc	3	case	_	Translit=meṁ|LTranslit=meṁ
 6	हांगकांग	हांगकांग	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	8	nmod:poss	_	Translit=hāṁgakāṁga|LTranslit=hāṁgakāṁga
@@ -11570,7 +11570,7 @@
 5	एथिना	एथिना	PROPN	NNP	Gender=Fem|Number=Sing	6	compound	_	Translit=ethinā|LTranslit=ethinā
 6	फिल्म	फिल्म	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No|Proper=True|Translit=philma|LTranslit=philma
 7	)	)	PUNCT	)	_	6	punct	_	Translit=)|LTranslit=)
-8	1912	1912	NUM	CD	NumType=Card	6	obl:tmod	_	Translit=1912|LTranslit=1912
+8	1912	1912	NUM	CD	NumType=Card	6	nmod:tmod	_	Translit=1912|LTranslit=1912
 9	में	में	ADP	IN	Case=Loc	8	case	_	Translit=meṁ|LTranslit=meṁ
 10	और	और	CCONJ	CC	_	12	cc	_	Translit=aura|LTranslit=aura
 11	एस्टी	एस्टी	PROPN	NNP	Gender=Masc|Number=Sing	12	compound	_	Translit=esṭī|LTranslit=esṭī
@@ -13980,7 +13980,7 @@
 1	क्रिस्टोफर	क्रिस्टोफर	PROPN	NNP	Gender=Masc|Number=Sing	25	nsubj	_	Translit=krisṭophara|LTranslit=krisṭophara
 2	कोलम्बस	कोलम्बस	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	Translit=kolambasa|LTranslit=kolambasa
 3	यूरोपीय	यूरोपीय	ADJ	JJ	_	4	amod	_	Translit=yūropīya|LTranslit=yūropīya
-4	लोगों	लोग	NOUN	NN	Case=Acc|Number=Plur	9	obl:agent	_	Translit=logoṁ|LTranslit=loga
+4	लोगों	लोग	NOUN	NN	Case=Acc|Number=Plur	9	nmod	_	Translit=logoṁ|LTranslit=loga
 5	द्वारा	द्वारा	ADP	IN	Case=Ins	4	case	_	Translit=dvārā|LTranslit=dvārā
 6	अमेरिकी	अमेरिकी	ADJ	JJ	_	7	amod	_	Translit=amerikī|LTranslit=amerikī
 7	देशों	देश	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	nmod:poss	_	Translit=deśoṁ|LTranslit=deśa
@@ -14158,7 +14158,7 @@
 20	एकत्र	एकत्र	ADJ	JJ	_	21	compound:lvc	_	Translit=ekatra|LTranslit=ekatra
 21	करने	करना	VERB	VINF	VerbForm=Inf	23	xcomp	_	LTranslit=karanā|Translit=karane
 22	की	का	ADP	IN	Case=Gen|Gender=Fem	21	case	_	Translit=kī|LTranslit=kā
-23	जगह	जगह	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	Translit=jagaha|LTranslit=jagaha
+23	जगह	जगह	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	nmod	_	Translit=jagaha|LTranslit=jagaha
 24	से	से	ADP	IN	_	17	case	_	Translit=se|LTranslit=se
 25	ज्यादा	ज्यादा	ADP	IN	_	24	fixed	_	Translit=jyādā|LTranslit=jyādā
 26	नहीं	नहीं	PART	NEG	Polarity=Neg	27	advmod	_	Translit=nahīṁ|LTranslit=nahīṁ
@@ -15290,7 +15290,7 @@
 # text = इस बार उन्होंने दावा किया कि लड़ाई शुरू होने के बाद दो घंटे तक उन्होंने बिना कवच पहने लड़ाई लड़ी।
 # translit = isa bāra unhoṁne dāvā kiyā ki laṛāī śurū hone ke bāda do ghaṁṭe taka unhoṁne binā kavaca pahane laṛāī laṛī.
 # text_en = This time he claimed to have fought the battle without even bothering to put on his corslet until two hours after the fighting began.
-1	इस	यह	DET	DT	Definite=Def|Number=Sing	2	obl:tmod	_	Translit=isa|LTranslit=yaha
+1	इस	यह	DET	DT	Definite=Def|Number=Sing	2	nmod:tmod	_	Translit=isa|LTranslit=yaha
 2	बार	बार	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	obl	_	Translit=bāra|LTranslit=bāra
 3	उन्होंने	वह	PRON	PRP	Case=Acc|Person=3	5	nsubj	_	Translit=unhoṁne|LTranslit=vaha
 4	दावा	दावा	NOUN	NN	Gender=Masc|Number=Sing	5	compound:lvc	_	Translit=dāvā|LTranslit=dāvā
@@ -17078,7 +17078,7 @@
 # translit = varṣa 1610 meṁ prakāśita jina piṁga meī, hālāṁki isameṁ purānī sāmagrī śāmila kī gayī thī, ne manovijñāna ke sātha svataṁtra lekhana aura ciṁtā kī pravr̥tti dikhāī.
 # text_en = Jin Ping Mei, published in 1610, although incorporating earlier material, marks the trend toward independent composition and concern with psychology.
 1	वर्ष	वर्ष	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	compound	_	Translit=varṣa|LTranslit=varṣa
-2	1610	1610	NUM	CD	NumType=Card	5	obl:tmod	_	Translit=1610|LTranslit=1610
+2	1610	1610	NUM	CD	NumType=Card	5	nmod:tmod	_	Translit=1610|LTranslit=1610
 3	में	में	ADP	IN	Case=Loc	2	case	_	Translit=meṁ|LTranslit=meṁ
 4	प्रकाशित	प्रकाशित	ADJ	JJ	_	5	amod	_	Translit=prakāśita|LTranslit=prakāśita
 5	जिन	जो	PROPN	NNP	Gender=Masc|Number=Sing	28	nsubj	_	Translit=jina|LTranslit=jo
@@ -19767,7 +19767,7 @@
 6	और	और	CCONJ	CC	_	4	cc	_	ToDo=cc-without-conj|Translit=aura|LTranslit=aura
 7	फिर	फिर	ADV	RB	_	15	advmod	_	Translit=phira|LTranslit=phira
 8	19	19	NUM	CD	NumType=Card	9	nummod	_	Translit=19|LTranslit=19
-9	मार्च	मार्च	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obl:tmod	_	Translit=mārca|LTranslit=mārca
+9	मार्च	मार्च	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nmod:tmod	_	Translit=mārca|LTranslit=mārca
 10	1993	1993	NUM	CD	NumType=Card	9	nummod	_	Translit=1993|LTranslit=1993
 11	को	को	ADP	IN	Case=Loc	4	case	_	Translit=ko|LTranslit=ko
 12	दिवालिया	दिवालिया	ADJ	JJ	_	14	xcomp	_	Translit=divāliyā|LTranslit=divāliyā
@@ -19871,7 +19871,7 @@
 # text_en = He also built and renovated five traditional markets in 2013 and four traditional markets in 2014.
 1	उसने	वह	PRON	PRP	Case=Acc|Number=Sing|Person=3	18	nsubj	_	Translit=usane|LTranslit=vaha
 2	वर्ष	वर्ष	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	compound	_	Translit=varṣa|LTranslit=varṣa
-3	2013	2013	NUM	CD	NumType=Card	7	obl:tmod	_	Translit=2013|LTranslit=2013
+3	2013	2013	NUM	CD	NumType=Card	7	nmod:tmod	_	Translit=2013|LTranslit=2013
 4	में	में	ADP	IN	Case=Loc	3	case	_	Translit=meṁ|LTranslit=meṁ
 5	पांच	पांच	NUM	CD	NumType=Card	7	nummod	_	Translit=pāṁca|LTranslit=pāṁca
 6	पारम्परिक	पारम्परिक	ADJ	JJ	_	7	amod	_	Translit=pāramparika|LTranslit=pāramparika
@@ -25369,7 +25369,7 @@
 # translit = ullekhanīya rūpa se atyadhika lāgata jo ki ekala mudrā apanāne vāle deśoṁ kī ausata lāgata se spaṣṭa rūpa se adhika hai, vaha 1,365 yūro prati līṭara ke barābara hai.
 # text_en = A significantly higher cost which clearly exceeds the average of the countries that adopt the single currency, which is equal to 1,365 euros per litre.
 1	उल्लेखनीय	उल्लेखनीय	ADJ	JJ	_	2	amod	_	Translit=ullekhanīya|LTranslit=ullekhanīya
-2	रूप	रूप	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	Translit=rūpa|LTranslit=rūpa
+2	रूप	रूप	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	Translit=rūpa|LTranslit=rūpa
 3	से	से	ADP	IN	Case=Acc	2	case	_	Translit=se|LTranslit=se
 4	अत्यधिक	अत्यधिक	DET	QF	_	5	amod	_	Translit=atyadhika|LTranslit=atyadhika
 5	लागत	लागत	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	30	obj	_	Translit=lāgata|LTranslit=lāgata
@@ -30201,7 +30201,7 @@
 2	जनवरी	जनवरी	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obl:tmod	_	Translit=janavarī|LTranslit=janavarī
 3	49	49	NUM	CD	NumType=Card	2	nummod	_	Translit=49|LTranslit=49
 4	ईसा	ईसा	PART	PRT	_	5	mark	_	Translit=īsā|LTranslit=īsā
-5	पूर्व	पूर्व	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obl:tmod	_	Translit=pūrva|LTranslit=pūrva
+5	पूर्व	पूर्व	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	nmod:tmod	_	Translit=pūrva|LTranslit=pūrva
 6	को	को	ADP	IN	Case=Acc	2	case	_	SpaceAfter=No|Translit=ko|LTranslit=ko
 7	,	,	PUNCT	,	_	2	punct	_	Translit=,|LTranslit=,
 8	मार्को	मार्को	PROPN	NNP	Gender=Masc|Number=Sing	15	nsubj	_	Translit=mārko|LTranslit=mārko
