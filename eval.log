@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Hindi-PUD:
-commit 8bc630f73e0737ce5ed9eaa97abf11f172ecc9bd
+commit 483601bc69e0726bfc21bbc49d0c026015a2b340
+Merge: a68a48e 7359d83
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 19:43:05 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'hi_pud'
 Language code (from CoNLL-U file name) = 'hi'
@@ -42,13 +42,11 @@ Genres: found 2 out of 18 known.
 [Line 187 Sent n01002042]: [L3 WARNING fixed-without-extpos] Fixed expression 'की वजह से' does not have the 'ExtPos' feature
 ...suppressing further messages regarding WARNING/MORPHO
 [Line 258 Sent n01003010]: [L3 WARNING fixed-without-extpos] Fixed expression 'के साथ' does not have the 'ExtPos' feature
-[Line 303 Sent n01003012]: [L3 SYNTAX obl-should-be-nmod] The parent (node [10] 'स्ट्रीट sṭrīṭa') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
 [Line 339 Sent n01004009]: [L3 WARNING fixed-without-extpos] Fixed expression 'के लिए' does not have the 'ExtPos' feature
 [Line 347 Sent n01004009]: [L3 WARNING fixed-without-extpos] Fixed expression 'के तौर पर' does not have the 'ExtPos' feature
 [Line 352 Sent n01004009]: [L3 WARNING fixed-without-extpos] Fixed expression 'की बजाय' does not have the 'ExtPos' feature
 [Line 468 Sent n01005031]: [L3 WARNING fixed-without-extpos] Fixed expression 'के अनुसार' does not have the 'ExtPos' feature
 ...suppressing further messages regarding WARNING/SYNTAX
-[Line 855 Sent n01014012]: [L3 SYNTAX obl-should-be-nmod] The parent (node [21] 'संग्रह saṁgraha') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
 [Line 1716 Sent n01024010]: [L3 SYNTAX leaf-det] 'det' not expected to have children (12:थोड़ा:det --> 9:70:nmod)
 [Line 2673 Sent n01035004]: [L3 SYNTAX rel-upos-case] 'case' should not be 'PRON' ('उसके usake')
 [Line 4427 Sent n01057014]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('एक eka')
@@ -57,10 +55,12 @@ Genres: found 2 out of 18 known.
 [Line 6686 Sent n01087035]: [L3 SYNTAX too-many-objects] Multiple direct objects [8, 9] ('रंग raṁga', 'पसंद pasaṁda') under the predicate 'आए āe'.
 [Line 9495 Sent n01128017]: [L3 SYNTAX too-many-objects] Multiple direct objects [23, 27] ('हम hama', 'पालन pālana') under the predicate 'करते karate'.
 [Line 9515 Sent n01128021]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'X' ('आनन ānana')
+[Line 10648 Sent n01144021]: [L3 SYNTAX too-many-objects] Multiple direct objects [19, 21] ('जिसे jise', 'घर ghara') under the predicate 'मानता mānatā'.
+[Line 12548 Sent w01020017]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('साथ sātha')
 ...suppressing further messages regarding ERROR/SYNTAX
 Warnings: 2386
-SYNTAX errors: 31
-*** FAILED *** with 31 errors
+SYNTAX errors: 20
+*** FAILED *** with 20 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
